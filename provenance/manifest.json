@@ -2435,5 +2435,13 @@
       "mode": "100644",
       "archived_path": "credentials/lineage/scripts/session_lifecycle.py"
     }
+  ],
+  "additional_history": [
+    {
+      "source_branch": "cloudtrail-research",
+      "source_commit": "4bae7462a48e48bb7a3fbed559e196c53eb5752c",
+      "prepared_main_commit": "208da3654222aa5008d573a792a78372dc141892",
+      "reason": "Retain original final-research commits and the prepared README when main is merged through the required squash workflow."
+    }
   ]
 }
