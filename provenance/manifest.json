@@ -1,0 +1,2439 @@
+{
+  "format_version": 1,
+  "archive_date": "2026-10-31",
+  "scope": "Latest tracked trees of the listed legacy branches; their full commit histories are retained as archive ancestors.",
+  "sources": [
+    {
+      "branch": "integrate/4-normalization",
+      "commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "url": "https://github.com/ICT-Zero-Cloud/cloud-attack-path-visualization/tree/37edd81fc39fcfb1c7ea186552e1a91e403587ec"
+    },
+    {
+      "branch": "research/1-log-analysis/JUNGJS",
+      "commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "url": "https://github.com/ICT-Zero-Cloud/cloud-attack-path-visualization/tree/2adc15a08b80e566a7065c1f125123622da42333"
+    },
+    {
+      "branch": "research/1-log-analysis/inseok",
+      "commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "url": "https://github.com/ICT-Zero-Cloud/cloud-attack-path-visualization/tree/c435c9477c09f7f2019a9ef3dc048729f92f9030"
+    },
+    {
+      "branch": "research/2-graph-modeling/JUNGJS",
+      "commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "url": "https://github.com/ICT-Zero-Cloud/cloud-attack-path-visualization/tree/83f6f8b94dbc5984543668d3beab1b3727177931"
+    },
+    {
+      "branch": "research/4-normalization/janghoon",
+      "commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "url": "https://github.com/ICT-Zero-Cloud/cloud-attack-path-visualization/tree/2e58c8e694a6a78b968c0b11260605202659f58d"
+    },
+    {
+      "branch": "research/7-modeling/inseok",
+      "commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "url": "https://github.com/ICT-Zero-Cloud/cloud-attack-path-visualization/tree/4e3248aa5e54e6c9ca53b116cef0b00eb9e255da"
+    },
+    {
+      "branch": "research/8-paper-draft/janghoon",
+      "commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "url": "https://github.com/ICT-Zero-Cloud/cloud-attack-path-visualization/tree/84558cdd336bbb633f635829188bfc134511032d"
+    }
+  ],
+  "summary": {
+    "branches": 7,
+    "source_entries": 297,
+    "distinct_path_versions": 113,
+    "archived_source_files": 113,
+    "generated_files": 14,
+    "repaired_document_links": 8
+  },
+  "files": [
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": ".github/ISSUE_TEMPLATE/bug.md",
+      "blob": "373af2a90b9fdcd14c3d102730f58f7da6c8c1b4",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/bug.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": ".github/ISSUE_TEMPLATE/config.yml",
+      "blob": "5abc6a4f3358d049e1ce4fc168a5ac3d67f63ca6",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/config.yml"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": ".github/ISSUE_TEMPLATE/feature.md",
+      "blob": "02621947ecdb8f1ed74deca8dfa6df6aa4c81e45",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/feature.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": ".github/ISSUE_TEMPLATE/research.md",
+      "blob": "aa9ef89cd0e319aa85695d34688a5d8c1b657c5a",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/research.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": ".github/pull_request_template.md",
+      "blob": "4532fbe950aadafe97e6b08a47e130df373bff70",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/pull_request_template.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": ".gitignore",
+      "blob": "8d7f195968be45b6d29b1316f45ea5de9e5d51d4",
+      "mode": "100644",
+      "archived_path": "provenance/repository/default.gitignore"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "README.md",
+      "blob": "0b96b2ef83a6789dcb1cf1e62252ef82c9639144",
+      "mode": "100644",
+      "archived_path": "provenance/repository/README.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "cloudtrail_lineage_timeline.png",
+      "blob": "c1877e833c7e41b9ecbdc56acbb8abfa44f7ee45",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/results/cloudtrail_lineage_timeline.png"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "data/archives/README.md",
+      "blob": "3e8da5bd95ecfef139b333a14243affaea83152c",
+      "mode": "100644",
+      "archived_path": "datasets/legacy-data-notes.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "data/archives/flaws_cloudtrail_logs/.gitkeep",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/raw-archives/.gitkeep"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "data/processed/flaws_cloudtrail_graph/edges.csv",
+      "blob": "15fc9b23e3d3b89c4f31d8d5d084f3106fb3259a",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/edges.csv"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "data/processed/flaws_cloudtrail_graph/principals.csv",
+      "blob": "84a751e0600c93a3e9e1811c48b7218b7434c22a",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/principals.csv"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "data/processed/flaws_cloudtrail_graph/resources.csv",
+      "blob": "df10b7c744f20602ae66d74d7e331d5b18c48911",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/resources.csv"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "data/processed/flaws_cloudtrail_graph/roles.csv",
+      "blob": "3acf54cdc71227ca96dba9a2ebe14b86888b5655",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/roles.csv"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "data/processed/flaws_cloudtrail_graph/services.csv",
+      "blob": "1114fb72af5668e75cdd7f9cd2e1176c4a6e7ff6",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/services.csv"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "data/processed/flaws_cloudtrail_graph/sessions.csv",
+      "blob": "197479e89d86e11957d890ba56879dd00d6caf0c",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/sessions.csv"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "data/raw/README.md",
+      "blob": "fbdc45275de2b5e1eafe08122be35fcbabbb9b4f",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/source-notes.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "data/raw/flaws_cloudtrail_logs/.gitkeep",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/raw/.gitkeep"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "docs/datasets/flaws_cloudtrail.md",
+      "blob": "8ba4bacfafad008c48919956d9d8ba20de8bc2da",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/docs/analysis.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "docs/graph-modeling/graph-modeling.md",
+      "blob": "74f8a629b1821218be61e7c407121ea3c0970bca",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/graph-modeling.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "docs/graph-modeling/img/created-credential.png",
+      "blob": "27aaf6925dea676dcb92292ee1866a4570fe178b",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/created-credential.png"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "docs/graph-modeling/img/credential-chain.png",
+      "blob": "ceea422c648af6f56321d7d51ffd2efd38df5b79",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/credential-chain.png"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "docs/graph-modeling/img/graph-overview.png",
+      "blob": "c6abf57ecf26ea9b7b2bd7d593013ba4b17464e4",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/graph-overview.png"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "docs/graph-modeling/img/identity-credential-execution.png",
+      "blob": "7cdb8a52a12aeb1419a07a411273c959064b91dc",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/identity-credential-execution.png"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "docs/graph-modeling/img/identity-credential.png",
+      "blob": "f7fa4cef87d05eec08892151f5e39eea0e77081a",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/identity-credential.png"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "docs/references/3-node.md",
+      "blob": "4610e73cc705cd1ca64868eb5a63a31120ca2c87",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/3-node.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "docs/references/README.md",
+      "blob": "d617f5e2ca8b7649042c9cf48053710fbed4c2f8",
+      "mode": "100644",
+      "archived_path": "references/README.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "docs/references/cloudtrail-and-iam.md",
+      "blob": "c08368393ffafbe938dddc3e721baa5b3ece2aa2",
+      "mode": "100644",
+      "archived_path": "references/cloudtrail-and-iam.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "docs/references/datasets-and-tools.md",
+      "blob": "d98e33032f112410b885983db960d83436a58731",
+      "mode": "100644",
+      "archived_path": "references/datasets-and-tools.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "docs/references/graph-compression.md",
+      "blob": "fb16d3821d371991379c632c850b5c79815532d4",
+      "mode": "100644",
+      "archived_path": "references/graph-compression.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "docs/references/provenance-and-reconstruction.md",
+      "blob": "030659322741294ff1b5956ca9115072744fd18b",
+      "mode": "100644",
+      "archived_path": "references/provenance-and-reconstruction.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "neo4j/README.md",
+      "blob": "bfab838b902229b082b57567ea923c7553208783",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/README.md"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "neo4j/import.cypher",
+      "blob": "b65bd269fb38011c7434fec8ecd5278d7a871e7f",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/import.cypher"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "neo4j/queries/created-credential.cypher",
+      "blob": "f9f6327c56c330025733e31c161b6ef2317b7b02",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/created-credential.cypher"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "neo4j/queries/credential-chain.cypher",
+      "blob": "656e1b59b5c41ef1796b07322efec10ee040f985",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/credential-chain.cypher"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "neo4j/queries/credential-overview.cypher",
+      "blob": "856d26c567ae10e184747a54a94bf93cb97320e6",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/credential-overview.cypher"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "neo4j/queries/identity-credential-execution.cypher",
+      "blob": "e684d7cba29d382cbeb8389bcd0c870ca7a1aec4",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/identity-credential-execution.cypher"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "neo4j/queries/identity-credential.cypher",
+      "blob": "dd39a23c0ca92d97b58be6efae26dccf518e3a3e",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/identity-credential.cypher"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "scripts/analyze_flaws.py",
+      "blob": "bdbf5cde484f510f07543b137de909c4de31bb6e",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/scripts/analyze_flaws.py"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "scripts/attack_chain_surprisal.py",
+      "blob": "04bb41ee3df446ba9c17bafc8a9422e15fb99594",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/attack_chain_surprisal.py"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "scripts/extract_events.py",
+      "blob": "b5caec45d94b8100776c1068718c030aa1e4ab11",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/scripts/extract_events.py"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "scripts/lineage_timeline.py",
+      "blob": "8e99869dc7583cbc637a4f3853375979a2547c02",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/lineage_timeline.py"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "scripts/parser_node3.py",
+      "blob": "cd9dc58915614213477bb9a62f115323520617ad",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/scripts/parser_node3.py"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "scripts/privesc_signatures.py",
+      "blob": "827cbaf8be5095d40da4ea9e177b3ce116c80dc8",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/privesc_signatures.py"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "scripts/run.py",
+      "blob": "1e171befdd0368e7fcbce956d417e3214fb06787",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/run.py"
+    },
+    {
+      "source_branch": "integrate/4-normalization",
+      "source_commit": "37edd81fc39fcfb1c7ea186552e1a91e403587ec",
+      "original_path": "scripts/session_lifecycle.py",
+      "blob": "49160157e4b21c682863e799921d0be188dd4e78",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/session_lifecycle.py"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": ".gitignore",
+      "blob": "8d7f195968be45b6d29b1316f45ea5de9e5d51d4",
+      "mode": "100644",
+      "archived_path": "provenance/repository/default.gitignore"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "README.md",
+      "blob": "0b96b2ef83a6789dcb1cf1e62252ef82c9639144",
+      "mode": "100644",
+      "archived_path": "provenance/repository/README.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archive/neo4j/.gitkeep",
+      "blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/.gitkeep"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archive/neo4j/flaws.cloud 19/.gitkeep",
+      "blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/neo4j-export/.gitkeep"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archive/neo4j/flaws.cloud 19/README.md",
+      "blob": "a36cb085bddd6c56573e71cd16f060e49fbc1f79",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/import-session-graph.cypher"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archive/neo4j/flaws.cloud 19/edges.csv",
+      "blob": "9c54b4bbb2a4f1777bb42ccd5d59f88e0839cfa9",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/neo4j-export/edges.csv"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archive/neo4j/flaws.cloud 19/principals.csv",
+      "blob": "3a69356570a29a2b31098f3d50323effba1018d0",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/neo4j-export/principals.csv"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archive/neo4j/flaws.cloud 19/resources.csv",
+      "blob": "b2f27192d57b858d69a237861831453984473c2e",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/neo4j-export/resources.csv"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archive/neo4j/flaws.cloud 19/roles.csv",
+      "blob": "cafb68071402e5ad5744cbbc68ee3ded83f59db4",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/neo4j-export/roles.csv"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archive/neo4j/flaws.cloud 19/services.csv",
+      "blob": "1e800be721bfda287c1b11b5201662ae696aeb5b",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/neo4j-export/services.csv"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archive/neo4j/flaws.cloud 19/sessions.csv",
+      "blob": "a029bc1c5da1f5f7a0dfb4eb4c130975ea578011",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/neo4j-export/sessions.csv"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/README.md",
+      "blob": "3e8da5bd95ecfef139b333a14243affaea83152c",
+      "mode": "100644",
+      "archived_path": "datasets/legacy-data-notes.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/flaws_cloudtrail_logs/.gitkeep",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/raw-archives/.gitkeep"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/flaws_cloudtrail_logs/aws.5_chain_n2.json",
+      "blob": "b10f1b2dba92337294862d9bc3e62070bf6d738d",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/logs/aws.5_chain_n2.json"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/stratus_red_team/.gitignore",
+      "blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/logs/.gitignore"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/stratus_red_team/aws.5_chain_n1.json",
+      "blob": "e13b8fc1823c2ab95d4c0706f955fa4c48340e55",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/logs/aws.5_chain_n1.json"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/stratus_red_team/aws.5_chain_n3.json",
+      "blob": "a8431ecc596697a6193f577acdf871837f8f7099",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/logs/aws.5_chain_n3.json"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/stratus_red_team/aws.credential-access.ec2-steal-instance-credentials.json",
+      "blob": "1be5e316d1c3c73b0913779cc7d6b44b3e1eff2d",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/logs/aws.credential-access.ec2-steal-instance-credentials.json"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/stratus_red_team/aws.defense-evasion.cloudtrail-delete.json",
+      "blob": "2275a6890d6f79f882188c05921f965c324e29dc",
+      "mode": "100644",
+      "archived_path": "log-deletion/data/aws.defense-evasion.cloudtrail-delete.json"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/stratus_red_team/aws.defense-evasion.cloudtrail-stop.json",
+      "blob": "a2c05a118afb8dfa80b016d4cc8bcbb54814b395",
+      "mode": "100644",
+      "archived_path": "log-deletion/data/aws.defense-evasion.cloudtrail-stop.json"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/stratus_red_team/aws.defense-evasion.vpc-remove-flow-logs.json",
+      "blob": "ce789fc4cb705724018bfbebb59098f7c59912f8",
+      "mode": "100644",
+      "archived_path": "log-deletion/data/aws.defense-evasion.vpc-remove-flow-logs.json"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/stratus_red_team/aws.discovery.ec2-enumerate-from-instance.json",
+      "blob": "862a007460d6a54615bc4adb55c9e88f45aea46e",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/logs/aws.discovery.ec2-enumerate-from-instance.json"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/stratus_red_team/aws.exfiltration.ec2-share-ebs-snapshot.json",
+      "blob": "950f84e50c8222ba5ce0f0f2050f4b8c67c7c540",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/logs/aws.exfiltration.ec2-share-ebs-snapshot.json"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/stratus_red_team/aws.impact.s3-ransomware-batch-deletion.json",
+      "blob": "96436f95ba34e137ea126dae4586474b61d34b08",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/logs/aws.impact.s3-ransomware-batch-deletion.json"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/stratus_red_team/aws.lateral-movement.ec2-instance-connect.json",
+      "blob": "f4198decf50e401c1ac38c321f4193332c5054ff",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/logs/aws.lateral-movement.ec2-instance-connect.json"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/stratus_red_team/aws.persistence.iam-backdoor-user.json",
+      "blob": "51a65705f26fddb3e4002baffa88ec7fd11363dc",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/logs/aws.persistence.iam-backdoor-user.json"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/archives/stratus_red_team/aws.persistence.iam-create-admin-user.json",
+      "blob": "02638fab953427e964430f147ac85bb5384acdd7",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/logs/aws.persistence.iam-create-admin-user.json"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/raw/README.md",
+      "blob": "fbdc45275de2b5e1eafe08122be35fcbabbb9b4f",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/source-notes.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "data/raw/flaws_cloudtrail_logs/.gitkeep",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/raw/.gitkeep"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/flaws_cloudtrail.md",
+      "blob": "8ba4bacfafad008c48919956d9d8ba20de8bc2da",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/docs/analysis.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/shell_script.md",
+      "blob": "40edbf99f545cdd38796f3977e7fe2291945ab01",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/docs/generation.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/stratus_red_team.md",
+      "blob": "c3056a7f02b4a25d212f47c085d31381482e39e9",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/docs/stratus-red-team.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/stratus_red_team_explanation/.gitignore",
+      "blob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/docs/techniques/.gitignore"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/stratus_red_team_explanation/aws.5_chain_n1.md",
+      "blob": "a0940c74d93689573a5e9acf09b7984af6b2c213",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/docs/techniques/aws.5_chain_n1.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/stratus_red_team_explanation/aws.5_chain_n2.md",
+      "blob": "06bb2b65098cb40d78f4f745dad8b7282b11a69e",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/docs/techniques/aws.5_chain_n2.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/stratus_red_team_explanation/aws.5_chain_n3.md",
+      "blob": "558e452162ce7b2ffffe6a93cbd98247d50fd8a1",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/docs/techniques/aws.5_chain_n3.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/stratus_red_team_explanation/aws.credential-access.ec2-steal-instance-credentials.md",
+      "blob": "e54d5ea7bbe010e5ddb9e13058aca6804e1bc1fb",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/docs/techniques/aws.credential-access.ec2-steal-instance-credentials.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/stratus_red_team_explanation/aws.defense-evasion.cloudtrail-delete.md",
+      "blob": "5083bf4524c03f9cb9812380222743bf8c416d6f",
+      "mode": "100644",
+      "archived_path": "log-deletion/docs/aws.defense-evasion.cloudtrail-delete.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/stratus_red_team_explanation/aws.defense-evasion.cloudtrail-stop.md",
+      "blob": "ff86d649fe66ffb13388c0716e8bae32facc2bd7",
+      "mode": "100644",
+      "archived_path": "log-deletion/docs/aws.defense-evasion.cloudtrail-stop.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/stratus_red_team_explanation/aws.discovery.ec2-enumerate-from-instance.md",
+      "blob": "81f31ce20d18b6272edcfca025f49aa1fc906520",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/docs/techniques/aws.discovery.ec2-enumerate-from-instance.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/stratus_red_team_explanation/aws.exfiltration.ec2-share-ebs-snapshot.md",
+      "blob": "7ae53b2378cea2d79e40385d8e35f29e77120876",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/docs/techniques/aws.exfiltration.ec2-share-ebs-snapshot.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/stratus_red_team_explanation/aws.impact.s3-ransomware-batch-deletion.md",
+      "blob": "c39be3f2ffac181a62ef6134bf9790cf6ad25320",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/docs/techniques/aws.impact.s3-ransomware-batch-deletion.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/stratus_red_team_explanation/aws.lateral-movement.ec2-instance-connect.md",
+      "blob": "ae0a42a628259cf9c9332f95d65d4514b9e92437",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/docs/techniques/aws.lateral-movement.ec2-instance-connect.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/stratus_red_team_explanation/aws.persistence.iam-backdoor-user.md",
+      "blob": "1bc04baabf88c12217cf8eaa009b60f97f07738e",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/docs/techniques/aws.persistence.iam-backdoor-user.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/datasets/stratus_red_team_explanation/aws.persistence.iam-create-admin-user.md",
+      "blob": "030f70b58de6e3c7b6f613e348838e81f5f6c2bd",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/docs/techniques/aws.persistence.iam-create-admin-user.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/references/README.md",
+      "blob": "d617f5e2ca8b7649042c9cf48053710fbed4c2f8",
+      "mode": "100644",
+      "archived_path": "references/README.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/references/cloudtrail-and-iam.md",
+      "blob": "c08368393ffafbe938dddc3e721baa5b3ece2aa2",
+      "mode": "100644",
+      "archived_path": "references/cloudtrail-and-iam.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/references/datasets-and-tools.md",
+      "blob": "d98e33032f112410b885983db960d83436a58731",
+      "mode": "100644",
+      "archived_path": "references/datasets-and-tools.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/references/graph-compression.md",
+      "blob": "fb16d3821d371991379c632c850b5c79815532d4",
+      "mode": "100644",
+      "archived_path": "references/graph-compression.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "docs/references/provenance-and-reconstruction.md",
+      "blob": "030659322741294ff1b5956ca9115072744fd18b",
+      "mode": "100644",
+      "archived_path": "references/provenance-and-reconstruction.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "scripts/analyze_flaws.py",
+      "blob": "bdbf5cde484f510f07543b137de909c4de31bb6e",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/scripts/analyze_flaws.py"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "scripts/aws.5_chain_n1_execute_with_noise.sh",
+      "blob": "ef1de76bcc3413fe87e0d72c83a0addaa7fac419",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/scripts/aws.5_chain_n1_execute_with_noise.sh"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "scripts/extract_events.py",
+      "blob": "b5caec45d94b8100776c1068718c030aa1e4ab11",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/scripts/extract_events.py"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "scripts/noise_instance.sh",
+      "blob": "7fc2980828b9a5ed47545f495a38f0afb6c68358",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/scripts/noise_instance.sh"
+    },
+    {
+      "source_branch": "research/1-log-analysis/JUNGJS",
+      "source_commit": "2adc15a08b80e566a7065c1f125123622da42333",
+      "original_path": "scripts/noise_ops.sh",
+      "blob": "fc1a725d7d5c8368bdfe03141f87359208f5ae47",
+      "mode": "100644",
+      "archived_path": "datasets/stratus-red-team/scripts/noise_ops.sh"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": ".github/ISSUE_TEMPLATE/bug.md",
+      "blob": "373af2a90b9fdcd14c3d102730f58f7da6c8c1b4",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/bug.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": ".github/ISSUE_TEMPLATE/config.yml",
+      "blob": "5abc6a4f3358d049e1ce4fc168a5ac3d67f63ca6",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/config.yml"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": ".github/ISSUE_TEMPLATE/feature.md",
+      "blob": "02621947ecdb8f1ed74deca8dfa6df6aa4c81e45",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/feature.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": ".github/ISSUE_TEMPLATE/research.md",
+      "blob": "aa9ef89cd0e319aa85695d34688a5d8c1b657c5a",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/research.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": ".github/pull_request_template.md",
+      "blob": "4532fbe950aadafe97e6b08a47e130df373bff70",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/pull_request_template.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": ".gitignore",
+      "blob": "8d7f195968be45b6d29b1316f45ea5de9e5d51d4",
+      "mode": "100644",
+      "archived_path": "provenance/repository/default.gitignore"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "README.md",
+      "blob": "0b96b2ef83a6789dcb1cf1e62252ef82c9639144",
+      "mode": "100644",
+      "archived_path": "provenance/repository/README.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "cloudtrail_lineage_timeline.png",
+      "blob": "c1877e833c7e41b9ecbdc56acbb8abfa44f7ee45",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/results/cloudtrail_lineage_timeline.png"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "data/archives/README.md",
+      "blob": "3e8da5bd95ecfef139b333a14243affaea83152c",
+      "mode": "100644",
+      "archived_path": "datasets/legacy-data-notes.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "data/archives/flaws_cloudtrail_logs/.gitkeep",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/raw-archives/.gitkeep"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "data/raw/README.md",
+      "blob": "fbdc45275de2b5e1eafe08122be35fcbabbb9b4f",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/source-notes.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "data/raw/flaws_cloudtrail_logs/.gitkeep",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/raw/.gitkeep"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "docs/datasets/flaws_cloudtrail.md",
+      "blob": "649783a85ffebc8ab850298f5b3ed3f939aa7da6",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/docs/analysis-before-ip-filter.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "docs/references/README.md",
+      "blob": "d617f5e2ca8b7649042c9cf48053710fbed4c2f8",
+      "mode": "100644",
+      "archived_path": "references/README.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "docs/references/cloudtrail-and-iam.md",
+      "blob": "c08368393ffafbe938dddc3e721baa5b3ece2aa2",
+      "mode": "100644",
+      "archived_path": "references/cloudtrail-and-iam.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "docs/references/datasets-and-tools.md",
+      "blob": "d98e33032f112410b885983db960d83436a58731",
+      "mode": "100644",
+      "archived_path": "references/datasets-and-tools.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "docs/references/graph-compression.md",
+      "blob": "fb16d3821d371991379c632c850b5c79815532d4",
+      "mode": "100644",
+      "archived_path": "references/graph-compression.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "docs/references/provenance-and-reconstruction.md",
+      "blob": "030659322741294ff1b5956ca9115072744fd18b",
+      "mode": "100644",
+      "archived_path": "references/provenance-and-reconstruction.md"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "scripts/analyze_flaws.py",
+      "blob": "bdbf5cde484f510f07543b137de909c4de31bb6e",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/scripts/analyze_flaws.py"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "scripts/attack_chain_surprisal.py",
+      "blob": "04bb41ee3df446ba9c17bafc8a9422e15fb99594",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/attack_chain_surprisal.py"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "scripts/extract_events.py",
+      "blob": "7384b5043a1008661c0fb6e76eecad1925fe456a",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/scripts/extract_events_basic.py"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "scripts/lineage_timeline.py",
+      "blob": "8e99869dc7583cbc637a4f3853375979a2547c02",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/lineage_timeline.py"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "scripts/privesc_signatures.py",
+      "blob": "827cbaf8be5095d40da4ea9e177b3ce116c80dc8",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/privesc_signatures.py"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "scripts/run.py",
+      "blob": "1e171befdd0368e7fcbce956d417e3214fb06787",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/run.py"
+    },
+    {
+      "source_branch": "research/1-log-analysis/inseok",
+      "source_commit": "c435c9477c09f7f2019a9ef3dc048729f92f9030",
+      "original_path": "scripts/session_lifecycle.py",
+      "blob": "49160157e4b21c682863e799921d0be188dd4e78",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/session_lifecycle.py"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": ".github/ISSUE_TEMPLATE/bug.md",
+      "blob": "373af2a90b9fdcd14c3d102730f58f7da6c8c1b4",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/bug.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": ".github/ISSUE_TEMPLATE/config.yml",
+      "blob": "5abc6a4f3358d049e1ce4fc168a5ac3d67f63ca6",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/config.yml"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": ".github/ISSUE_TEMPLATE/feature.md",
+      "blob": "02621947ecdb8f1ed74deca8dfa6df6aa4c81e45",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/feature.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": ".github/ISSUE_TEMPLATE/research.md",
+      "blob": "aa9ef89cd0e319aa85695d34688a5d8c1b657c5a",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/research.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": ".github/pull_request_template.md",
+      "blob": "4532fbe950aadafe97e6b08a47e130df373bff70",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/pull_request_template.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": ".gitignore",
+      "blob": "8d7f195968be45b6d29b1316f45ea5de9e5d51d4",
+      "mode": "100644",
+      "archived_path": "provenance/repository/default.gitignore"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "README.md",
+      "blob": "0b96b2ef83a6789dcb1cf1e62252ef82c9639144",
+      "mode": "100644",
+      "archived_path": "provenance/repository/README.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "data/archives/README.md",
+      "blob": "3e8da5bd95ecfef139b333a14243affaea83152c",
+      "mode": "100644",
+      "archived_path": "datasets/legacy-data-notes.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "data/archives/flaws_cloudtrail_logs/.gitkeep",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/raw-archives/.gitkeep"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "data/processed/flaws_cloudtrail_graph/edges.csv",
+      "blob": "15fc9b23e3d3b89c4f31d8d5d084f3106fb3259a",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/edges.csv"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "data/processed/flaws_cloudtrail_graph/principals.csv",
+      "blob": "84a751e0600c93a3e9e1811c48b7218b7434c22a",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/principals.csv"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "data/processed/flaws_cloudtrail_graph/resources.csv",
+      "blob": "df10b7c744f20602ae66d74d7e331d5b18c48911",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/resources.csv"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "data/processed/flaws_cloudtrail_graph/roles.csv",
+      "blob": "3acf54cdc71227ca96dba9a2ebe14b86888b5655",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/roles.csv"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "data/processed/flaws_cloudtrail_graph/services.csv",
+      "blob": "1114fb72af5668e75cdd7f9cd2e1176c4a6e7ff6",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/services.csv"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "data/processed/flaws_cloudtrail_graph/sessions.csv",
+      "blob": "197479e89d86e11957d890ba56879dd00d6caf0c",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/sessions.csv"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "data/raw/README.md",
+      "blob": "fbdc45275de2b5e1eafe08122be35fcbabbb9b4f",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/source-notes.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "data/raw/flaws_cloudtrail_logs/.gitkeep",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/raw/.gitkeep"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/datasets/flaws_cloudtrail.md",
+      "blob": "8ba4bacfafad008c48919956d9d8ba20de8bc2da",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/docs/analysis.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/graph-modeling/3-node-v2.md",
+      "blob": "7515724f611a3c3fd5ab59dbee529e4b23c508e3",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/3-node-v2.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/graph-modeling/REPORT.md",
+      "blob": "1ac7a0ae4205387b72e8df3ccae96e4a65d5435f",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/REPORT.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/graph-modeling/RUN.md",
+      "blob": "94757c3453aba446d07d1e770b524afea9a5f7a9",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/RUN.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/graph-modeling/enrich.md",
+      "blob": "36f950f22acb4c69309823a5583fbd2f029f97cb",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/enrich.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/graph-modeling/img/created-credential.png",
+      "blob": "27aaf6925dea676dcb92292ee1866a4570fe178b",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/created-credential.png"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/graph-modeling/img/credential-chain.png",
+      "blob": "ceea422c648af6f56321d7d51ffd2efd38df5b79",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/credential-chain.png"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/graph-modeling/img/graph-overview.png",
+      "blob": "c6abf57ecf26ea9b7b2bd7d593013ba4b17464e4",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/graph-overview.png"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/graph-modeling/img/identity-credential-execution.png",
+      "blob": "7cdb8a52a12aeb1419a07a411273c959064b91dc",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/identity-credential-execution.png"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/graph-modeling/img/identity-credential.png",
+      "blob": "f7fa4cef87d05eec08892151f5e39eea0e77081a",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/identity-credential.png"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/graph-modeling/query.md",
+      "blob": "5b3b9f573352347d5d00cd12659090f6050a4c81",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/query.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/references/README.md",
+      "blob": "d617f5e2ca8b7649042c9cf48053710fbed4c2f8",
+      "mode": "100644",
+      "archived_path": "references/README.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/references/cloudtrail-and-iam.md",
+      "blob": "c08368393ffafbe938dddc3e721baa5b3ece2aa2",
+      "mode": "100644",
+      "archived_path": "references/cloudtrail-and-iam.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/references/datasets-and-tools.md",
+      "blob": "d98e33032f112410b885983db960d83436a58731",
+      "mode": "100644",
+      "archived_path": "references/datasets-and-tools.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/references/graph-compression.md",
+      "blob": "fb16d3821d371991379c632c850b5c79815532d4",
+      "mode": "100644",
+      "archived_path": "references/graph-compression.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "docs/references/provenance-and-reconstruction.md",
+      "blob": "030659322741294ff1b5956ca9115072744fd18b",
+      "mode": "100644",
+      "archived_path": "references/provenance-and-reconstruction.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "neo4j/README.md",
+      "blob": "bfab838b902229b082b57567ea923c7553208783",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/README.md"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "neo4j/import.cypher",
+      "blob": "b65bd269fb38011c7434fec8ecd5278d7a871e7f",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/import.cypher"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "neo4j/queries/created-credential.cypher",
+      "blob": "f9f6327c56c330025733e31c161b6ef2317b7b02",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/created-credential.cypher"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "neo4j/queries/credential-chain.cypher",
+      "blob": "656e1b59b5c41ef1796b07322efec10ee040f985",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/credential-chain.cypher"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "neo4j/queries/credential-overview.cypher",
+      "blob": "856d26c567ae10e184747a54a94bf93cb97320e6",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/credential-overview.cypher"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "neo4j/queries/identity-credential-execution.cypher",
+      "blob": "e684d7cba29d382cbeb8389bcd0c870ca7a1aec4",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/identity-credential-execution.cypher"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "neo4j/queries/identity-credential.cypher",
+      "blob": "dd39a23c0ca92d97b58be6efae26dccf518e3a3e",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/identity-credential.cypher"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "scripts/analyze_flaws.py",
+      "blob": "bdbf5cde484f510f07543b137de909c4de31bb6e",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/scripts/analyze_flaws.py"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "scripts/browser-style.grass",
+      "blob": "0d9c391f098e3d3a841f52595ac3ede30868f4bf",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/runtime/browser-style.grass"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "scripts/docker-compose.yml",
+      "blob": "6eb669e13363cdbc268cadced41d1b7ee16d8f24",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/runtime/docker-compose.yml"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "scripts/enrich_views.cypher",
+      "blob": "bbec9b3cace7a4af7f360a4b6f418f05e4d108d6",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/runtime/enrich_views.cypher"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "scripts/extract_events.py",
+      "blob": "b5caec45d94b8100776c1068718c030aa1e4ab11",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/scripts/extract_events.py"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "scripts/load_3node_v2.cypher",
+      "blob": "b1abac92adecdb4537a452c4704c943ba18289d8",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/runtime/load_3node_v2.cypher"
+    },
+    {
+      "source_branch": "research/2-graph-modeling/JUNGJS",
+      "source_commit": "83f6f8b94dbc5984543668d3beab1b3727177931",
+      "original_path": "scripts/parser_node3_v2.py",
+      "blob": "a753c6428d7aba85339ea06900b3288d96471437",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/scripts/parser_node3_v2.py"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": ".github/ISSUE_TEMPLATE/bug.md",
+      "blob": "373af2a90b9fdcd14c3d102730f58f7da6c8c1b4",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/bug.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": ".github/ISSUE_TEMPLATE/config.yml",
+      "blob": "5abc6a4f3358d049e1ce4fc168a5ac3d67f63ca6",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/config.yml"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": ".github/ISSUE_TEMPLATE/feature.md",
+      "blob": "02621947ecdb8f1ed74deca8dfa6df6aa4c81e45",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/feature.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": ".github/ISSUE_TEMPLATE/research.md",
+      "blob": "aa9ef89cd0e319aa85695d34688a5d8c1b657c5a",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/research.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": ".github/pull_request_template.md",
+      "blob": "4532fbe950aadafe97e6b08a47e130df373bff70",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/pull_request_template.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": ".gitignore",
+      "blob": "679d06ebc17909b5d97fb12d04e5daa4186a4c0d",
+      "mode": "100644",
+      "archived_path": "provenance/repository/normalization.gitignore"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "README.md",
+      "blob": "0b96b2ef83a6789dcb1cf1e62252ef82c9639144",
+      "mode": "100644",
+      "archived_path": "provenance/repository/README.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "data/archives/README.md",
+      "blob": "3e8da5bd95ecfef139b333a14243affaea83152c",
+      "mode": "100644",
+      "archived_path": "datasets/legacy-data-notes.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "data/archives/flaws_cloudtrail_logs/.gitkeep",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/raw-archives/.gitkeep"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "data/normalized/events.csv",
+      "blob": "49a72531ab49d3b927e4a34d9be258a6d2a580cd",
+      "mode": "100644",
+      "archived_path": "credentials/normalization/data/events.csv"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "data/normalized/identities.csv",
+      "blob": "7e9f0b7eb998fb2dbb1be85d555fcb725b854d55",
+      "mode": "100644",
+      "archived_path": "credentials/normalization/data/identities.csv"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "data/normalized/relationships.csv",
+      "blob": "262d65c2d70da279c0ff772d09bb64f0bfe22233",
+      "mode": "100644",
+      "archived_path": "credentials/normalization/data/relationships.csv"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "data/normalized/resources.csv",
+      "blob": "9334bf8080b3d377bdc502b48ac7baee2b4a659c",
+      "mode": "100644",
+      "archived_path": "credentials/normalization/data/resources.csv"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "data/processed/flaws_cloudtrail_graph/edges.csv",
+      "blob": "15fc9b23e3d3b89c4f31d8d5d084f3106fb3259a",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/edges.csv"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "data/processed/flaws_cloudtrail_graph/principals.csv",
+      "blob": "84a751e0600c93a3e9e1811c48b7218b7434c22a",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/principals.csv"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "data/processed/flaws_cloudtrail_graph/resources.csv",
+      "blob": "df10b7c744f20602ae66d74d7e331d5b18c48911",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/resources.csv"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "data/processed/flaws_cloudtrail_graph/roles.csv",
+      "blob": "3acf54cdc71227ca96dba9a2ebe14b86888b5655",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/roles.csv"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "data/processed/flaws_cloudtrail_graph/services.csv",
+      "blob": "1114fb72af5668e75cdd7f9cd2e1176c4a6e7ff6",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/services.csv"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "data/processed/flaws_cloudtrail_graph/sessions.csv",
+      "blob": "197479e89d86e11957d890ba56879dd00d6caf0c",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/sessions.csv"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "data/raw/README.md",
+      "blob": "fbdc45275de2b5e1eafe08122be35fcbabbb9b4f",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/source-notes.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "data/raw/flaws_cloudtrail_logs/.gitkeep",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/raw/.gitkeep"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "docs/datasets/flaws_cloudtrail.md",
+      "blob": "8ba4bacfafad008c48919956d9d8ba20de8bc2da",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/docs/analysis.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "docs/graph-modeling/graph-modeling.md",
+      "blob": "74f8a629b1821218be61e7c407121ea3c0970bca",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/graph-modeling.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "docs/graph-modeling/img/created-credential.png",
+      "blob": "27aaf6925dea676dcb92292ee1866a4570fe178b",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/created-credential.png"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "docs/graph-modeling/img/credential-chain.png",
+      "blob": "ceea422c648af6f56321d7d51ffd2efd38df5b79",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/credential-chain.png"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "docs/graph-modeling/img/graph-overview.png",
+      "blob": "c6abf57ecf26ea9b7b2bd7d593013ba4b17464e4",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/graph-overview.png"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "docs/graph-modeling/img/identity-credential-execution.png",
+      "blob": "7cdb8a52a12aeb1419a07a411273c959064b91dc",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/identity-credential-execution.png"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "docs/graph-modeling/img/identity-credential.png",
+      "blob": "f7fa4cef87d05eec08892151f5e39eea0e77081a",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/identity-credential.png"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "docs/normalization/normalization.md",
+      "blob": "97fb4910a8bdaeeb4c82b012f0f4541227002519",
+      "mode": "100644",
+      "archived_path": "credentials/normalization/docs/normalization.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "docs/references/README.md",
+      "blob": "d617f5e2ca8b7649042c9cf48053710fbed4c2f8",
+      "mode": "100644",
+      "archived_path": "references/README.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "docs/references/cloudtrail-and-iam.md",
+      "blob": "c08368393ffafbe938dddc3e721baa5b3ece2aa2",
+      "mode": "100644",
+      "archived_path": "references/cloudtrail-and-iam.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "docs/references/datasets-and-tools.md",
+      "blob": "d98e33032f112410b885983db960d83436a58731",
+      "mode": "100644",
+      "archived_path": "references/datasets-and-tools.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "docs/references/graph-compression.md",
+      "blob": "fb16d3821d371991379c632c850b5c79815532d4",
+      "mode": "100644",
+      "archived_path": "references/graph-compression.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "docs/references/provenance-and-reconstruction.md",
+      "blob": "030659322741294ff1b5956ca9115072744fd18b",
+      "mode": "100644",
+      "archived_path": "references/provenance-and-reconstruction.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "neo4j/README.md",
+      "blob": "bfab838b902229b082b57567ea923c7553208783",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/README.md"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "neo4j/import.cypher",
+      "blob": "b65bd269fb38011c7434fec8ecd5278d7a871e7f",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/import.cypher"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "neo4j/queries/created-credential.cypher",
+      "blob": "f9f6327c56c330025733e31c161b6ef2317b7b02",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/created-credential.cypher"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "neo4j/queries/credential-chain.cypher",
+      "blob": "656e1b59b5c41ef1796b07322efec10ee040f985",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/credential-chain.cypher"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "neo4j/queries/credential-overview.cypher",
+      "blob": "856d26c567ae10e184747a54a94bf93cb97320e6",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/credential-overview.cypher"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "neo4j/queries/identity-credential-execution.cypher",
+      "blob": "e684d7cba29d382cbeb8389bcd0c870ca7a1aec4",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/identity-credential-execution.cypher"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "neo4j/queries/identity-credential.cypher",
+      "blob": "dd39a23c0ca92d97b58be6efae26dccf518e3a3e",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/identity-credential.cypher"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "scripts/analyze_flaws.py",
+      "blob": "bdbf5cde484f510f07543b137de909c4de31bb6e",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/scripts/analyze_flaws.py"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "scripts/cloudtrail_canonical_normalization.ipynb",
+      "blob": "e08cb8aafc7cbffc474ca87b901425fb287bb55d",
+      "mode": "100644",
+      "archived_path": "credentials/normalization/notebooks/cloudtrail_canonical_normalization.ipynb"
+    },
+    {
+      "source_branch": "research/4-normalization/janghoon",
+      "source_commit": "2e58c8e694a6a78b968c0b11260605202659f58d",
+      "original_path": "scripts/extract_events.py",
+      "blob": "b5caec45d94b8100776c1068718c030aa1e4ab11",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/scripts/extract_events.py"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": ".github/ISSUE_TEMPLATE/bug.md",
+      "blob": "373af2a90b9fdcd14c3d102730f58f7da6c8c1b4",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/bug.md"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": ".github/ISSUE_TEMPLATE/config.yml",
+      "blob": "5abc6a4f3358d049e1ce4fc168a5ac3d67f63ca6",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/config.yml"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": ".github/ISSUE_TEMPLATE/feature.md",
+      "blob": "02621947ecdb8f1ed74deca8dfa6df6aa4c81e45",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/feature.md"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": ".github/ISSUE_TEMPLATE/research.md",
+      "blob": "aa9ef89cd0e319aa85695d34688a5d8c1b657c5a",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/research.md"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": ".github/pull_request_template.md",
+      "blob": "4532fbe950aadafe97e6b08a47e130df373bff70",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/pull_request_template.md"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": ".gitignore",
+      "blob": "8d7f195968be45b6d29b1316f45ea5de9e5d51d4",
+      "mode": "100644",
+      "archived_path": "provenance/repository/default.gitignore"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "README.md",
+      "blob": "0b96b2ef83a6789dcb1cf1e62252ef82c9639144",
+      "mode": "100644",
+      "archived_path": "provenance/repository/README.md"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "cloudtrail_lineage_timeline.png",
+      "blob": "c1877e833c7e41b9ecbdc56acbb8abfa44f7ee45",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/results/cloudtrail_lineage_timeline.png"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "data/archives/README.md",
+      "blob": "3e8da5bd95ecfef139b333a14243affaea83152c",
+      "mode": "100644",
+      "archived_path": "datasets/legacy-data-notes.md"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "data/archives/flaws_cloudtrail_logs/.gitkeep",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/raw-archives/.gitkeep"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "data/raw/README.md",
+      "blob": "fbdc45275de2b5e1eafe08122be35fcbabbb9b4f",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/source-notes.md"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "data/raw/flaws_cloudtrail_logs/.gitkeep",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/raw/.gitkeep"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "docs/datasets/flaws_cloudtrail.md",
+      "blob": "649783a85ffebc8ab850298f5b3ed3f939aa7da6",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/docs/analysis-before-ip-filter.md"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "docs/references/3-node.md",
+      "blob": "4610e73cc705cd1ca64868eb5a63a31120ca2c87",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/3-node.md"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "docs/references/README.md",
+      "blob": "d617f5e2ca8b7649042c9cf48053710fbed4c2f8",
+      "mode": "100644",
+      "archived_path": "references/README.md"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "docs/references/cloudtrail-and-iam.md",
+      "blob": "c08368393ffafbe938dddc3e721baa5b3ece2aa2",
+      "mode": "100644",
+      "archived_path": "references/cloudtrail-and-iam.md"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "docs/references/datasets-and-tools.md",
+      "blob": "d98e33032f112410b885983db960d83436a58731",
+      "mode": "100644",
+      "archived_path": "references/datasets-and-tools.md"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "docs/references/graph-compression.md",
+      "blob": "fb16d3821d371991379c632c850b5c79815532d4",
+      "mode": "100644",
+      "archived_path": "references/graph-compression.md"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "docs/references/provenance-and-reconstruction.md",
+      "blob": "030659322741294ff1b5956ca9115072744fd18b",
+      "mode": "100644",
+      "archived_path": "references/provenance-and-reconstruction.md"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "docs/test/AWS_Lateral_Movement_Test_Report.md",
+      "blob": "129ffe96b9c5b590d90d8c1f80e7b10c9c7512f7",
+      "mode": "100644",
+      "archived_path": "credentials/experiments/lateral-movement/AWS_Lateral_Movement_Test_Report.md"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "docs/test/visualisation_1.png",
+      "blob": "34acd86a0fe1e8d47d43acae1588f81acf5a821f",
+      "mode": "100644",
+      "archived_path": "credentials/experiments/lateral-movement/visualisation_1.png"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "docs/test/visualisation_2.png",
+      "blob": "107ee69de4e9101a18cf167ff57efe308ca20fa3",
+      "mode": "100644",
+      "archived_path": "credentials/experiments/lateral-movement/visualisation_2.png"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "scripts/analyze_flaws.py",
+      "blob": "bdbf5cde484f510f07543b137de909c4de31bb6e",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/scripts/analyze_flaws.py"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "scripts/attack_chain_surprisal.py",
+      "blob": "04bb41ee3df446ba9c17bafc8a9422e15fb99594",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/attack_chain_surprisal.py"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "scripts/extract_events.py",
+      "blob": "7384b5043a1008661c0fb6e76eecad1925fe456a",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/scripts/extract_events_basic.py"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "scripts/lineage_timeline.py",
+      "blob": "8e99869dc7583cbc637a4f3853375979a2547c02",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/lineage_timeline.py"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "scripts/parser_node3.py",
+      "blob": "cd9dc58915614213477bb9a62f115323520617ad",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/scripts/parser_node3.py"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "scripts/privesc_signatures.py",
+      "blob": "827cbaf8be5095d40da4ea9e177b3ce116c80dc8",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/privesc_signatures.py"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "scripts/run.py",
+      "blob": "1e171befdd0368e7fcbce956d417e3214fb06787",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/run.py"
+    },
+    {
+      "source_branch": "research/7-modeling/inseok",
+      "source_commit": "4e3248aa5e54e6c9ca53b116cef0b00eb9e255da",
+      "original_path": "scripts/session_lifecycle.py",
+      "blob": "49160157e4b21c682863e799921d0be188dd4e78",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/session_lifecycle.py"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": ".github/ISSUE_TEMPLATE/bug.md",
+      "blob": "373af2a90b9fdcd14c3d102730f58f7da6c8c1b4",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/bug.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": ".github/ISSUE_TEMPLATE/config.yml",
+      "blob": "5abc6a4f3358d049e1ce4fc168a5ac3d67f63ca6",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/config.yml"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": ".github/ISSUE_TEMPLATE/feature.md",
+      "blob": "02621947ecdb8f1ed74deca8dfa6df6aa4c81e45",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/feature.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": ".github/ISSUE_TEMPLATE/research.md",
+      "blob": "aa9ef89cd0e319aa85695d34688a5d8c1b657c5a",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/ISSUE_TEMPLATE/research.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": ".github/pull_request_template.md",
+      "blob": "4532fbe950aadafe97e6b08a47e130df373bff70",
+      "mode": "100644",
+      "archived_path": "provenance/repository/.github/pull_request_template.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": ".gitignore",
+      "blob": "8d7f195968be45b6d29b1316f45ea5de9e5d51d4",
+      "mode": "100644",
+      "archived_path": "provenance/repository/default.gitignore"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "README.md",
+      "blob": "0b96b2ef83a6789dcb1cf1e62252ef82c9639144",
+      "mode": "100644",
+      "archived_path": "provenance/repository/README.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "cloudtrail_lineage_timeline.png",
+      "blob": "c1877e833c7e41b9ecbdc56acbb8abfa44f7ee45",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/results/cloudtrail_lineage_timeline.png"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "data/archives/README.md",
+      "blob": "3e8da5bd95ecfef139b333a14243affaea83152c",
+      "mode": "100644",
+      "archived_path": "datasets/legacy-data-notes.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "data/archives/flaws_cloudtrail_logs/.gitkeep",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/raw-archives/.gitkeep"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "data/processed/flaws_cloudtrail_graph/edges.csv",
+      "blob": "15fc9b23e3d3b89c4f31d8d5d084f3106fb3259a",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/edges.csv"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "data/processed/flaws_cloudtrail_graph/principals.csv",
+      "blob": "84a751e0600c93a3e9e1811c48b7218b7434c22a",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/principals.csv"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "data/processed/flaws_cloudtrail_graph/resources.csv",
+      "blob": "df10b7c744f20602ae66d74d7e331d5b18c48911",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/resources.csv"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "data/processed/flaws_cloudtrail_graph/roles.csv",
+      "blob": "3acf54cdc71227ca96dba9a2ebe14b86888b5655",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/roles.csv"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "data/processed/flaws_cloudtrail_graph/services.csv",
+      "blob": "1114fb72af5668e75cdd7f9cd2e1176c4a6e7ff6",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/services.csv"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "data/processed/flaws_cloudtrail_graph/sessions.csv",
+      "blob": "197479e89d86e11957d890ba56879dd00d6caf0c",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/data/session-graph/sessions.csv"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "data/raw/README.md",
+      "blob": "fbdc45275de2b5e1eafe08122be35fcbabbb9b4f",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/source-notes.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "data/raw/flaws_cloudtrail_logs/.gitkeep",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/raw/.gitkeep"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/cisc-experiment-redesign.md",
+      "blob": "174276695f71481f14533ea6f00f6c1962338bea",
+      "mode": "100644",
+      "archived_path": "credentials/drafts/cisc-experiment-redesign.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/cisc-paper-draft.md",
+      "blob": "cebef2cbc3c981489c9475efeaec2d03796008b5",
+      "mode": "100644",
+      "archived_path": "credentials/drafts/cisc-paper-draft.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/cisc-paper-modeling-gaps.md",
+      "blob": "cbf2e7154810ac7d84d0b21b71d41c637e56bcc1",
+      "mode": "100644",
+      "archived_path": "credentials/drafts/cisc-paper-modeling-gaps.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/datasets/flaws_cloudtrail.md",
+      "blob": "8ba4bacfafad008c48919956d9d8ba20de8bc2da",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/docs/analysis.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/graph-modeling/graph-modeling.md",
+      "blob": "74f8a629b1821218be61e7c407121ea3c0970bca",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/graph-modeling.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/graph-modeling/img/created-credential.png",
+      "blob": "27aaf6925dea676dcb92292ee1866a4570fe178b",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/created-credential.png"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/graph-modeling/img/credential-chain.png",
+      "blob": "ceea422c648af6f56321d7d51ffd2efd38df5b79",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/credential-chain.png"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/graph-modeling/img/graph-overview.png",
+      "blob": "c6abf57ecf26ea9b7b2bd7d593013ba4b17464e4",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/graph-overview.png"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/graph-modeling/img/identity-credential-execution.png",
+      "blob": "7cdb8a52a12aeb1419a07a411273c959064b91dc",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/identity-credential-execution.png"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/graph-modeling/img/identity-credential.png",
+      "blob": "f7fa4cef87d05eec08892151f5e39eea0e77081a",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/img/identity-credential.png"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/references/3-node.md",
+      "blob": "4610e73cc705cd1ca64868eb5a63a31120ca2c87",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/docs/3-node.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/references/README.md",
+      "blob": "d617f5e2ca8b7649042c9cf48053710fbed4c2f8",
+      "mode": "100644",
+      "archived_path": "references/README.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/references/cloudtrail-and-iam.md",
+      "blob": "c08368393ffafbe938dddc3e721baa5b3ece2aa2",
+      "mode": "100644",
+      "archived_path": "references/cloudtrail-and-iam.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/references/datasets-and-tools.md",
+      "blob": "d98e33032f112410b885983db960d83436a58731",
+      "mode": "100644",
+      "archived_path": "references/datasets-and-tools.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/references/graph-compression.md",
+      "blob": "fb16d3821d371991379c632c850b5c79815532d4",
+      "mode": "100644",
+      "archived_path": "references/graph-compression.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/references/provenance-and-reconstruction.md",
+      "blob": "030659322741294ff1b5956ca9115072744fd18b",
+      "mode": "100644",
+      "archived_path": "references/provenance-and-reconstruction.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "docs/semantic-distortion-analysis.md",
+      "blob": "d0f81728829f31b08db1978a1855e00427f1e673",
+      "mode": "100644",
+      "archived_path": "credentials/drafts/semantic-distortion-analysis.md",
+      "archived_blob": "171f78c356eaeea04a10230c5ca42e17766ed694",
+      "link_repairs": {
+        "../JUNGJS-1/data/archive/neo4j/flaws.cloud%2019/README.md": "../graph-modeling/neo4j/import-session-graph.cypher",
+        "../JUNGJS-2/docs/graph-modeling/REPORT.md": "../graph-modeling/docs/REPORT.md",
+        "../JUNGJS-2/docs/graph-modeling/3-node-v2.md": "../graph-modeling/docs/3-node-v2.md",
+        "../JUNGJS-2/docs/graph-modeling/enrich.md": "../graph-modeling/docs/enrich.md",
+        "../JUNGJS-2/docs/graph-modeling/query.md": "../graph-modeling/docs/query.md",
+        "../JUNGJS-1/docs/references/provenance-and-reconstruction.md": "../../references/provenance-and-reconstruction.md",
+        "../JUNGJS-1/docs/datasets/stratus_red_team_explanation/aws.5_chain_n1.md": "../../datasets/stratus-red-team/docs/techniques/aws.5_chain_n1.md",
+        "../README.md": "../../provenance/repository/README.md"
+      }
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "neo4j/README.md",
+      "blob": "bfab838b902229b082b57567ea923c7553208783",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/README.md"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "neo4j/import.cypher",
+      "blob": "b65bd269fb38011c7434fec8ecd5278d7a871e7f",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/import.cypher"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "neo4j/queries/created-credential.cypher",
+      "blob": "f9f6327c56c330025733e31c161b6ef2317b7b02",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/created-credential.cypher"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "neo4j/queries/credential-chain.cypher",
+      "blob": "656e1b59b5c41ef1796b07322efec10ee040f985",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/credential-chain.cypher"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "neo4j/queries/credential-overview.cypher",
+      "blob": "856d26c567ae10e184747a54a94bf93cb97320e6",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/credential-overview.cypher"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "neo4j/queries/identity-credential-execution.cypher",
+      "blob": "e684d7cba29d382cbeb8389bcd0c870ca7a1aec4",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/identity-credential-execution.cypher"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "neo4j/queries/identity-credential.cypher",
+      "blob": "dd39a23c0ca92d97b58be6efae26dccf518e3a3e",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/neo4j/queries/identity-credential.cypher"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "scripts/analyze_flaws.py",
+      "blob": "bdbf5cde484f510f07543b137de909c4de31bb6e",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/scripts/analyze_flaws.py"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "scripts/attack_chain_surprisal.py",
+      "blob": "04bb41ee3df446ba9c17bafc8a9422e15fb99594",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/attack_chain_surprisal.py"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "scripts/extract_events.py",
+      "blob": "b5caec45d94b8100776c1068718c030aa1e4ab11",
+      "mode": "100644",
+      "archived_path": "datasets/flaws-cloud/scripts/extract_events.py"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "scripts/lineage_timeline.py",
+      "blob": "8e99869dc7583cbc637a4f3853375979a2547c02",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/lineage_timeline.py"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "scripts/parser_node3.py",
+      "blob": "cd9dc58915614213477bb9a62f115323520617ad",
+      "mode": "100644",
+      "archived_path": "credentials/graph-modeling/scripts/parser_node3.py"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "scripts/privesc_signatures.py",
+      "blob": "827cbaf8be5095d40da4ea9e177b3ce116c80dc8",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/privesc_signatures.py"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "scripts/run.py",
+      "blob": "1e171befdd0368e7fcbce956d417e3214fb06787",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/run.py"
+    },
+    {
+      "source_branch": "research/8-paper-draft/janghoon",
+      "source_commit": "84558cdd336bbb633f635829188bfc134511032d",
+      "original_path": "scripts/session_lifecycle.py",
+      "blob": "49160157e4b21c682863e799921d0be188dd4e78",
+      "mode": "100644",
+      "archived_path": "credentials/lineage/scripts/session_lifecycle.py"
+    }
+  ]
+}
