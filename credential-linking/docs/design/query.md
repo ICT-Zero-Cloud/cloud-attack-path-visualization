@@ -26,7 +26,7 @@ ORTHRUS의 §2는 같은 이웃·시간대·후손이라는 이유로 정상 활
 3. 신뢰정책 사건이면 Q4, 워크로드 획득 후보면 Q5를 추가한다.
 4. Q3의 자원 하나를 `target_resource`로 지정하여 Q6으로 다른 주체의 활동을 대조한다.
 
-Neo4j Browser에서 아래 명령을 **각각 실행**한다. 예시는 저장된 n4의 신뢰정책 변경 이벤트를 사용한다. n1~n3을 적재했다면 시간과 eventID를 해당 데이터에 맞춰 바꾼다. JSON 파라미터 파일은 [params.n4.example.json](queries/investigation/params.n4.example.json)이다.
+Neo4j Browser에서 아래 명령을 **각각 실행**한다. 예시는 저장된 n4의 신뢰정책 변경 이벤트를 사용한다. n1~n3을 적재했다면 시간과 eventID를 해당 데이터에 맞춰 바꾼다. JSON 파라미터 파일은 [params.n4.example.json](../../queries/investigation/params.n4.example.json)이다.
 
 ```text
 :param from => '2026-09-10T06:13:00Z'
@@ -56,7 +56,7 @@ Neo4j Browser에서 아래 명령을 **각각 실행**한다. 예시는 저장�
 
 ## 3. Q1 — 조사 시작 이벤트와 근거 카드
 
-[01_anchor_events.cypher](queries/investigation/01_anchor_events.cypher)
+[01_anchor_events.cypher](../../queries/investigation/01_anchor_events.cypher)
 
 기존의 임의 가중치 합계 대신 `reviewReason`, 선택 이벤트의 대상들, 선행 발급 이벤트, 이후 발급 횟수를 돌려준다. 예를 들어 정책 변경 이벤트가 “발급받은 키가 수행했고, 그 뒤 새 키를 발급했다”는 맥락을 한 행에서 볼 수 있다. 발급 횟수는 같은 `eventID`를 중복 계산하지 않는다.
 
@@ -64,7 +64,7 @@ Neo4j Browser에서 아래 명령을 **각각 실행**한다. 예시는 저장�
 
 ## 4. Q2 — 발급 계보와 근거 경로
 
-[표 쿼리](queries/investigation/02_upstream_evidence.cypher) · [그래프 쿼리](queries/investigation/02_upstream_graph.cypher)
+[표 쿼리](../../queries/investigation/02_upstream_evidence.cypher) · [그래프 쿼리](../../queries/investigation/02_upstream_graph.cypher)
 
 선택한 이벤트를 수행한 키까지 이어지는 선행 자격증명을 찾는다. 경로에는 성공한 `OBTAINS`와 선택적으로 허용한 획득 후보만 들어간다. 동일 자원·역할에 접근했다는 이유로 다른 키를 끌어오지 않는다.
 
@@ -113,7 +113,7 @@ LIMIT $row_limit;
 
 ## 5. Q3 — 사건 이후의 활동을 근거와 함께 요약
 
-[표 쿼리](queries/investigation/03_downstream_evidence.cypher) · [그래프 쿼리](queries/investigation/03_downstream_graph.cypher)
+[표 쿼리](../../queries/investigation/03_downstream_evidence.cypher) · [그래프 쿼리](../../queries/investigation/03_downstream_graph.cypher)
 
 결과 한 행은 **선택 사건 → 자격증명 연쇄 → 후속 이벤트 → 대상 자원**이다. 단순 도달 자원 목록과 달리 다음을 함께 반환한다.
 
@@ -128,7 +128,7 @@ LIMIT $row_limit;
 
 ## 6. Q4 — 신뢰정책 변경이 역할 발급과 사용으로 이어졌는가?
 
-[04_trust_change_and_use.cypher](queries/investigation/04_trust_change_and_use.cypher)
+[04_trust_change_and_use.cypher](../../queries/investigation/04_trust_change_and_use.cypher)
 
 이번 구성에서 논문 본문에 넣기 좋은 사례다. `UpdateAssumeRolePolicy` 한 건, `AssumeRole` 한 건, 이후 작업을 각각 나열하는 대신 **변경된 바로 그 역할**과 **그 위임 호출에서 발급된 바로 그 키**를 기준으로 연결한다. 주체–객체 통합과 `eventID`를 보존한 모델의 활용을 보여준다.
 
@@ -168,7 +168,7 @@ LIMIT $row_limit;
 
 ## 7. Q5 — 획득 후보별 증거 점검
 
-[05_handoff_evidence_audit.cypher](queries/investigation/05_handoff_evidence_audit.cypher)
+[05_handoff_evidence_audit.cypher](../../queries/investigation/05_handoff_evidence_audit.cypher)
 
 기존 `exercised=true`는 전체 로그의 출처 값 중복이다. Q5는 이를 그대로 탈취 판정으로 사용하지 않고, 선택 시간창에서 **명시한 실행/접근 API → 해당 워크로드의 후보 키 사용**이 순서대로 존재하는지 조회한다. 실행 API 목록의 초기값은 `SendCommand`와 `SendSSHPublicKey`이며, 성공이 OS 실행 또는 IMDS 획득의 성공을 보장하지는 않는다.
 
@@ -183,7 +183,7 @@ LIMIT $row_limit;
 
 ## 8. Q6 — 같은 자원의 다른 접근을 대조
 
-[06_resource_contrast.cypher](queries/investigation/06_resource_contrast.cypher)
+[06_resource_contrast.cypher](../../queries/investigation/06_resource_contrast.cypher)
 
 Q3에서 관심 자원의 ID를 골라 `target_resource`로 설정한다. 예를 들어 n4에서는 다음 값을 사용할 수 있다.
 
@@ -225,7 +225,7 @@ Q4의 동일 역할 대조에서는 변경 이벤트 `0140e32e-f328-4fc5-8984-63
 
 n2의 전체 관측 시간창에서는 후보 11개 중 1개에 실행 이후 동일 출처 사용이 있었고, 나머지 10개에는 후속 사용은 있으나 선택한 실행 호출 출처와의 일치가 없었다. 이것은 기존 0/10이라는 요약보다 각 후보의 차이를 설명해준다. 정상·공격의 독립 정답을 추가한 정확도 검증은 아니다.
 
-전체 이벤트 ID와 대상은 [n4 설명용 조회 결과](queries/investigation/preview.n4.csv-rules.json), [n2 후보 근거 조회 결과](queries/investigation/preview.n2.csv-rules.json)에 기록되어 있다.
+전체 이벤트 ID와 대상은 [n4 설명용 조회 결과](../../queries/investigation/preview.n4.csv-rules.json), [n2 후보 근거 조회 결과](../../queries/investigation/preview.n2.csv-rules.json)에 기록되어 있다.
 
 ## 12. 확인 상태
 

@@ -1,15 +1,8 @@
-# 원본 CloudTrail 로그는 올리지 않는다
-data/raw/*
-!data/raw/README.md
-
-# Neo4j 런타임 데이터
-neo4j/
-import/*.csv
-
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
+.ipynb_checkpoints/
 
 # OS / 편집기
 .DS_Store
