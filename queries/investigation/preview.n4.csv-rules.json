@@ -1,0 +1,161 @@
+{
+  "notice": "CSV rule illustration, not Neo4j query output or evaluation ground truth",
+  "anchorEventId": "0140e32e-f328-4fc5-8984-63326b68a8df",
+  "anchorKey": "ASIAEXAMPLE0377HGFVC",
+  "upstream": [
+    {
+      "keys": [
+        "AKIAEXAMPLE0SEAZXEHZ",
+        "ASIAEXAMPLE0377HGFVC"
+      ],
+      "eventIDs": [
+        "f216ac9b-e902-4005-89c1-c7b11441fcb1"
+      ]
+    },
+    {
+      "keys": [
+        "ASIAEXAMPLE0377HGFVC"
+      ],
+      "eventIDs": []
+    }
+  ],
+  "downstream": [
+    {
+      "at": "2026-09-10T06:13:31Z",
+      "api": "AssumeRole",
+      "actor": "ASIAEXAMPLE0377HGFVC",
+      "target": "ASIAEXAMPLE07QBHVZLC",
+      "eventID": "792f3408-70f0-4c9d-ab19-f985cd6fe616",
+      "keys": [
+        "ASIAEXAMPLE0377HGFVC"
+      ],
+      "issuanceEventIDs": []
+    },
+    {
+      "at": "2026-09-10T06:13:31Z",
+      "api": "AssumeRole",
+      "actor": "ASIAEXAMPLE0377HGFVC",
+      "target": "arn:aws:iam::123456789012:role/tier2-admin-role",
+      "eventID": "792f3408-70f0-4c9d-ab19-f985cd6fe616",
+      "keys": [
+        "ASIAEXAMPLE0377HGFVC"
+      ],
+      "issuanceEventIDs": []
+    },
+    {
+      "at": "2026-09-10T06:13:32Z",
+      "api": "CreateUser",
+      "actor": "ASIAEXAMPLE07QBHVZLC",
+      "target": "arn:aws:iam::123456789012:user/apt-chain-e-admin",
+      "eventID": "c0f74667-f719-4427-bc4e-77251fb4bb1c",
+      "keys": [
+        "ASIAEXAMPLE0377HGFVC",
+        "ASIAEXAMPLE07QBHVZLC"
+      ],
+      "issuanceEventIDs": [
+        "792f3408-70f0-4c9d-ab19-f985cd6fe616"
+      ]
+    },
+    {
+      "at": "2026-09-10T06:13:34Z",
+      "api": "AttachUserPolicy",
+      "actor": "ASIAEXAMPLE07QBHVZLC",
+      "target": "arn:aws:iam::123456789012:user/apt-chain-e-admin",
+      "eventID": "07281081-f176-4f20-b2db-e1b76b466410",
+      "keys": [
+        "ASIAEXAMPLE0377HGFVC",
+        "ASIAEXAMPLE07QBHVZLC"
+      ],
+      "issuanceEventIDs": [
+        "792f3408-70f0-4c9d-ab19-f985cd6fe616"
+      ]
+    },
+    {
+      "at": "2026-09-10T06:13:34Z",
+      "api": "AttachUserPolicy",
+      "actor": "ASIAEXAMPLE07QBHVZLC",
+      "target": "arn:aws:iam::aws:policy/AdministratorAccess",
+      "eventID": "07281081-f176-4f20-b2db-e1b76b466410",
+      "keys": [
+        "ASIAEXAMPLE0377HGFVC",
+        "ASIAEXAMPLE07QBHVZLC"
+      ],
+      "issuanceEventIDs": [
+        "792f3408-70f0-4c9d-ab19-f985cd6fe616"
+      ]
+    },
+    {
+      "at": "2026-09-10T06:13:35Z",
+      "api": "CreateAccessKey",
+      "actor": "ASIAEXAMPLE07QBHVZLC",
+      "target": "AKIAEXAMPLE0ZCUWMCHR",
+      "eventID": "4b056976-0f65-4f2d-88ad-b243e947167e",
+      "keys": [
+        "ASIAEXAMPLE0377HGFVC",
+        "ASIAEXAMPLE07QBHVZLC"
+      ],
+      "issuanceEventIDs": [
+        "792f3408-70f0-4c9d-ab19-f985cd6fe616"
+      ]
+    },
+    {
+      "at": "2026-09-10T06:13:35Z",
+      "api": "CreateAccessKey",
+      "actor": "ASIAEXAMPLE07QBHVZLC",
+      "target": "arn:aws:iam::123456789012:user/apt-chain-e-admin",
+      "eventID": "4b056976-0f65-4f2d-88ad-b243e947167e",
+      "keys": [
+        "ASIAEXAMPLE0377HGFVC",
+        "ASIAEXAMPLE07QBHVZLC"
+      ],
+      "issuanceEventIDs": [
+        "792f3408-70f0-4c9d-ab19-f985cd6fe616"
+      ]
+    },
+    {
+      "at": "2026-09-10T06:13:47Z",
+      "api": "GetSecretValue",
+      "actor": "AKIAEXAMPLE0ZCUWMCHR",
+      "target": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:prod/db-master-8DQ43E",
+      "eventID": "e7319337-aab7-4841-9691-c254238d1768",
+      "keys": [
+        "ASIAEXAMPLE0377HGFVC",
+        "ASIAEXAMPLE07QBHVZLC",
+        "AKIAEXAMPLE0ZCUWMCHR"
+      ],
+      "issuanceEventIDs": [
+        "792f3408-70f0-4c9d-ab19-f985cd6fe616",
+        "4b056976-0f65-4f2d-88ad-b243e947167e"
+      ]
+    },
+    {
+      "at": "2026-09-10T06:13:48Z",
+      "api": "GetSecretValue",
+      "actor": "AKIAEXAMPLE0ZCUWMCHR",
+      "target": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:prod/api-key-2OPzqU",
+      "eventID": "9fa6b1c5-108a-4d8c-a47b-48507d271592",
+      "keys": [
+        "ASIAEXAMPLE0377HGFVC",
+        "ASIAEXAMPLE07QBHVZLC",
+        "AKIAEXAMPLE0ZCUWMCHR"
+      ],
+      "issuanceEventIDs": [
+        "792f3408-70f0-4c9d-ab19-f985cd6fe616",
+        "4b056976-0f65-4f2d-88ad-b243e947167e"
+      ]
+    }
+  ],
+  "trustChange": [
+    {
+      "changeId": "0140e32e-f328-4fc5-8984-63326b68a8df",
+      "assumeId": "792f3408-70f0-4c9d-ab19-f985cd6fe616",
+      "role": "arn:aws:iam::123456789012:role/tier2-admin-role",
+      "issuedKey": "ASIAEXAMPLE07QBHVZLC",
+      "useEventIDs": [
+        "07281081-f176-4f20-b2db-e1b76b466410",
+        "4b056976-0f65-4f2d-88ad-b243e947167e",
+        "c0f74667-f719-4427-bc4e-77251fb4bb1c"
+      ]
+    }
+  ]
+}

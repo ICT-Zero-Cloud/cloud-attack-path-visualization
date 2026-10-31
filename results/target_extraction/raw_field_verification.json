@@ -1,0 +1,4 @@
+{
+  "verified_recovered_accesses": 10,
+  "check": "Raw refPath value is present in expected target ID; resources absent on each recovered event"
+}

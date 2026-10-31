@@ -1,0 +1,1280 @@
+{
+  "parser_sha256": "23cb488ce5b181df35e129196d618e3a47d783c0a13168806adfaf6a95e1f0f7",
+  "results": [
+    {
+      "scenario": "n1",
+      "required_targets": 3,
+      "required_accesses": 54,
+      "levels": {
+        "0": {
+          "target_hits": 2,
+          "access_hits": 52,
+          "target_recall": 0.6666666666666666,
+          "access_recall": 0.9629629629629629,
+          "missing_targets": [
+            "arn:aws:cloudtrail:ap-northeast-2:123456789012:trail/stratus-red-team-ct-stop-trail-vecwevjkkr"
+          ],
+          "missing_accesses": [
+            [
+              "AKIAEXAMPLE0W5UHPSX2",
+              "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+              "5f835336-8de6-4b53-acdf-2b9398d6e127"
+            ],
+            [
+              "AKIAEXAMPLE0XYTRAEEE",
+              "arn:aws:cloudtrail:ap-northeast-2:123456789012:trail/stratus-red-team-ct-stop-trail-vecwevjkkr",
+              "7e88ae0a-f677-44a9-a588-bf8823de324d"
+            ]
+          ],
+          "matched_evidence": [
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "2f2af8d5-993d-4a5b-8e47-33fc3437df52",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "3f62e914-2293-4d7d-bd76-515f10d8b2dc",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "873840fc-58c3-4ae4-b708-db7103b85afb",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "0de83bc9-f918-438b-8701-79328c7ee85e",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "1058de24-bb45-4a6b-8379-d3cc1b2cec55",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "140087b8-b041-40b0-86dc-4b98bdec57cb",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "14693c0b-d3ea-4417-acad-119b148acd3b",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "17730684-3592-44fb-a0d0-8cfde9ee2b73",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "1fdce355-50c3-4bd6-b8bd-ca31313b92d3",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "262052ae-2a81-4c08-bcff-cdc512bbfd8e",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "2a5e2601-14be-4542-8c01-6c9a1573efb3",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "2ee1de62-e092-45fb-b5fe-99fa7aac4bc8",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "3274bb88-427e-4228-9e5d-f34b43bd15a9",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "330833d1-6c80-49f0-9ca0-4253b9251c57",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "39929415-243a-4e9c-a86b-942031ccdd4c",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "3befffc1-73e1-4bdc-b86e-9c684b38994d",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "449afbfc-1bc2-41f3-8440-ab75222bd77c",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "4613867a-24be-456e-b146-cb449bc3c659",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "49f117ac-46b6-42ef-8d3f-fed961784a5d",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "4b499131-70f8-41ea-9a33-77a5be038cc8",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "4c816ce9-aded-4341-8179-83b629adcdcd",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "51c2e020-87be-402a-9d04-6342375c045e",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "55cf7290-ad12-4f90-bc50-1f1d02f75d79",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "5a5db5c6-4045-432b-bdee-301ce54aae69",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "625816be-f246-45e7-8833-739b80ec0471",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "62a0d97d-853f-4b3a-ac21-78c648ef1ea7",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "640acd3c-2ba4-4071-b9d6-8107f6810720",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "654ffd0d-670f-4169-89ba-357b61c32a9b",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "65c77fb8-8e16-4098-8fee-e53958e5844e",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "6a5cad4b-e090-40ee-a2a9-6a92d587a9ee",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "70e9a026-c627-46cc-9a07-e9bd6ef722d4",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "72990315-c377-47fc-b727-f2beff59db0b",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "7f068b00-eedc-46ac-9bd2-3764526c6641",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "8e7405db-6137-4e52-af23-b54efe805b90",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "95ea2a12-01f7-4f8c-b134-24c018075aef",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "9d3de1a5-d18a-4b5f-bf88-50b31b745e73",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "aab29618-392c-4144-9e34-b09b96064586",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "ac57fe8e-b4b3-46db-9a87-eab2f0f23c67",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "b178061d-19f4-41b5-ae69-f6dce8c6fcfe",
+              "api": "DeleteObjects",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "bca86b17-be7f-457a-b765-971f671a22ce",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "be32e8ff-09a5-4e83-bff3-e89883c6421d",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "c18bb089-138d-45f6-a5d3-d1eba9306852",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "c217dd91-cdc8-4704-ad5b-4bcdf8b3355e",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "c2ba8660-e422-43bf-aba2-705dfcb66143",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "c4389e29-0724-416a-a736-095cabf22b21",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "df648e58-c9fe-42ee-a71f-9c67d2040277",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "ee549859-b2fa-45fb-a97c-fcaa1d90d437",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "f1a09b3c-61d4-416b-b089-145ba9aedf23",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "f714d538-7c08-4494-8e42-8ba5c10f0fb5",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "f9582f55-7275-49d0-9b65-8ec6a93c6f44",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            }
+          ]
+        },
+        "3": {
+          "target_hits": 3,
+          "access_hits": 54,
+          "target_recall": 1.0,
+          "access_recall": 1.0,
+          "missing_targets": [],
+          "missing_accesses": [],
+          "matched_evidence": [
+            {
+              "src": "AKIAEXAMPLE0W5UHPSX2",
+              "dst": "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+              "eventID": "5f835336-8de6-4b53-acdf-2b9398d6e127",
+              "api": "SendCommand",
+              "refPath": "requestParameters.instanceIds[0]"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:cloudtrail:ap-northeast-2:123456789012:trail/stratus-red-team-ct-stop-trail-vecwevjkkr",
+              "eventID": "7e88ae0a-f677-44a9-a588-bf8823de324d",
+              "api": "StopLogging",
+              "refPath": "requestParameters.name"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "2f2af8d5-993d-4a5b-8e47-33fc3437df52",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "3f62e914-2293-4d7d-bd76-515f10d8b2dc",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "873840fc-58c3-4ae4-b708-db7103b85afb",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "0de83bc9-f918-438b-8701-79328c7ee85e",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "1058de24-bb45-4a6b-8379-d3cc1b2cec55",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "140087b8-b041-40b0-86dc-4b98bdec57cb",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "14693c0b-d3ea-4417-acad-119b148acd3b",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "17730684-3592-44fb-a0d0-8cfde9ee2b73",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "1fdce355-50c3-4bd6-b8bd-ca31313b92d3",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "262052ae-2a81-4c08-bcff-cdc512bbfd8e",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "2a5e2601-14be-4542-8c01-6c9a1573efb3",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "2ee1de62-e092-45fb-b5fe-99fa7aac4bc8",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "3274bb88-427e-4228-9e5d-f34b43bd15a9",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "330833d1-6c80-49f0-9ca0-4253b9251c57",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "39929415-243a-4e9c-a86b-942031ccdd4c",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "3befffc1-73e1-4bdc-b86e-9c684b38994d",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "449afbfc-1bc2-41f3-8440-ab75222bd77c",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "4613867a-24be-456e-b146-cb449bc3c659",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "49f117ac-46b6-42ef-8d3f-fed961784a5d",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "4b499131-70f8-41ea-9a33-77a5be038cc8",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "4c816ce9-aded-4341-8179-83b629adcdcd",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "51c2e020-87be-402a-9d04-6342375c045e",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "55cf7290-ad12-4f90-bc50-1f1d02f75d79",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "5a5db5c6-4045-432b-bdee-301ce54aae69",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "625816be-f246-45e7-8833-739b80ec0471",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "62a0d97d-853f-4b3a-ac21-78c648ef1ea7",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "640acd3c-2ba4-4071-b9d6-8107f6810720",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "654ffd0d-670f-4169-89ba-357b61c32a9b",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "65c77fb8-8e16-4098-8fee-e53958e5844e",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "6a5cad4b-e090-40ee-a2a9-6a92d587a9ee",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "70e9a026-c627-46cc-9a07-e9bd6ef722d4",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "72990315-c377-47fc-b727-f2beff59db0b",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "7f068b00-eedc-46ac-9bd2-3764526c6641",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "8e7405db-6137-4e52-af23-b54efe805b90",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "95ea2a12-01f7-4f8c-b134-24c018075aef",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "9d3de1a5-d18a-4b5f-bf88-50b31b745e73",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "aab29618-392c-4144-9e34-b09b96064586",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "ac57fe8e-b4b3-46db-9a87-eab2f0f23c67",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "b178061d-19f4-41b5-ae69-f6dce8c6fcfe",
+              "api": "DeleteObjects",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "bca86b17-be7f-457a-b765-971f671a22ce",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "be32e8ff-09a5-4e83-bff3-e89883c6421d",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "c18bb089-138d-45f6-a5d3-d1eba9306852",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "c217dd91-cdc8-4704-ad5b-4bcdf8b3355e",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "c2ba8660-e422-43bf-aba2-705dfcb66143",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "c4389e29-0724-416a-a736-095cabf22b21",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "df648e58-c9fe-42ee-a71f-9c67d2040277",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "ee549859-b2fa-45fb-a97c-fcaa1d90d437",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "f1a09b3c-61d4-416b-b089-145ba9aedf23",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "f714d538-7c08-4494-8e42-8ba5c10f0fb5",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0XYTRAEEE",
+              "dst": "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+              "eventID": "f9582f55-7275-49d0-9b65-8ec6a93c6f44",
+              "api": "DeleteObject",
+              "refPath": "resources[].ARN"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenario": "n2",
+      "required_targets": 23,
+      "required_accesses": 24,
+      "levels": {
+        "0": {
+          "target_hits": 21,
+          "access_hits": 20,
+          "target_recall": 0.9130434782608695,
+          "access_recall": 0.8333333333333334,
+          "missing_targets": [
+            "arn:aws:ec2:ap-northeast-2:123456789012:flow-log/fl-058f80ae06dddb80a",
+            "arn:aws:ec2:ap-northeast-2:123456789012:snapshot/snap-0ecc18035701ed34e"
+          ],
+          "missing_accesses": [
+            [
+              "AKIAEXAMPLE0W5UHPSX2",
+              "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-07eec8fec13e5ed60",
+              "0b5470f4-d1fc-44bf-89f0-2495a1394168"
+            ],
+            [
+              "AKIAEXAMPLE0W5UHPSX2",
+              "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-07eec8fec13e5ed60",
+              "1e7650eb-40f6-49f4-bd81-e8964e346c89"
+            ],
+            [
+              "ASIAEXAMPLE0RSR5IOBD",
+              "arn:aws:ec2:ap-northeast-2:123456789012:flow-log/fl-058f80ae06dddb80a",
+              "0f283400-e551-4860-82c0-8962e00db3b2"
+            ],
+            [
+              "ASIAEXAMPLE0RSR5IOBD",
+              "arn:aws:ec2:ap-northeast-2:123456789012:snapshot/snap-0ecc18035701ed34e",
+              "26df2cc3-f01d-4de2-86d6-f7f2bee530b4"
+            ]
+          ],
+          "matched_evidence": [
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-3-JiLeB6",
+              "eventID": "7421a96a-73d7-4b13-abe5-5c177347f354",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-19-bCFE1f",
+              "eventID": "84a7c6ed-4d92-415a-a52a-b9920255aff5",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-16-yF6iPJ",
+              "eventID": "b91e13df-e858-452e-b150-53927df72a4f",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-5-Uu1qHD",
+              "eventID": "8e776292-8c64-46da-81e9-d14f67736130",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-7-RcKZ79",
+              "eventID": "515472d4-c4b3-44a6-8668-63f4e08320ae",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-15-3dVXNO",
+              "eventID": "f5a13733-685e-49fe-9629-352f9f36f981",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-6-6jBrki",
+              "eventID": "5cf42109-e059-46fb-8946-1fcdae8d22ba",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-14-YdZJPg",
+              "eventID": "43e352f4-94fc-4ab1-8562-bfca1c2f5451",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-18-9otaLk",
+              "eventID": "d79abdd3-9aba-402d-912e-6685cad78574",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-8-183flM",
+              "eventID": "7664ed6f-9892-4c12-a4eb-92656d1f19da",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-17-Y7foTp",
+              "eventID": "28dea9a8-b02b-46a5-a96b-7abcee004f6b",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-1-U5XxDn",
+              "eventID": "ee7fc153-0cf9-4f05-9c0c-8ce1f286a411",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-11-63TLao",
+              "eventID": "6118d1c9-2f28-4460-a03e-7251c007dcd4",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-9-63TLao",
+              "eventID": "f8d87b6e-be83-45e9-9951-b37daf068ba5",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-13-63TLao",
+              "eventID": "0ea19784-2cd8-489d-a6f5-f6f528216a24",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-0-ykULG0",
+              "eventID": "2a52a13b-51b4-42c6-a487-0fd486ae7d42",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-2-KkRZfZ",
+              "eventID": "3c5399cb-4b05-4d61-b30d-81fcf375c1c2",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-12-AVxcEO",
+              "eventID": "7e21eacc-40f9-4e6d-9863-51eb00992692",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-4-AVxcEO",
+              "eventID": "4bd1c3ea-2c2d-437e-a96a-8854ce1850da",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-10-3H6ING",
+              "eventID": "6da969f0-88a6-4c2e-a4cf-dc112b0abe6e",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            }
+          ]
+        },
+        "3": {
+          "target_hits": 23,
+          "access_hits": 24,
+          "target_recall": 1.0,
+          "access_recall": 1.0,
+          "missing_targets": [],
+          "missing_accesses": [],
+          "matched_evidence": [
+            {
+              "src": "AKIAEXAMPLE0W5UHPSX2",
+              "dst": "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-07eec8fec13e5ed60",
+              "eventID": "0b5470f4-d1fc-44bf-89f0-2495a1394168",
+              "api": "SendCommand",
+              "refPath": "requestParameters.instanceIds[0]"
+            },
+            {
+              "src": "AKIAEXAMPLE0W5UHPSX2",
+              "dst": "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-07eec8fec13e5ed60",
+              "eventID": "1e7650eb-40f6-49f4-bd81-e8964e346c89",
+              "api": "SendCommand",
+              "refPath": "requestParameters.instanceIds[0]"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-3-JiLeB6",
+              "eventID": "7421a96a-73d7-4b13-abe5-5c177347f354",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-19-bCFE1f",
+              "eventID": "84a7c6ed-4d92-415a-a52a-b9920255aff5",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-16-yF6iPJ",
+              "eventID": "b91e13df-e858-452e-b150-53927df72a4f",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-5-Uu1qHD",
+              "eventID": "8e776292-8c64-46da-81e9-d14f67736130",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-7-RcKZ79",
+              "eventID": "515472d4-c4b3-44a6-8668-63f4e08320ae",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-15-3dVXNO",
+              "eventID": "f5a13733-685e-49fe-9629-352f9f36f981",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-6-6jBrki",
+              "eventID": "5cf42109-e059-46fb-8946-1fcdae8d22ba",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-14-YdZJPg",
+              "eventID": "43e352f4-94fc-4ab1-8562-bfca1c2f5451",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-18-9otaLk",
+              "eventID": "d79abdd3-9aba-402d-912e-6685cad78574",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-8-183flM",
+              "eventID": "7664ed6f-9892-4c12-a4eb-92656d1f19da",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-17-Y7foTp",
+              "eventID": "28dea9a8-b02b-46a5-a96b-7abcee004f6b",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-1-U5XxDn",
+              "eventID": "ee7fc153-0cf9-4f05-9c0c-8ce1f286a411",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-11-63TLao",
+              "eventID": "6118d1c9-2f28-4460-a03e-7251c007dcd4",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-9-63TLao",
+              "eventID": "f8d87b6e-be83-45e9-9951-b37daf068ba5",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-13-63TLao",
+              "eventID": "0ea19784-2cd8-489d-a6f5-f6f528216a24",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-0-ykULG0",
+              "eventID": "2a52a13b-51b4-42c6-a487-0fd486ae7d42",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-2-KkRZfZ",
+              "eventID": "3c5399cb-4b05-4d61-b30d-81fcf375c1c2",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-12-AVxcEO",
+              "eventID": "7e21eacc-40f9-4e6d-9863-51eb00992692",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-4-AVxcEO",
+              "eventID": "4bd1c3ea-2c2d-437e-a96a-8854ce1850da",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:stratus-red-team-retrieve-secret-10-3H6ING",
+              "eventID": "6da969f0-88a6-4c2e-a4cf-dc112b0abe6e",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:ec2:ap-northeast-2:123456789012:snapshot/snap-0ecc18035701ed34e",
+              "eventID": "26df2cc3-f01d-4de2-86d6-f7f2bee530b4",
+              "api": "ModifySnapshotAttribute",
+              "refPath": "requestParameters.snapshotId"
+            },
+            {
+              "src": "ASIAEXAMPLE0RSR5IOBD",
+              "dst": "arn:aws:ec2:ap-northeast-2:123456789012:flow-log/fl-058f80ae06dddb80a",
+              "eventID": "0f283400-e551-4860-82c0-8962e00db3b2",
+              "api": "DeleteFlowLogs",
+              "refPath": "requestParameters.DeleteFlowLogsRequest.FlowLogId.content"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenario": "n3",
+      "required_targets": 3,
+      "required_accesses": 3,
+      "levels": {
+        "0": {
+          "target_hits": 1,
+          "access_hits": 0,
+          "target_recall": 0.3333333333333333,
+          "access_recall": 0.0,
+          "missing_targets": [
+            "arn:aws:cloudtrail:ap-northeast-2:123456789012:trail/stratus-red-team-cloudtraild-trail-kubpkmrgxs",
+            "arn:aws:iam::123456789012:user/svc-batch-user"
+          ],
+          "missing_accesses": [
+            [
+              "AKIAEXAMPLE0S52B6UE4",
+              "arn:aws:cloudtrail:ap-northeast-2:123456789012:trail/stratus-red-team-cloudtraild-trail-kubpkmrgxs",
+              "23c66fb1-dc84-4732-805c-a5b6129173ab"
+            ],
+            [
+              "AKIAEXAMPLE0S52B6UE4",
+              "arn:aws:iam::123456789012:user/finance-admin",
+              "49d91ed9-4c6a-4478-a707-6733af46ff25"
+            ],
+            [
+              "AKIAEXAMPLE0S52B6UE4",
+              "arn:aws:iam::123456789012:user/svc-batch-user",
+              "a37544bd-e8e0-44d7-b827-68ff39d079ee"
+            ]
+          ],
+          "matched_evidence": []
+        },
+        "3": {
+          "target_hits": 3,
+          "access_hits": 3,
+          "target_recall": 1.0,
+          "access_recall": 1.0,
+          "missing_targets": [],
+          "missing_accesses": [],
+          "matched_evidence": [
+            {
+              "src": "AKIAEXAMPLE0S52B6UE4",
+              "dst": "arn:aws:iam::123456789012:user/svc-batch-user",
+              "eventID": "a37544bd-e8e0-44d7-b827-68ff39d079ee",
+              "api": "CreateLoginProfile",
+              "refPath": "requestParameters.userName"
+            },
+            {
+              "src": "AKIAEXAMPLE0S52B6UE4",
+              "dst": "arn:aws:iam::123456789012:user/finance-admin",
+              "eventID": "49d91ed9-4c6a-4478-a707-6733af46ff25",
+              "api": "UpdateLoginProfile",
+              "refPath": "requestParameters.userName"
+            },
+            {
+              "src": "AKIAEXAMPLE0S52B6UE4",
+              "dst": "arn:aws:cloudtrail:ap-northeast-2:123456789012:trail/stratus-red-team-cloudtraild-trail-kubpkmrgxs",
+              "eventID": "23c66fb1-dc84-4732-805c-a5b6129173ab",
+              "api": "DeleteTrail",
+              "refPath": "requestParameters.name"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenario": "n4",
+      "required_targets": 3,
+      "required_accesses": 3,
+      "levels": {
+        "0": {
+          "target_hits": 3,
+          "access_hits": 2,
+          "target_recall": 1.0,
+          "access_recall": 0.6666666666666666,
+          "missing_targets": [],
+          "missing_accesses": [
+            [
+              "ASIAEXAMPLE0377HGFVC",
+              "arn:aws:iam::123456789012:role/tier2-admin-role",
+              "0140e32e-f328-4fc5-8984-63326b68a8df"
+            ]
+          ],
+          "matched_evidence": [
+            {
+              "src": "AKIAEXAMPLE0ZCUWMCHR",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:prod/db-master-8DQ43E",
+              "eventID": "e7319337-aab7-4841-9691-c254238d1768",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0ZCUWMCHR",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:prod/api-key-2OPzqU",
+              "eventID": "9fa6b1c5-108a-4d8c-a47b-48507d271592",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            }
+          ]
+        },
+        "3": {
+          "target_hits": 3,
+          "access_hits": 3,
+          "target_recall": 1.0,
+          "access_recall": 1.0,
+          "missing_targets": [],
+          "missing_accesses": [],
+          "matched_evidence": [
+            {
+              "src": "ASIAEXAMPLE0377HGFVC",
+              "dst": "arn:aws:iam::123456789012:role/tier2-admin-role",
+              "eventID": "0140e32e-f328-4fc5-8984-63326b68a8df",
+              "api": "UpdateAssumeRolePolicy",
+              "refPath": "requestParameters.roleName"
+            },
+            {
+              "src": "AKIAEXAMPLE0ZCUWMCHR",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:prod/db-master-8DQ43E",
+              "eventID": "e7319337-aab7-4841-9691-c254238d1768",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            },
+            {
+              "src": "AKIAEXAMPLE0ZCUWMCHR",
+              "dst": "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:prod/api-key-2OPzqU",
+              "eventID": "9fa6b1c5-108a-4d8c-a47b-48507d271592",
+              "api": "GetSecretValue",
+              "refPath": "resources[].ARN"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

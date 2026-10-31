@@ -1,0 +1,28 @@
+{
+  "from": "2026-09-10T06:13:00Z",
+  "to": "2026-09-10T06:14:00Z",
+  "account": "",
+  "resource": "",
+  "target_resource": "",
+  "event_id": "0140e32e-f328-4fc5-8984-63326b68a8df",
+  "key": "",
+  "include_inferred": false,
+  "row_limit": 100,
+  "anchor_apis": [
+    "StopLogging",
+    "DeleteTrail",
+    "DeleteFlowLogs",
+    "UpdateAssumeRolePolicy",
+    "CreateAccessKey",
+    "GetSecretValue",
+    "ModifySnapshotAttribute",
+    "DeleteObject",
+    "DeleteObjects"
+  ],
+  "effect_apis": [],
+  "control_apis": [
+    "SendCommand",
+    "SendSSHPublicKey"
+  ],
+  "require_same_source": true
+}

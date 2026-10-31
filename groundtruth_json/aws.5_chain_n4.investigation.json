@@ -1,0 +1,161 @@
+{
+  "_comment": "n4 조사 GT — 원본 로그·실행 기록 기준으로 버킷 고정(질의 결과에 맞추지 않음). 연결은 (rel,src,dst,evidence eventID) 튜플.",
+  "investigation_question": "tier2-admin-role 신뢰정책 변경 이벤트의 발급 계보와 후속 행위를 설명하라",
+  "anchor_event": "0140e32e-f328-4fc5-8984-63326b68a8df",
+  "window": {
+    "from": "2026-09-10T06:13:00Z",
+    "to": "2026-09-10T06:14:00Z"
+  },
+  "required_events": {
+    "f216ac9b-e902-4005-89c1-c7b11441fcb1": "AssumeRole: Cred1(SEAZXEHZ)->Cred2(377HGFVC)  (상류 발급 hop1)",
+    "0140e32e-f328-4fc5-8984-63326b68a8df": "UpdateAssumeRolePolicy: Cred2->tier2-admin-role (앵커: 정책 변경)",
+    "792f3408-70f0-4c9d-ab19-f985cd6fe616": "AssumeRole: Cred2->Cred3(7QBHVZLC) 동일역할 위임(발급 hop2)",
+    "4b056976-0f65-4f2d-88ad-b243e947167e": "CreateAccessKey: Cred3->Cred4(ZCUWMCHR) 백도어키 발급(hop3)",
+    "e7319337-aab7-4841-9691-c254238d1768": "GetSecretValue: Cred4->secret prod/db-master",
+    "9fa6b1c5-108a-4d8c-a47b-48507d271592": "GetSecretValue: Cred4->secret prod/api-key"
+  },
+  "required_connections": [
+    [
+      "OBTAINS",
+      "AKIAEXAMPLE0SEAZXEHZ",
+      "ASIAEXAMPLE0377HGFVC",
+      "f216ac9b-e902-4005-89c1-c7b11441fcb1"
+    ],
+    [
+      "CHANGE",
+      "ASIAEXAMPLE0377HGFVC",
+      "arn:aws:iam::123456789012:role/tier2-admin-role",
+      "0140e32e-f328-4fc5-8984-63326b68a8df"
+    ],
+    [
+      "OBTAINS",
+      "ASIAEXAMPLE0377HGFVC",
+      "ASIAEXAMPLE07QBHVZLC",
+      "792f3408-70f0-4c9d-ab19-f985cd6fe616"
+    ],
+    [
+      "OBTAINS",
+      "ASIAEXAMPLE07QBHVZLC",
+      "AKIAEXAMPLE0ZCUWMCHR",
+      "4b056976-0f65-4f2d-88ad-b243e947167e"
+    ],
+    [
+      "USE",
+      "AKIAEXAMPLE0ZCUWMCHR",
+      "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:prod/db-master-8DQ43E",
+      "e7319337-aab7-4841-9691-c254238d1768"
+    ],
+    [
+      "USE",
+      "AKIAEXAMPLE0ZCUWMCHR",
+      "arn:aws:secretsmanager:ap-northeast-2:123456789012:secret:prod/api-key-2OPzqU",
+      "9fa6b1c5-108a-4d8c-a47b-48507d271592"
+    ]
+  ],
+  "context_events": {
+    "c0f74667-f719-4427-bc4e-77251fb4bb1c": "CreateUser apt-chain-e-admin (백도어 사용자 생성; Cred3)",
+    "07281081-f176-4f20-b2db-e1b76b466410": "AttachUserPolicy apt-chain-e-admin (Cred3) — 있으면 유용, 필수 아님"
+  },
+  "entry_unlinkable": {
+    "f466bb81-298d-44e4-b7e5-23175ef9bf9b": "GetParameter /app/prod/deploy-key (Cred1 획득의 진입). 로그에 키값이 없어 어떤 그래프도 Cred1로 못 이음 → 미반환 감점 안 함"
+  },
+  "negative_controls_natural": {
+    "_note": "n4 원본 로그에 이미 존재하는 실데이터 대조. 합성 아님.",
+    "same_ip_unrelated_principal": {
+      "principal": "AKIAEXAMPLE07FWDD4TB",
+      "shared_ip": "203.0.113.10",
+      "events": [
+        "ac3a13fa",
+        "03f0ee65",
+        "3449f334",
+        "1e6988de",
+        "b54dc824",
+        "ca13eb96",
+        "f9406887",
+        "83f73c18"
+      ],
+      "why": "공격자와 같은 출구 IP를 쓰지만 발급 계보로 사건과 연결되지 않음 → '같은 IP≠연결' 검증"
+    }
+  },
+  "notes": [
+    "정책변경→위임 연결은 '동일 역할에 대한 시간 선행'까지만 정답(인과 아님).",
+    "USE 연결은 GetSecretValue(readOnly)로 §종단(노출) 규칙에 의한 도달이며 전이 간선이 아니다.",
+    "context/entry 이벤트는 정밀도 분모에서 제외(감점 아님), 포함량만 별도 보고."
+  ],
+  "context_connections": [
+    [
+      "USE",
+      "AKIAEXAMPLE0SEAZXEHZ",
+      "arn:aws:iam::123456789012:role/tier1-app-role",
+      "f216ac9b-e902-4005-89c1-c7b11441fcb1"
+    ],
+    [
+      "USE",
+      "ASIAEXAMPLE0377HGFVC",
+      "arn:aws:iam::123456789012:role/tier2-admin-role",
+      "792f3408-70f0-4c9d-ab19-f985cd6fe616"
+    ],
+    [
+      "USE",
+      "ASIAEXAMPLE07QBHVZLC",
+      "arn:aws:iam::123456789012:user/apt-chain-e-admin",
+      "c0f74667-f719-4427-bc4e-77251fb4bb1c"
+    ],
+    [
+      "USE",
+      "ASIAEXAMPLE07QBHVZLC",
+      "arn:aws:iam::123456789012:user/apt-chain-e-admin",
+      "07281081-f176-4f20-b2db-e1b76b466410"
+    ],
+    [
+      "USE",
+      "ASIAEXAMPLE07QBHVZLC",
+      "arn:aws:iam::aws:policy/AdministratorAccess",
+      "07281081-f176-4f20-b2db-e1b76b466410"
+    ],
+    [
+      "USE",
+      "ASIAEXAMPLE07QBHVZLC",
+      "arn:aws:iam::123456789012:user/apt-chain-e-admin",
+      "4b056976-0f65-4f2d-88ad-b243e947167e"
+    ]
+  ],
+  "temporal_constraints": [
+    [
+      "f216ac9b-e902-4005-89c1-c7b11441fcb1",
+      "0140e32e-f328-4fc5-8984-63326b68a8df"
+    ],
+    [
+      "0140e32e-f328-4fc5-8984-63326b68a8df",
+      "792f3408-70f0-4c9d-ab19-f985cd6fe616"
+    ],
+    [
+      "792f3408-70f0-4c9d-ab19-f985cd6fe616",
+      "4b056976-0f65-4f2d-88ad-b243e947167e"
+    ],
+    [
+      "4b056976-0f65-4f2d-88ad-b243e947167e",
+      "e7319337-aab7-4841-9691-c254238d1768"
+    ],
+    [
+      "4b056976-0f65-4f2d-88ad-b243e947167e",
+      "9fa6b1c5-108a-4d8c-a47b-48507d271592"
+    ]
+  ],
+  "same_role_checks": [
+    [
+      [
+        "CHANGE",
+        "ASIAEXAMPLE0377HGFVC",
+        "arn:aws:iam::123456789012:role/tier2-admin-role",
+        "0140e32e-f328-4fc5-8984-63326b68a8df"
+      ],
+      [
+        "USE",
+        "ASIAEXAMPLE0377HGFVC",
+        "arn:aws:iam::123456789012:role/tier2-admin-role",
+        "792f3408-70f0-4c9d-ab19-f985cd6fe616"
+      ]
+    ]
+  ]
+}

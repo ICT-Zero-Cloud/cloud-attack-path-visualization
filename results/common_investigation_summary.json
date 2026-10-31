@@ -1,0 +1,78 @@
+[
+  {
+    "scenario": "n1",
+    "window": {
+      "from": "2026-09-01T07:36:21Z",
+      "to": "2026-09-01T07:53:43Z"
+    },
+    "required_events": 55,
+    "event_hits": 55,
+    "required_connections": 55,
+    "connection_hits": 55,
+    "window_events": 129,
+    "proposed_events": 66,
+    "complete": true,
+    "reduction": 0.4883720930232558,
+    "observed_events": 4,
+    "observed_event_hits": 1,
+    "observed_connection_hits": 1,
+    "candidate_pairs": 1
+  },
+  {
+    "scenario": "n2",
+    "window": {
+      "from": "2026-09-07T05:22:03Z",
+      "to": "2026-09-07T05:44:12Z"
+    },
+    "required_events": 24,
+    "event_hits": 24,
+    "required_connections": 24,
+    "connection_hits": 24,
+    "window_events": 165,
+    "proposed_events": 31,
+    "complete": true,
+    "reduction": 0.8121212121212121,
+    "observed_events": 4,
+    "observed_event_hits": 2,
+    "observed_connection_hits": 2,
+    "candidate_pairs": 1
+  },
+  {
+    "scenario": "n3",
+    "window": {
+      "from": "2026-09-08T01:26:58Z",
+      "to": "2026-09-08T01:44:42Z"
+    },
+    "required_events": 9,
+    "event_hits": 5,
+    "required_connections": 9,
+    "connection_hits": 5,
+    "window_events": 138,
+    "proposed_events": 5,
+    "complete": false,
+    "reduction": null,
+    "observed_events": 5,
+    "observed_event_hits": 5,
+    "observed_connection_hits": 5,
+    "candidate_pairs": 0
+  },
+  {
+    "scenario": "n4",
+    "window": {
+      "from": "2026-09-10T06:07:14Z",
+      "to": "2026-09-10T06:22:04Z"
+    },
+    "required_events": 6,
+    "event_hits": 6,
+    "required_connections": 6,
+    "connection_hits": 6,
+    "window_events": 140,
+    "proposed_events": 8,
+    "complete": true,
+    "reduction": 0.9428571428571428,
+    "observed_events": 8,
+    "observed_event_hits": 6,
+    "observed_connection_hits": 6,
+    "candidate_pairs": 0
+  }
+]

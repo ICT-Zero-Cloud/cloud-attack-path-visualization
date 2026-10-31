@@ -1,0 +1,4756 @@
+{
+  "anchor": "5f835336-8de6-4b53-acdf-2b9398d6e127",
+  "window": {
+    "from": "2026-09-01T07:36:21Z",
+    "to": "2026-09-01T07:53:43Z"
+  },
+  "dataset_events": 129,
+  "window_events": 129,
+  "strategies": {
+    "time_window": {
+      "returned_events": 129,
+      "returned_connections": 215,
+      "events": {
+        "precision": 0.4700854700854701,
+        "recall": 1.0,
+        "f1": 0.6395348837209301,
+        "hits": 55,
+        "required": 55,
+        "false": 62,
+        "context": 12
+      },
+      "connections": {
+        "precision": 0.3793103448275862,
+        "recall": 1.0,
+        "f1": 0.5499999999999999,
+        "hits": 55,
+        "required": 55,
+        "false": 90,
+        "context": 70
+      },
+      "context_events": 12,
+      "boundary_events": 0,
+      "checks": {
+        "5f835336-8de6-4b53-acdf-2b9398d6e127 <= 83bcb124-93d5-4caa-9846-b3a0a13a21c7": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7e88ae0a-f677-44a9-a588-bf8823de324d": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2f2af8d5-993d-4a5b-8e47-33fc3437df52": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3f62e914-2293-4d7d-bd76-515f10d8b2dc": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 873840fc-58c3-4ae4-b708-db7103b85afb": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 0de83bc9-f918-438b-8701-79328c7ee85e": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1058de24-bb45-4a6b-8379-d3cc1b2cec55": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 140087b8-b041-40b0-86dc-4b98bdec57cb": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 14693c0b-d3ea-4417-acad-119b148acd3b": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 17730684-3592-44fb-a0d0-8cfde9ee2b73": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1fdce355-50c3-4bd6-b8bd-ca31313b92d3": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 262052ae-2a81-4c08-bcff-cdc512bbfd8e": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2a5e2601-14be-4542-8c01-6c9a1573efb3": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2ee1de62-e092-45fb-b5fe-99fa7aac4bc8": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3274bb88-427e-4228-9e5d-f34b43bd15a9": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 330833d1-6c80-49f0-9ca0-4253b9251c57": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 39929415-243a-4e9c-a86b-942031ccdd4c": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3befffc1-73e1-4bdc-b86e-9c684b38994d": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 449afbfc-1bc2-41f3-8440-ab75222bd77c": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4613867a-24be-456e-b146-cb449bc3c659": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 49f117ac-46b6-42ef-8d3f-fed961784a5d": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4b499131-70f8-41ea-9a33-77a5be038cc8": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4c816ce9-aded-4341-8179-83b629adcdcd": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 51c2e020-87be-402a-9d04-6342375c045e": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 55cf7290-ad12-4f90-bc50-1f1d02f75d79": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 5a5db5c6-4045-432b-bdee-301ce54aae69": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 625816be-f246-45e7-8833-739b80ec0471": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 62a0d97d-853f-4b3a-ac21-78c648ef1ea7": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 640acd3c-2ba4-4071-b9d6-8107f6810720": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 654ffd0d-670f-4169-89ba-357b61c32a9b": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 65c77fb8-8e16-4098-8fee-e53958e5844e": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 6a5cad4b-e090-40ee-a2a9-6a92d587a9ee": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 70e9a026-c627-46cc-9a07-e9bd6ef722d4": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 72990315-c377-47fc-b727-f2beff59db0b": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7f068b00-eedc-46ac-9bd2-3764526c6641": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 8e7405db-6137-4e52-af23-b54efe805b90": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 95ea2a12-01f7-4f8c-b134-24c018075aef": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9d3de1a5-d18a-4b5f-bf88-50b31b745e73": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= aab29618-392c-4144-9e34-b09b96064586": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ac57fe8e-b4b3-46db-9a87-eab2f0f23c67": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b178061d-19f4-41b5-ae69-f6dce8c6fcfe": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= bca86b17-be7f-457a-b765-971f671a22ce": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= be32e8ff-09a5-4e83-bff3-e89883c6421d": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c18bb089-138d-45f6-a5d3-d1eba9306852": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c217dd91-cdc8-4704-ad5b-4bcdf8b3355e": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c2ba8660-e422-43bf-aba2-705dfcb66143": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c4389e29-0724-416a-a736-095cabf22b21": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= df648e58-c9fe-42ee-a71f-9c67d2040277": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ee549859-b2fa-45fb-a97c-fcaa1d90d437": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f1a09b3c-61d4-416b-b089-145ba9aedf23": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f714d538-7c08-4494-8e42-8ba5c10f0fb5": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f9582f55-7275-49d0-9b65-8ec6a93c6f44": true
+      },
+      "complete": true,
+      "event_ids": [
+        "08883ab5-b871-4e2d-baab-ac4df9664fbd",
+        "08a21891-afc8-4f89-80e8-7325ac76d11f",
+        "09737428-1818-3118-a077-c9528ae71a39",
+        "0985a984-852f-48cf-a681-b71a1e58d8dd",
+        "0de83bc9-f918-438b-8701-79328c7ee85e",
+        "1058de24-bb45-4a6b-8379-d3cc1b2cec55",
+        "140087b8-b041-40b0-86dc-4b98bdec57cb",
+        "14693c0b-d3ea-4417-acad-119b148acd3b",
+        "15384c6b-b0c3-40e5-8007-6e54b6a1922e",
+        "17730684-3592-44fb-a0d0-8cfde9ee2b73",
+        "17ab0866-09ba-45b4-b2af-aa5777450b18",
+        "17b46d7e-591c-44dc-ba42-a22b57e5dc3b",
+        "1c3d77ab-55a0-3851-8542-e19d9e7f5a55",
+        "1cf13f5b-83c0-4288-a170-700eb368b080",
+        "1fdce355-50c3-4bd6-b8bd-ca31313b92d3",
+        "24b2e968-01ec-412f-bbb7-118493145dbd",
+        "262052ae-2a81-4c08-bcff-cdc512bbfd8e",
+        "28c862d1-fd7f-4fc4-949e-51a8e2fd2e82",
+        "2a5e2601-14be-4542-8c01-6c9a1573efb3",
+        "2ee1de62-e092-45fb-b5fe-99fa7aac4bc8",
+        "2f2af8d5-993d-4a5b-8e47-33fc3437df52",
+        "2f4788af-2680-41d4-b486-e054d2d6b702",
+        "3274bb88-427e-4228-9e5d-f34b43bd15a9",
+        "330833d1-6c80-49f0-9ca0-4253b9251c57",
+        "395243a3-9f16-4066-960b-771fce7e626a",
+        "39929415-243a-4e9c-a86b-942031ccdd4c",
+        "3befffc1-73e1-4bdc-b86e-9c684b38994d",
+        "3f62e914-2293-4d7d-bd76-515f10d8b2dc",
+        "40237724-af19-42d9-afd4-cdac94b088ec",
+        "449afbfc-1bc2-41f3-8440-ab75222bd77c",
+        "4613867a-24be-456e-b146-cb449bc3c659",
+        "49f117ac-46b6-42ef-8d3f-fed961784a5d",
+        "4aa17d48-b3d1-3603-881a-5ada47213b5c",
+        "4b499131-70f8-41ea-9a33-77a5be038cc8",
+        "4c816ce9-aded-4341-8179-83b629adcdcd",
+        "51a219d5-e3ca-4df0-b135-60335ad5d1a2",
+        "51c2e020-87be-402a-9d04-6342375c045e",
+        "51d34c48-d4dc-4a6e-b5db-09aea44a550c",
+        "52192748-8302-4b38-85aa-8f068ffb9c3e",
+        "5231dfac-09bb-4a22-9da3-bde2337d112f",
+        "55cf7290-ad12-4f90-bc50-1f1d02f75d79",
+        "58d64500-ff51-3762-82f0-929c962c1423",
+        "5a5db5c6-4045-432b-bdee-301ce54aae69",
+        "5f835336-8de6-4b53-acdf-2b9398d6e127",
+        "60c67860-bf13-47b1-8847-cc36a1fe7f12",
+        "625816be-f246-45e7-8833-739b80ec0471",
+        "62a0d97d-853f-4b3a-ac21-78c648ef1ea7",
+        "640acd3c-2ba4-4071-b9d6-8107f6810720",
+        "654ffd0d-670f-4169-89ba-357b61c32a9b",
+        "65c77fb8-8e16-4098-8fee-e53958e5844e",
+        "69158379-7fbf-4ffd-ac1d-78f0bbb0b443",
+        "6a5cad4b-e090-40ee-a2a9-6a92d587a9ee",
+        "6c3408f8-d9c0-3666-801d-b4a083fc508f",
+        "6eebdafb-9b8f-413f-8a6b-9bfd8d0dd47f",
+        "70586366-4b0e-455a-8670-2ffb587ad06f",
+        "70e9a026-c627-46cc-9a07-e9bd6ef722d4",
+        "72990315-c377-47fc-b727-f2beff59db0b",
+        "73af3974-9e21-4593-b604-72085e94d0f8",
+        "77bb264a-c06d-4563-8e83-452b3cb5b570",
+        "7c13b07a-c0ab-47a8-8b9e-68b8150c867e",
+        "7e88ae0a-f677-44a9-a588-bf8823de324d",
+        "7ed37d5c-86e8-4bdb-937c-ee3e79f0d890",
+        "7f068b00-eedc-46ac-9bd2-3764526c6641",
+        "8010bd61-fb0b-4c58-af07-eb8544f66fa3",
+        "8297902b-5a49-457c-927b-03c824f8cbcc",
+        "8341c12d-6657-44b8-b5fe-9d6093695344",
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7",
+        "85b45396-e020-48f3-ba3f-2fa378e1d5c1",
+        "873840fc-58c3-4ae4-b708-db7103b85afb",
+        "88c2e2cc-2a72-4a95-ab9a-bc8eb44a6275",
+        "8ab82bbd-fe3b-3763-a485-0ff481f57225",
+        "8aecd5e1-2fe5-4917-97d9-9bf18986bed2",
+        "8cc1c936-7574-3a80-a2a5-1de7b8149efb",
+        "8e51f6a0-ba8a-4eeb-867e-bb8129202559",
+        "8e7405db-6137-4e52-af23-b54efe805b90",
+        "8f3d037d-639a-477c-95d5-06600fcf2ca8",
+        "957f0f8e-ce01-35d0-9158-ea5680338d7a",
+        "95ea2a12-01f7-4f8c-b134-24c018075aef",
+        "972b8c9c-b427-45fc-b04b-2a59d277c782",
+        "9901cfd3-6487-4c69-82ea-17bf7f3a882c",
+        "99a4d055-1911-42e5-89f8-1b185d2370a5",
+        "9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07",
+        "9d3de1a5-d18a-4b5f-bf88-50b31b745e73",
+        "a1e6113a-307e-4d30-8af4-9c45a2a50487",
+        "a52a8df9-192d-46d8-8061-82312b9f5075",
+        "a73cf148-89f7-34a3-83a5-c38176f39c70",
+        "a83c082a-3ebd-401d-8ab8-4c9bfed64c57",
+        "aab29618-392c-4144-9e34-b09b96064586",
+        "ac57fe8e-b4b3-46db-9a87-eab2f0f23c67",
+        "ad70c92c-ad6d-4f74-a783-9c5082aea02a",
+        "b178061d-19f4-41b5-ae69-f6dce8c6fcfe",
+        "b41df3b1-f2af-4a9c-8e6c-1dce842bc46f",
+        "b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9",
+        "bc41e65f-2ecd-31b7-a309-3e53ed33ef27",
+        "bca86b17-be7f-457a-b765-971f671a22ce",
+        "bd6db395-c87f-4506-aa0f-4f45f29e2f00",
+        "bda67936-4b11-454e-a6a6-8ff6e78635ea",
+        "be32e8ff-09a5-4e83-bff3-e89883c6421d",
+        "c18bb089-138d-45f6-a5d3-d1eba9306852",
+        "c217dd91-cdc8-4704-ad5b-4bcdf8b3355e",
+        "c2ba8660-e422-43bf-aba2-705dfcb66143",
+        "c391bc03-be39-4423-8b93-2aff4f9ec238",
+        "c4389e29-0724-416a-a736-095cabf22b21",
+        "c4d5441b-aaa8-48d4-a080-cef2cc2e3f2f",
+        "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c",
+        "c7f454cf-a427-447c-8253-dd1bb16bf1db",
+        "c82dfb04-c38a-4acc-af55-10f20398c690",
+        "c90be6e7-a86c-4a3a-94d9-4342db951bcc",
+        "caed0b8e-18d1-4ebd-9792-fc0e34166f28",
+        "cc8a4414-d993-3074-b08c-a240bf6dffd1",
+        "d5685615-33e7-3c2e-b93c-023fada963b7",
+        "d8ee9f32-35de-482e-b34a-35748291ca3a",
+        "d9550e0f-64ea-3f4a-966c-f2b439c24ed5",
+        "ddc7648c-332e-4827-a862-edcea15b4d47",
+        "df648e58-c9fe-42ee-a71f-9c67d2040277",
+        "dfe92efd-3f72-4cec-902b-7ef42b29f6ab",
+        "e5806af2-15ed-375e-8d82-d2cacf4aa2c2",
+        "e5d18a42-5375-4928-8253-ce7071695daf",
+        "e5db1222-e97c-3dee-92df-f83a4b94cf42",
+        "ec151a0e-c46e-3262-8e96-27ab3ff4bbba",
+        "ee549859-b2fa-45fb-a97c-fcaa1d90d437",
+        "f1a09b3c-61d4-416b-b089-145ba9aedf23",
+        "f379831b-f0a1-49b6-a99f-e7edf3841e50",
+        "f714d538-7c08-4494-8e42-8ba5c10f0fb5",
+        "f8fbcd10-96ec-4822-836c-3ef075ae6046",
+        "f9582f55-7275-49d0-9b65-8ec6a93c6f44",
+        "fb32f111-468e-4404-832c-f59815a6b993",
+        "fb8321e7-df05-4b15-99b7-639c28db3665",
+        "fc8ab9e4-9712-484e-a9d6-2f0c90251bf9"
+      ],
+      "connection_tuples": [
+        [
+          "OBTAINS",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "83bcb124-93d5-4caa-9846-b3a0a13a21c7"
+        ],
+        [
+          "OBTAINS",
+          "svc:resource-explorer-2.amazonaws.com",
+          "ASIAEXAMPLE0UGQ33UQ6",
+          "d9550e0f-64ea-3f4a-966c-f2b439c24ed5"
+        ],
+        [
+          "OBTAINS",
+          "svc:resource-explorer-2.amazonaws.com",
+          "ASIAEXAMPLE0X5T4NSSE",
+          "e5806af2-15ed-375e-8d82-d2cacf4aa2c2"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-document/AWS-RunShellScript",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "cloudtrail.amazonaws.com",
+          "7c13b07a-c0ab-47a8-8b9e-68b8150c867e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "ec2.amazonaws.com",
+          "51d34c48-d4dc-4a6e-b5db-09aea44a550c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "s3.amazonaws.com",
+          "08883ab5-b871-4e2d-baab-ac4df9664fbd"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:cloudtrail:ap-northeast-2:123456789012:trail/stratus-red-team-ct-stop-trail-vecwevjkkr",
+          "7e88ae0a-f677-44a9-a588-bf8823de324d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "0de83bc9-f918-438b-8701-79328c7ee85e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "1058de24-bb45-4a6b-8379-d3cc1b2cec55"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "140087b8-b041-40b0-86dc-4b98bdec57cb"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "14693c0b-d3ea-4417-acad-119b148acd3b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "17730684-3592-44fb-a0d0-8cfde9ee2b73"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "1fdce355-50c3-4bd6-b8bd-ca31313b92d3"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "262052ae-2a81-4c08-bcff-cdc512bbfd8e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "2a5e2601-14be-4542-8c01-6c9a1573efb3"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "2ee1de62-e092-45fb-b5fe-99fa7aac4bc8"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "2f2af8d5-993d-4a5b-8e47-33fc3437df52"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "3274bb88-427e-4228-9e5d-f34b43bd15a9"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "330833d1-6c80-49f0-9ca0-4253b9251c57"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "39929415-243a-4e9c-a86b-942031ccdd4c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "3befffc1-73e1-4bdc-b86e-9c684b38994d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "3f62e914-2293-4d7d-bd76-515f10d8b2dc"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "449afbfc-1bc2-41f3-8440-ab75222bd77c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "4613867a-24be-456e-b146-cb449bc3c659"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "49f117ac-46b6-42ef-8d3f-fed961784a5d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "4b499131-70f8-41ea-9a33-77a5be038cc8"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "4c816ce9-aded-4341-8179-83b629adcdcd"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "51c2e020-87be-402a-9d04-6342375c045e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "55cf7290-ad12-4f90-bc50-1f1d02f75d79"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "5a5db5c6-4045-432b-bdee-301ce54aae69"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "625816be-f246-45e7-8833-739b80ec0471"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "62a0d97d-853f-4b3a-ac21-78c648ef1ea7"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "640acd3c-2ba4-4071-b9d6-8107f6810720"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "654ffd0d-670f-4169-89ba-357b61c32a9b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "65c77fb8-8e16-4098-8fee-e53958e5844e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "6a5cad4b-e090-40ee-a2a9-6a92d587a9ee"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "70e9a026-c627-46cc-9a07-e9bd6ef722d4"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "72990315-c377-47fc-b727-f2beff59db0b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "7f068b00-eedc-46ac-9bd2-3764526c6641"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "873840fc-58c3-4ae4-b708-db7103b85afb"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "8e7405db-6137-4e52-af23-b54efe805b90"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "95ea2a12-01f7-4f8c-b134-24c018075aef"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "9d3de1a5-d18a-4b5f-bf88-50b31b745e73"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "aab29618-392c-4144-9e34-b09b96064586"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "ac57fe8e-b4b3-46db-9a87-eab2f0f23c67"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "b178061d-19f4-41b5-ae69-f6dce8c6fcfe"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "bca86b17-be7f-457a-b765-971f671a22ce"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "bd6db395-c87f-4506-aa0f-4f45f29e2f00"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "be32e8ff-09a5-4e83-bff3-e89883c6421d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "c18bb089-138d-45f6-a5d3-d1eba9306852"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "c217dd91-cdc8-4704-ad5b-4bcdf8b3355e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "c2ba8660-e422-43bf-aba2-705dfcb66143"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "c4389e29-0724-416a-a736-095cabf22b21"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "df648e58-c9fe-42ee-a71f-9c67d2040277"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "ee549859-b2fa-45fb-a97c-fcaa1d90d437"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "f1a09b3c-61d4-416b-b089-145ba9aedf23"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "f714d538-7c08-4494-8e42-8ba5c10f0fb5"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "f9582f55-7275-49d0-9b65-8ec6a93c6f44"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/aerospace_busload.sql",
+          "2f2af8d5-993d-4a5b-8e47-33fc3437df52"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/among_truth.sql",
+          "3f62e914-2293-4d7d-bd76-515f10d8b2dc"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/balsamic voyage.docx",
+          "62a0d97d-853f-4b3a-ac21-78c648ef1ea7"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/bonelike curliness.tar.gz",
+          "df648e58-c9fe-42ee-a71f-9c67d2040277"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/bonelike freebee.txt",
+          "1058de24-bb45-4a6b-8379-d3cc1b2cec55"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/carton_ditto.tar.gz",
+          "654ffd0d-670f-4169-89ba-357b61c32a9b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/catapult-appease.pdf",
+          "3274bb88-427e-4228-9e5d-f34b43bd15a9"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/cesarean take.tar.gz",
+          "f1a09b3c-61d4-416b-b089-145ba9aedf23"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chair-freewill.png",
+          "9d3de1a5-d18a-4b5f-bf88-50b31b745e73"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chevy preset.sql",
+          "c217dd91-cdc8-4704-ad5b-4bcdf8b3355e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chevy-blunt.txt",
+          "be32e8ff-09a5-4e83-bff3-e89883c6421d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chewy uncross.sql",
+          "b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/connected_paging.tar.gz",
+          "7f068b00-eedc-46ac-9bd2-3764526c6641"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/crabbing-underage.png",
+          "4b499131-70f8-41ea-9a33-77a5be038cc8"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/curliness_unheard.sql",
+          "ee549859-b2fa-45fb-a97c-fcaa1d90d437"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/designer-pueblo.docx",
+          "c2ba8660-e422-43bf-aba2-705dfcb66143"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/dexterous_truth.txt",
+          "1fdce355-50c3-4bd6-b8bd-ca31313b92d3"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/distrust-gliding.docx",
+          "14693c0b-d3ea-4417-acad-119b148acd3b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/divisive-freebee.pdf",
+          "51c2e020-87be-402a-9d04-6342375c045e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/dullness-bondless.docx",
+          "449afbfc-1bc2-41f3-8440-ab75222bd77c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/egotistic yoga.tar.gz",
+          "55cf7290-ad12-4f90-bc50-1f1d02f75d79"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/flashy unfasten.pdf",
+          "bca86b17-be7f-457a-b765-971f671a22ce"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/glowing ignition.txt",
+          "330833d1-6c80-49f0-9ca0-4253b9251c57"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/happily-crablike.pdf",
+          "2a5e2601-14be-4542-8c01-6c9a1573efb3"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/hardhead_underage.png",
+          "39929415-243a-4e9c-a86b-942031ccdd4c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/mountable-net.pdf",
+          "0de83bc9-f918-438b-8701-79328c7ee85e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/niece-hulk.sql",
+          "640acd3c-2ba4-4071-b9d6-8107f6810720"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/outlet-sitcom.docx",
+          "4c816ce9-aded-4341-8179-83b629adcdcd"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/output tamper.txt",
+          "65c77fb8-8e16-4098-8fee-e53958e5844e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/overbid_repeal.docx",
+          "6a5cad4b-e090-40ee-a2a9-6a92d587a9ee"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/pouring dullness.txt",
+          "17730684-3592-44fb-a0d0-8cfde9ee2b73"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/prodigy dropbox.sql",
+          "140087b8-b041-40b0-86dc-4b98bdec57cb"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/prodigy_carton.txt",
+          "f714d538-7c08-4494-8e42-8ba5c10f0fb5"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/railcar wiring.pdf",
+          "c4389e29-0724-416a-a736-095cabf22b21"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/recount-chair.sql",
+          "4613867a-24be-456e-b146-cb449bc3c659"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/sandbag-margarine.sql",
+          "9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/secret_decade.tar.gz",
+          "262052ae-2a81-4c08-bcff-cdc512bbfd8e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/secret_survivor.png",
+          "625816be-f246-45e7-8833-739b80ec0471"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/silenced recount.pdf",
+          "c18bb089-138d-45f6-a5d3-d1eba9306852"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/treading waviness.txt",
+          "49f117ac-46b6-42ef-8d3f-fed961784a5d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/trickster connected.png",
+          "ac57fe8e-b4b3-46db-9a87-eab2f0f23c67"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/twisted-fantasy.sql",
+          "8e7405db-6137-4e52-af23-b54efe805b90"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unexpired_undiluted.tar.gz",
+          "95ea2a12-01f7-4f8c-b134-24c018075aef"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unvarying tweed.docx",
+          "2ee1de62-e092-45fb-b5fe-99fa7aac4bc8"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unvarying-camcorder.docx",
+          "3befffc1-73e1-4bdc-b86e-9c684b38994d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unwed-unlatch.sql",
+          "5a5db5c6-4045-432b-bdee-301ce54aae69"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/usher-dullness.txt",
+          "aab29618-392c-4144-9e34-b09b96064586"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/usher-licking.txt",
+          "f9582f55-7275-49d0-9b65-8ec6a93c6f44"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/vaguely-willing.sql",
+          "70e9a026-c627-46cc-9a07-e9bd6ef722d4"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/wife_brook.sql",
+          "72990315-c377-47fc-b727-f2beff59db0b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/yoga repeal.txt",
+          "873840fc-58c3-4ae4-b708-db7103b85afb"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "08a21891-afc8-4f89-80e8-7325ac76d11f"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "17ab0866-09ba-45b4-b2af-aa5777450b18"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "2f4788af-2680-41d4-b486-e054d2d6b702"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "395243a3-9f16-4066-960b-771fce7e626a"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "5231dfac-09bb-4a22-9da3-bde2337d112f"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "60c67860-bf13-47b1-8847-cc36a1fe7f12"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "69158379-7fbf-4ffd-ac1d-78f0bbb0b443"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "73af3974-9e21-4593-b604-72085e94d0f8"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "77bb264a-c06d-4563-8e83-452b3cb5b570"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "7ed37d5c-86e8-4bdb-937c-ee3e79f0d890"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "8010bd61-fb0b-4c58-af07-eb8544f66fa3"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "8f3d037d-639a-477c-95d5-06600fcf2ca8"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "972b8c9c-b427-45fc-b04b-2a59d277c782"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "a1e6113a-307e-4d30-8af4-9c45a2a50487"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "a83c082a-3ebd-401d-8ab8-4c9bfed64c57"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "ad70c92c-ad6d-4f74-a783-9c5082aea02a"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "c391bc03-be39-4423-8b93-2aff4f9ec238"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "c4d5441b-aaa8-48d4-a080-cef2cc2e3f2f"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "c7f454cf-a427-447c-8253-dd1bb16bf1db"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "e5d18a42-5375-4928-8253-ce7071695daf"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "f379831b-f0a1-49b6-a99f-e7edf3841e50"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NBROQB3",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "fb32f111-468e-4404-832c-f59815a6b993"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NQLO4AA",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "51a219d5-e3ca-4df0-b135-60335ad5d1a2"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NQLO4AA",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "85b45396-e020-48f3-ba3f-2fa378e1d5c1"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NQLO4AA",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "99a4d055-1911-42e5-89f8-1b185d2370a5"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NQLO4AA",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "c82dfb04-c38a-4acc-af55-10f20398c690"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE04NQLO4AA",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "d8ee9f32-35de-482e-b34a-35748291ca3a"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0RM2DWWNR",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "8aecd5e1-2fe5-4917-97d9-9bf18986bed2"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0RM2DWWNR",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "bda67936-4b11-454e-a6a6-8ff6e78635ea"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0T7CPURD6",
+          "notifications.amazonaws.com",
+          "b41df3b1-f2af-4a9c-8e6c-1dce842bc46f"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0T7CPURD6",
+          "notifications.amazonaws.com",
+          "c90be6e7-a86c-4a3a-94d9-4342db951bcc"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0T7CPURD6",
+          "notifications.amazonaws.com",
+          "dfe92efd-3f72-4cec-902b-7ef42b29f6ab"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0TNB4MGU5",
+          "notifications.amazonaws.com",
+          "0985a984-852f-48cf-a681-b71a1e58d8dd"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0UGQ33UQ6",
+          "cloudtrail.amazonaws.com",
+          "f8fbcd10-96ec-4822-836c-3ef075ae6046"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0VQ53M4DQ",
+          "notifications.amazonaws.com",
+          "1cf13f5b-83c0-4288-a170-700eb368b080"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0VQ53M4DQ",
+          "notifications.amazonaws.com",
+          "28c862d1-fd7f-4fc4-949e-51a8e2fd2e82"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0VQ53M4DQ",
+          "notifications.amazonaws.com",
+          "52192748-8302-4b38-85aa-8f068ffb9c3e"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0VQ53M4DQ",
+          "notifications.amazonaws.com",
+          "8e51f6a0-ba8a-4eeb-867e-bb8129202559"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0X5T4NSSE",
+          "cloudtrail.amazonaws.com",
+          "15384c6b-b0c3-40e5-8007-6e54b6a1922e"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "17b46d7e-591c-44dc-ba42-a22b57e5dc3b"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "6eebdafb-9b8f-413f-8a6b-9bfd8d0dd47f"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "8297902b-5a49-457c-927b-03c824f8cbcc"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "8341c12d-6657-44b8-b5fe-9d6093695344"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "fb8321e7-df05-4b15-99b7-639c28db3665"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "40237724-af19-42d9-afd4-cdac94b088ec"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "83bcb124-93d5-4caa-9846-b3a0a13a21c7"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "ddc7648c-332e-4827-a862-edcea15b4d47"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::aws:policy/AdministratorAccess",
+          "40237724-af19-42d9-afd4-cdac94b088ec"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "88c2e2cc-2a72-4a95-ab9a-bc8eb44a6275"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "iam.amazonaws.com",
+          "24b2e968-01ec-412f-bbb7-118493145dbd"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "iam.amazonaws.com",
+          "9901cfd3-6487-4c69-82ea-17bf7f3a882c"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "s3.amazonaws.com",
+          "fc8ab9e4-9712-484e-a9d6-2f0c90251bf9"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "sts.amazonaws.com",
+          "70586366-4b0e-455a-8670-2ffb587ad06f"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "1c3d77ab-55a0-3851-8542-e19d9e7f5a55"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "4aa17d48-b3d1-3603-881a-5ada47213b5c"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "58d64500-ff51-3762-82f0-929c962c1423"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "6c3408f8-d9c0-3666-801d-b4a083fc508f"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "8cc1c936-7574-3a80-a2a5-1de7b8149efb"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "a73cf148-89f7-34a3-83a5-c38176f39c70"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "bc41e65f-2ecd-31b7-a309-3e53ed33ef27"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "cc8a4414-d993-3074-b08c-a240bf6dffd1"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "d5685615-33e7-3c2e-b93c-023fada963b7"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "e5db1222-e97c-3dee-92df-f83a4b94cf42"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543",
+          "ec151a0e-c46e-3262-8e96-27ab3ff4bbba"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0740Z_Y02tZHP6E4V6jf54.json.gz",
+          "cc8a4414-d993-3074-b08c-a240bf6dffd1"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0745Z_8Iw9nJuyPTIHAZUa.json.gz",
+          "4aa17d48-b3d1-3603-881a-5ada47213b5c"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0745Z_eM3IXD8ctDxb9UTd.json.gz",
+          "58d64500-ff51-3762-82f0-929c962c1423"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0750Z_AqDlBtUsstw3ncbp.json.gz",
+          "a73cf148-89f7-34a3-83a5-c38176f39c70"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0750Z_bSJIC1BE0bBatMPW.json.gz",
+          "d5685615-33e7-3c2e-b93c-023fada963b7"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0755Z_nrOJ1R3kSUwsuo9Q.json.gz",
+          "8cc1c936-7574-3a80-a2a5-1de7b8149efb"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/us-east-1/2026/09/01/123456789012_CloudTrail_us-east-1_20260901T0745Z_NP9Ay987G9OtzmnP.json.gz",
+          "bc41e65f-2ecd-31b7-a309-3e53ed33ef27"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/us-east-1/2026/09/01/123456789012_CloudTrail_us-east-1_20260901T0750Z_6jxmEIOAGYdPQDF2.json.gz",
+          "e5db1222-e97c-3dee-92df-f83a4b94cf42"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/us-east-1/2026/09/01/123456789012_CloudTrail_us-east-1_20260901T0755Z_GeJHYBvLVKeZMYiz.json.gz",
+          "1c3d77ab-55a0-3851-8542-e19d9e7f5a55"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::stratus-red-team-ct-stop-bucket-vecwevjkkr",
+          "09737428-1818-3118-a077-c9528ae71a39"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::stratus-red-team-ct-stop-bucket-vecwevjkkr",
+          "8ab82bbd-fe3b-3763-a485-0ff481f57225"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::stratus-red-team-ct-stop-bucket-vecwevjkkr",
+          "957f0f8e-ce01-35d0-9158-ea5680338d7a"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::stratus-red-team-ct-stop-bucket-vecwevjkkr/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0740Z_UpbJ36Ih8zg6gTab.json.gz",
+          "957f0f8e-ce01-35d0-9158-ea5680338d7a"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::stratus-red-team-ct-stop-bucket-vecwevjkkr/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0740Z_snlej5zflHsoMfyA.json.gz",
+          "09737428-1818-3118-a077-c9528ae71a39"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:::stratus-red-team-ct-stop-bucket-vecwevjkkr/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0745Z_R5tM7MRWmZJ0Kkqh.json.gz",
+          "8ab82bbd-fe3b-3763-a485-0ff481f57225"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:ap-northeast-2:123456789012:object/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0740Z_UpbJ36Ih8zg6gTab.json.gz",
+          "957f0f8e-ce01-35d0-9158-ea5680338d7a"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:ap-northeast-2:123456789012:object/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0740Z_Y02tZHP6E4V6jf54.json.gz",
+          "cc8a4414-d993-3074-b08c-a240bf6dffd1"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:ap-northeast-2:123456789012:object/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0740Z_snlej5zflHsoMfyA.json.gz",
+          "09737428-1818-3118-a077-c9528ae71a39"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:ap-northeast-2:123456789012:object/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0745Z_8Iw9nJuyPTIHAZUa.json.gz",
+          "4aa17d48-b3d1-3603-881a-5ada47213b5c"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:ap-northeast-2:123456789012:object/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0745Z_R5tM7MRWmZJ0Kkqh.json.gz",
+          "8ab82bbd-fe3b-3763-a485-0ff481f57225"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:ap-northeast-2:123456789012:object/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0745Z_eM3IXD8ctDxb9UTd.json.gz",
+          "58d64500-ff51-3762-82f0-929c962c1423"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:ap-northeast-2:123456789012:object/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0750Z_AqDlBtUsstw3ncbp.json.gz",
+          "a73cf148-89f7-34a3-83a5-c38176f39c70"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:ap-northeast-2:123456789012:object/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0750Z_bSJIC1BE0bBatMPW.json.gz",
+          "d5685615-33e7-3c2e-b93c-023fada963b7"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:ap-northeast-2:123456789012:object/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0755Z_nrOJ1R3kSUwsuo9Q.json.gz",
+          "8cc1c936-7574-3a80-a2a5-1de7b8149efb"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:ap-northeast-2:123456789012:object/AWSLogs/123456789012/CloudTrail/us-east-1/2026/09/01/123456789012_CloudTrail_us-east-1_20260901T0745Z_NP9Ay987G9OtzmnP.json.gz",
+          "bc41e65f-2ecd-31b7-a309-3e53ed33ef27"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:ap-northeast-2:123456789012:object/AWSLogs/123456789012/CloudTrail/us-east-1/2026/09/01/123456789012_CloudTrail_us-east-1_20260901T0750Z_6jxmEIOAGYdPQDF2.json.gz",
+          "e5db1222-e97c-3dee-92df-f83a4b94cf42"
+        ],
+        [
+          "USE",
+          "svc:cloudtrail.amazonaws.com",
+          "arn:aws:s3:ap-northeast-2:123456789012:object/AWSLogs/123456789012/CloudTrail/us-east-1/2026/09/01/123456789012_CloudTrail_us-east-1_20260901T0755Z_GeJHYBvLVKeZMYiz.json.gz",
+          "1c3d77ab-55a0-3851-8542-e19d9e7f5a55"
+        ],
+        [
+          "USE",
+          "svc:resource-explorer-2.amazonaws.com",
+          "arn:aws:iam::123456789012:role/AWSServiceRoleForResourceExplorer",
+          "d9550e0f-64ea-3f4a-966c-f2b439c24ed5"
+        ],
+        [
+          "USE",
+          "svc:resource-explorer-2.amazonaws.com",
+          "arn:aws:iam::123456789012:role/AWSServiceRoleForResourceExplorer",
+          "e5806af2-15ed-375e-8d82-d2cacf4aa2c2"
+        ],
+        [
+          "USE",
+          "svc:resource-explorer-2.amazonaws.com",
+          "arn:aws:iam::123456789012:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+          "d9550e0f-64ea-3f4a-966c-f2b439c24ed5"
+        ],
+        [
+          "USE",
+          "svc:resource-explorer-2.amazonaws.com",
+          "arn:aws:iam::123456789012:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+          "e5806af2-15ed-375e-8d82-d2cacf4aa2c2"
+        ]
+      ],
+      "reduction_vs_window": 0.0
+    },
+    "k1": {
+      "returned_events": 7,
+      "returned_connections": 12,
+      "events": {
+        "precision": 0.3333333333333333,
+        "recall": 0.01818181818181818,
+        "f1": 0.034482758620689655,
+        "hits": 1,
+        "required": 55,
+        "false": 2,
+        "context": 4
+      },
+      "connections": {
+        "precision": 0.3333333333333333,
+        "recall": 0.01818181818181818,
+        "f1": 0.034482758620689655,
+        "hits": 1,
+        "required": 55,
+        "false": 2,
+        "context": 9
+      },
+      "context_events": 4,
+      "boundary_events": 0,
+      "checks": {
+        "5f835336-8de6-4b53-acdf-2b9398d6e127 <= 83bcb124-93d5-4caa-9846-b3a0a13a21c7": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7e88ae0a-f677-44a9-a588-bf8823de324d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2f2af8d5-993d-4a5b-8e47-33fc3437df52": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3f62e914-2293-4d7d-bd76-515f10d8b2dc": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 873840fc-58c3-4ae4-b708-db7103b85afb": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 0de83bc9-f918-438b-8701-79328c7ee85e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1058de24-bb45-4a6b-8379-d3cc1b2cec55": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 140087b8-b041-40b0-86dc-4b98bdec57cb": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 14693c0b-d3ea-4417-acad-119b148acd3b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 17730684-3592-44fb-a0d0-8cfde9ee2b73": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1fdce355-50c3-4bd6-b8bd-ca31313b92d3": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 262052ae-2a81-4c08-bcff-cdc512bbfd8e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2a5e2601-14be-4542-8c01-6c9a1573efb3": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2ee1de62-e092-45fb-b5fe-99fa7aac4bc8": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3274bb88-427e-4228-9e5d-f34b43bd15a9": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 330833d1-6c80-49f0-9ca0-4253b9251c57": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 39929415-243a-4e9c-a86b-942031ccdd4c": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3befffc1-73e1-4bdc-b86e-9c684b38994d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 449afbfc-1bc2-41f3-8440-ab75222bd77c": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4613867a-24be-456e-b146-cb449bc3c659": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 49f117ac-46b6-42ef-8d3f-fed961784a5d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4b499131-70f8-41ea-9a33-77a5be038cc8": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4c816ce9-aded-4341-8179-83b629adcdcd": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 51c2e020-87be-402a-9d04-6342375c045e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 55cf7290-ad12-4f90-bc50-1f1d02f75d79": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 5a5db5c6-4045-432b-bdee-301ce54aae69": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 625816be-f246-45e7-8833-739b80ec0471": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 62a0d97d-853f-4b3a-ac21-78c648ef1ea7": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 640acd3c-2ba4-4071-b9d6-8107f6810720": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 654ffd0d-670f-4169-89ba-357b61c32a9b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 65c77fb8-8e16-4098-8fee-e53958e5844e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 6a5cad4b-e090-40ee-a2a9-6a92d587a9ee": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 70e9a026-c627-46cc-9a07-e9bd6ef722d4": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 72990315-c377-47fc-b727-f2beff59db0b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7f068b00-eedc-46ac-9bd2-3764526c6641": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 8e7405db-6137-4e52-af23-b54efe805b90": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 95ea2a12-01f7-4f8c-b134-24c018075aef": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9d3de1a5-d18a-4b5f-bf88-50b31b745e73": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= aab29618-392c-4144-9e34-b09b96064586": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ac57fe8e-b4b3-46db-9a87-eab2f0f23c67": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b178061d-19f4-41b5-ae69-f6dce8c6fcfe": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= bca86b17-be7f-457a-b765-971f671a22ce": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= be32e8ff-09a5-4e83-bff3-e89883c6421d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c18bb089-138d-45f6-a5d3-d1eba9306852": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c217dd91-cdc8-4704-ad5b-4bcdf8b3355e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c2ba8660-e422-43bf-aba2-705dfcb66143": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c4389e29-0724-416a-a736-095cabf22b21": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= df648e58-c9fe-42ee-a71f-9c67d2040277": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ee549859-b2fa-45fb-a97c-fcaa1d90d437": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f1a09b3c-61d4-416b-b089-145ba9aedf23": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f714d538-7c08-4494-8e42-8ba5c10f0fb5": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f9582f55-7275-49d0-9b65-8ec6a93c6f44": false
+      },
+      "complete": false,
+      "event_ids": [
+        "08883ab5-b871-4e2d-baab-ac4df9664fbd",
+        "51d34c48-d4dc-4a6e-b5db-09aea44a550c",
+        "5f835336-8de6-4b53-acdf-2b9398d6e127",
+        "7c13b07a-c0ab-47a8-8b9e-68b8150c867e",
+        "a52a8df9-192d-46d8-8061-82312b9f5075",
+        "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c",
+        "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+      ],
+      "connection_tuples": [
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-document/AWS-RunShellScript",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "cloudtrail.amazonaws.com",
+          "7c13b07a-c0ab-47a8-8b9e-68b8150c867e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "ec2.amazonaws.com",
+          "51d34c48-d4dc-4a6e-b5db-09aea44a550c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "s3.amazonaws.com",
+          "08883ab5-b871-4e2d-baab-ac4df9664fbd"
+        ]
+      ],
+      "reduction_vs_window": null
+    },
+    "k2": {
+      "returned_events": 15,
+      "returned_connections": 20,
+      "events": {
+        "precision": 0.1,
+        "recall": 0.01818181818181818,
+        "f1": 0.030769230769230767,
+        "hits": 1,
+        "required": 55,
+        "false": 9,
+        "context": 5
+      },
+      "connections": {
+        "precision": 0.1,
+        "recall": 0.01818181818181818,
+        "f1": 0.030769230769230767,
+        "hits": 1,
+        "required": 55,
+        "false": 9,
+        "context": 10
+      },
+      "context_events": 5,
+      "boundary_events": 0,
+      "checks": {
+        "5f835336-8de6-4b53-acdf-2b9398d6e127 <= 83bcb124-93d5-4caa-9846-b3a0a13a21c7": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7e88ae0a-f677-44a9-a588-bf8823de324d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2f2af8d5-993d-4a5b-8e47-33fc3437df52": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3f62e914-2293-4d7d-bd76-515f10d8b2dc": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 873840fc-58c3-4ae4-b708-db7103b85afb": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 0de83bc9-f918-438b-8701-79328c7ee85e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1058de24-bb45-4a6b-8379-d3cc1b2cec55": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 140087b8-b041-40b0-86dc-4b98bdec57cb": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 14693c0b-d3ea-4417-acad-119b148acd3b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 17730684-3592-44fb-a0d0-8cfde9ee2b73": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1fdce355-50c3-4bd6-b8bd-ca31313b92d3": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 262052ae-2a81-4c08-bcff-cdc512bbfd8e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2a5e2601-14be-4542-8c01-6c9a1573efb3": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2ee1de62-e092-45fb-b5fe-99fa7aac4bc8": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3274bb88-427e-4228-9e5d-f34b43bd15a9": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 330833d1-6c80-49f0-9ca0-4253b9251c57": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 39929415-243a-4e9c-a86b-942031ccdd4c": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3befffc1-73e1-4bdc-b86e-9c684b38994d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 449afbfc-1bc2-41f3-8440-ab75222bd77c": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4613867a-24be-456e-b146-cb449bc3c659": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 49f117ac-46b6-42ef-8d3f-fed961784a5d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4b499131-70f8-41ea-9a33-77a5be038cc8": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4c816ce9-aded-4341-8179-83b629adcdcd": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 51c2e020-87be-402a-9d04-6342375c045e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 55cf7290-ad12-4f90-bc50-1f1d02f75d79": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 5a5db5c6-4045-432b-bdee-301ce54aae69": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 625816be-f246-45e7-8833-739b80ec0471": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 62a0d97d-853f-4b3a-ac21-78c648ef1ea7": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 640acd3c-2ba4-4071-b9d6-8107f6810720": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 654ffd0d-670f-4169-89ba-357b61c32a9b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 65c77fb8-8e16-4098-8fee-e53958e5844e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 6a5cad4b-e090-40ee-a2a9-6a92d587a9ee": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 70e9a026-c627-46cc-9a07-e9bd6ef722d4": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 72990315-c377-47fc-b727-f2beff59db0b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7f068b00-eedc-46ac-9bd2-3764526c6641": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 8e7405db-6137-4e52-af23-b54efe805b90": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 95ea2a12-01f7-4f8c-b134-24c018075aef": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9d3de1a5-d18a-4b5f-bf88-50b31b745e73": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= aab29618-392c-4144-9e34-b09b96064586": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ac57fe8e-b4b3-46db-9a87-eab2f0f23c67": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b178061d-19f4-41b5-ae69-f6dce8c6fcfe": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= bca86b17-be7f-457a-b765-971f671a22ce": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= be32e8ff-09a5-4e83-bff3-e89883c6421d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c18bb089-138d-45f6-a5d3-d1eba9306852": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c217dd91-cdc8-4704-ad5b-4bcdf8b3355e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c2ba8660-e422-43bf-aba2-705dfcb66143": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c4389e29-0724-416a-a736-095cabf22b21": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= df648e58-c9fe-42ee-a71f-9c67d2040277": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ee549859-b2fa-45fb-a97c-fcaa1d90d437": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f1a09b3c-61d4-416b-b089-145ba9aedf23": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f714d538-7c08-4494-8e42-8ba5c10f0fb5": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f9582f55-7275-49d0-9b65-8ec6a93c6f44": false
+      },
+      "complete": false,
+      "event_ids": [
+        "08883ab5-b871-4e2d-baab-ac4df9664fbd",
+        "15384c6b-b0c3-40e5-8007-6e54b6a1922e",
+        "17b46d7e-591c-44dc-ba42-a22b57e5dc3b",
+        "51d34c48-d4dc-4a6e-b5db-09aea44a550c",
+        "5f835336-8de6-4b53-acdf-2b9398d6e127",
+        "6eebdafb-9b8f-413f-8a6b-9bfd8d0dd47f",
+        "7c13b07a-c0ab-47a8-8b9e-68b8150c867e",
+        "8297902b-5a49-457c-927b-03c824f8cbcc",
+        "8341c12d-6657-44b8-b5fe-9d6093695344",
+        "a52a8df9-192d-46d8-8061-82312b9f5075",
+        "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c",
+        "caed0b8e-18d1-4ebd-9792-fc0e34166f28",
+        "f8fbcd10-96ec-4822-836c-3ef075ae6046",
+        "fb8321e7-df05-4b15-99b7-639c28db3665",
+        "fc8ab9e4-9712-484e-a9d6-2f0c90251bf9"
+      ],
+      "connection_tuples": [
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-document/AWS-RunShellScript",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "cloudtrail.amazonaws.com",
+          "7c13b07a-c0ab-47a8-8b9e-68b8150c867e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "ec2.amazonaws.com",
+          "51d34c48-d4dc-4a6e-b5db-09aea44a550c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "s3.amazonaws.com",
+          "08883ab5-b871-4e2d-baab-ac4df9664fbd"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0UGQ33UQ6",
+          "cloudtrail.amazonaws.com",
+          "f8fbcd10-96ec-4822-836c-3ef075ae6046"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0X5T4NSSE",
+          "cloudtrail.amazonaws.com",
+          "15384c6b-b0c3-40e5-8007-6e54b6a1922e"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "17b46d7e-591c-44dc-ba42-a22b57e5dc3b"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "6eebdafb-9b8f-413f-8a6b-9bfd8d0dd47f"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "8297902b-5a49-457c-927b-03c824f8cbcc"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "8341c12d-6657-44b8-b5fe-9d6093695344"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "fb8321e7-df05-4b15-99b7-639c28db3665"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "s3.amazonaws.com",
+          "fc8ab9e4-9712-484e-a9d6-2f0c90251bf9"
+        ]
+      ],
+      "reduction_vs_window": null
+    },
+    "k3": {
+      "returned_events": 24,
+      "returned_connections": 31,
+      "events": {
+        "precision": 0.15384615384615385,
+        "recall": 0.03636363636363636,
+        "f1": 0.0588235294117647,
+        "hits": 2,
+        "required": 55,
+        "false": 11,
+        "context": 11
+      },
+      "connections": {
+        "precision": 0.15384615384615385,
+        "recall": 0.03636363636363636,
+        "f1": 0.0588235294117647,
+        "hits": 2,
+        "required": 55,
+        "false": 11,
+        "context": 18
+      },
+      "context_events": 11,
+      "boundary_events": 0,
+      "checks": {
+        "5f835336-8de6-4b53-acdf-2b9398d6e127 <= 83bcb124-93d5-4caa-9846-b3a0a13a21c7": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7e88ae0a-f677-44a9-a588-bf8823de324d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2f2af8d5-993d-4a5b-8e47-33fc3437df52": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3f62e914-2293-4d7d-bd76-515f10d8b2dc": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 873840fc-58c3-4ae4-b708-db7103b85afb": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 0de83bc9-f918-438b-8701-79328c7ee85e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1058de24-bb45-4a6b-8379-d3cc1b2cec55": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 140087b8-b041-40b0-86dc-4b98bdec57cb": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 14693c0b-d3ea-4417-acad-119b148acd3b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 17730684-3592-44fb-a0d0-8cfde9ee2b73": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1fdce355-50c3-4bd6-b8bd-ca31313b92d3": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 262052ae-2a81-4c08-bcff-cdc512bbfd8e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2a5e2601-14be-4542-8c01-6c9a1573efb3": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2ee1de62-e092-45fb-b5fe-99fa7aac4bc8": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3274bb88-427e-4228-9e5d-f34b43bd15a9": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 330833d1-6c80-49f0-9ca0-4253b9251c57": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 39929415-243a-4e9c-a86b-942031ccdd4c": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3befffc1-73e1-4bdc-b86e-9c684b38994d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 449afbfc-1bc2-41f3-8440-ab75222bd77c": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4613867a-24be-456e-b146-cb449bc3c659": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 49f117ac-46b6-42ef-8d3f-fed961784a5d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4b499131-70f8-41ea-9a33-77a5be038cc8": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4c816ce9-aded-4341-8179-83b629adcdcd": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 51c2e020-87be-402a-9d04-6342375c045e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 55cf7290-ad12-4f90-bc50-1f1d02f75d79": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 5a5db5c6-4045-432b-bdee-301ce54aae69": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 625816be-f246-45e7-8833-739b80ec0471": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 62a0d97d-853f-4b3a-ac21-78c648ef1ea7": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 640acd3c-2ba4-4071-b9d6-8107f6810720": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 654ffd0d-670f-4169-89ba-357b61c32a9b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 65c77fb8-8e16-4098-8fee-e53958e5844e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 6a5cad4b-e090-40ee-a2a9-6a92d587a9ee": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 70e9a026-c627-46cc-9a07-e9bd6ef722d4": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 72990315-c377-47fc-b727-f2beff59db0b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7f068b00-eedc-46ac-9bd2-3764526c6641": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 8e7405db-6137-4e52-af23-b54efe805b90": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 95ea2a12-01f7-4f8c-b134-24c018075aef": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9d3de1a5-d18a-4b5f-bf88-50b31b745e73": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= aab29618-392c-4144-9e34-b09b96064586": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ac57fe8e-b4b3-46db-9a87-eab2f0f23c67": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b178061d-19f4-41b5-ae69-f6dce8c6fcfe": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= bca86b17-be7f-457a-b765-971f671a22ce": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= be32e8ff-09a5-4e83-bff3-e89883c6421d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c18bb089-138d-45f6-a5d3-d1eba9306852": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c217dd91-cdc8-4704-ad5b-4bcdf8b3355e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c2ba8660-e422-43bf-aba2-705dfcb66143": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c4389e29-0724-416a-a736-095cabf22b21": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= df648e58-c9fe-42ee-a71f-9c67d2040277": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ee549859-b2fa-45fb-a97c-fcaa1d90d437": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f1a09b3c-61d4-416b-b089-145ba9aedf23": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f714d538-7c08-4494-8e42-8ba5c10f0fb5": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f9582f55-7275-49d0-9b65-8ec6a93c6f44": false
+      },
+      "complete": false,
+      "event_ids": [
+        "08883ab5-b871-4e2d-baab-ac4df9664fbd",
+        "15384c6b-b0c3-40e5-8007-6e54b6a1922e",
+        "17b46d7e-591c-44dc-ba42-a22b57e5dc3b",
+        "24b2e968-01ec-412f-bbb7-118493145dbd",
+        "40237724-af19-42d9-afd4-cdac94b088ec",
+        "51d34c48-d4dc-4a6e-b5db-09aea44a550c",
+        "5f835336-8de6-4b53-acdf-2b9398d6e127",
+        "6eebdafb-9b8f-413f-8a6b-9bfd8d0dd47f",
+        "70586366-4b0e-455a-8670-2ffb587ad06f",
+        "7c13b07a-c0ab-47a8-8b9e-68b8150c867e",
+        "8297902b-5a49-457c-927b-03c824f8cbcc",
+        "8341c12d-6657-44b8-b5fe-9d6093695344",
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7",
+        "88c2e2cc-2a72-4a95-ab9a-bc8eb44a6275",
+        "9901cfd3-6487-4c69-82ea-17bf7f3a882c",
+        "a52a8df9-192d-46d8-8061-82312b9f5075",
+        "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c",
+        "caed0b8e-18d1-4ebd-9792-fc0e34166f28",
+        "d9550e0f-64ea-3f4a-966c-f2b439c24ed5",
+        "ddc7648c-332e-4827-a862-edcea15b4d47",
+        "e5806af2-15ed-375e-8d82-d2cacf4aa2c2",
+        "f8fbcd10-96ec-4822-836c-3ef075ae6046",
+        "fb8321e7-df05-4b15-99b7-639c28db3665",
+        "fc8ab9e4-9712-484e-a9d6-2f0c90251bf9"
+      ],
+      "connection_tuples": [
+        [
+          "OBTAINS",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "83bcb124-93d5-4caa-9846-b3a0a13a21c7"
+        ],
+        [
+          "OBTAINS",
+          "svc:resource-explorer-2.amazonaws.com",
+          "ASIAEXAMPLE0UGQ33UQ6",
+          "d9550e0f-64ea-3f4a-966c-f2b439c24ed5"
+        ],
+        [
+          "OBTAINS",
+          "svc:resource-explorer-2.amazonaws.com",
+          "ASIAEXAMPLE0X5T4NSSE",
+          "e5806af2-15ed-375e-8d82-d2cacf4aa2c2"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-document/AWS-RunShellScript",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "cloudtrail.amazonaws.com",
+          "7c13b07a-c0ab-47a8-8b9e-68b8150c867e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "ec2.amazonaws.com",
+          "51d34c48-d4dc-4a6e-b5db-09aea44a550c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "s3.amazonaws.com",
+          "08883ab5-b871-4e2d-baab-ac4df9664fbd"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0UGQ33UQ6",
+          "cloudtrail.amazonaws.com",
+          "f8fbcd10-96ec-4822-836c-3ef075ae6046"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0X5T4NSSE",
+          "cloudtrail.amazonaws.com",
+          "15384c6b-b0c3-40e5-8007-6e54b6a1922e"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "17b46d7e-591c-44dc-ba42-a22b57e5dc3b"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "6eebdafb-9b8f-413f-8a6b-9bfd8d0dd47f"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "8297902b-5a49-457c-927b-03c824f8cbcc"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "8341c12d-6657-44b8-b5fe-9d6093695344"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "fb8321e7-df05-4b15-99b7-639c28db3665"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "40237724-af19-42d9-afd4-cdac94b088ec"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "83bcb124-93d5-4caa-9846-b3a0a13a21c7"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "ddc7648c-332e-4827-a862-edcea15b4d47"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::aws:policy/AdministratorAccess",
+          "40237724-af19-42d9-afd4-cdac94b088ec"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "88c2e2cc-2a72-4a95-ab9a-bc8eb44a6275"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "iam.amazonaws.com",
+          "24b2e968-01ec-412f-bbb7-118493145dbd"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "iam.amazonaws.com",
+          "9901cfd3-6487-4c69-82ea-17bf7f3a882c"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "s3.amazonaws.com",
+          "fc8ab9e4-9712-484e-a9d6-2f0c90251bf9"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "sts.amazonaws.com",
+          "70586366-4b0e-455a-8670-2ffb587ad06f"
+        ]
+      ],
+      "reduction_vs_window": null
+    },
+    "proposed": {
+      "returned_events": 4,
+      "returned_connections": 9,
+      "events": {
+        "precision": 1.0,
+        "recall": 0.01818181818181818,
+        "f1": 0.03571428571428572,
+        "hits": 1,
+        "required": 55,
+        "false": 0,
+        "context": 3
+      },
+      "connections": {
+        "precision": 1.0,
+        "recall": 0.01818181818181818,
+        "f1": 0.03571428571428572,
+        "hits": 1,
+        "required": 55,
+        "false": 0,
+        "context": 8
+      },
+      "context_events": 3,
+      "boundary_events": 0,
+      "checks": {
+        "5f835336-8de6-4b53-acdf-2b9398d6e127 <= 83bcb124-93d5-4caa-9846-b3a0a13a21c7": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7e88ae0a-f677-44a9-a588-bf8823de324d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2f2af8d5-993d-4a5b-8e47-33fc3437df52": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3f62e914-2293-4d7d-bd76-515f10d8b2dc": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 873840fc-58c3-4ae4-b708-db7103b85afb": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 0de83bc9-f918-438b-8701-79328c7ee85e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1058de24-bb45-4a6b-8379-d3cc1b2cec55": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 140087b8-b041-40b0-86dc-4b98bdec57cb": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 14693c0b-d3ea-4417-acad-119b148acd3b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 17730684-3592-44fb-a0d0-8cfde9ee2b73": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1fdce355-50c3-4bd6-b8bd-ca31313b92d3": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 262052ae-2a81-4c08-bcff-cdc512bbfd8e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2a5e2601-14be-4542-8c01-6c9a1573efb3": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2ee1de62-e092-45fb-b5fe-99fa7aac4bc8": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3274bb88-427e-4228-9e5d-f34b43bd15a9": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 330833d1-6c80-49f0-9ca0-4253b9251c57": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 39929415-243a-4e9c-a86b-942031ccdd4c": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3befffc1-73e1-4bdc-b86e-9c684b38994d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 449afbfc-1bc2-41f3-8440-ab75222bd77c": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4613867a-24be-456e-b146-cb449bc3c659": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 49f117ac-46b6-42ef-8d3f-fed961784a5d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4b499131-70f8-41ea-9a33-77a5be038cc8": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4c816ce9-aded-4341-8179-83b629adcdcd": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 51c2e020-87be-402a-9d04-6342375c045e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 55cf7290-ad12-4f90-bc50-1f1d02f75d79": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 5a5db5c6-4045-432b-bdee-301ce54aae69": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 625816be-f246-45e7-8833-739b80ec0471": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 62a0d97d-853f-4b3a-ac21-78c648ef1ea7": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 640acd3c-2ba4-4071-b9d6-8107f6810720": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 654ffd0d-670f-4169-89ba-357b61c32a9b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 65c77fb8-8e16-4098-8fee-e53958e5844e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 6a5cad4b-e090-40ee-a2a9-6a92d587a9ee": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 70e9a026-c627-46cc-9a07-e9bd6ef722d4": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 72990315-c377-47fc-b727-f2beff59db0b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7f068b00-eedc-46ac-9bd2-3764526c6641": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 8e7405db-6137-4e52-af23-b54efe805b90": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 95ea2a12-01f7-4f8c-b134-24c018075aef": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9d3de1a5-d18a-4b5f-bf88-50b31b745e73": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= aab29618-392c-4144-9e34-b09b96064586": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ac57fe8e-b4b3-46db-9a87-eab2f0f23c67": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b178061d-19f4-41b5-ae69-f6dce8c6fcfe": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= bca86b17-be7f-457a-b765-971f671a22ce": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= be32e8ff-09a5-4e83-bff3-e89883c6421d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c18bb089-138d-45f6-a5d3-d1eba9306852": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c217dd91-cdc8-4704-ad5b-4bcdf8b3355e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c2ba8660-e422-43bf-aba2-705dfcb66143": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c4389e29-0724-416a-a736-095cabf22b21": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= df648e58-c9fe-42ee-a71f-9c67d2040277": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ee549859-b2fa-45fb-a97c-fcaa1d90d437": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f1a09b3c-61d4-416b-b089-145ba9aedf23": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f714d538-7c08-4494-8e42-8ba5c10f0fb5": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f9582f55-7275-49d0-9b65-8ec6a93c6f44": false
+      },
+      "complete": false,
+      "event_ids": [
+        "5f835336-8de6-4b53-acdf-2b9398d6e127",
+        "a52a8df9-192d-46d8-8061-82312b9f5075",
+        "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c",
+        "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+      ],
+      "connection_tuples": [
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-document/AWS-RunShellScript",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ]
+      ],
+      "reduction_vs_window": null
+    },
+    "proposed_inferred": {
+      "returned_events": 66,
+      "returned_connections": 124,
+      "events": {
+        "precision": 0.9322033898305084,
+        "recall": 1.0,
+        "f1": 0.9649122807017544,
+        "hits": 55,
+        "required": 55,
+        "false": 4,
+        "context": 7
+      },
+      "connections": {
+        "precision": 0.9322033898305084,
+        "recall": 1.0,
+        "f1": 0.9649122807017544,
+        "hits": 55,
+        "required": 55,
+        "false": 4,
+        "context": 65
+      },
+      "context_events": 7,
+      "boundary_events": 0,
+      "checks": {
+        "5f835336-8de6-4b53-acdf-2b9398d6e127 <= 83bcb124-93d5-4caa-9846-b3a0a13a21c7": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7e88ae0a-f677-44a9-a588-bf8823de324d": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2f2af8d5-993d-4a5b-8e47-33fc3437df52": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3f62e914-2293-4d7d-bd76-515f10d8b2dc": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 873840fc-58c3-4ae4-b708-db7103b85afb": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 0de83bc9-f918-438b-8701-79328c7ee85e": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1058de24-bb45-4a6b-8379-d3cc1b2cec55": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 140087b8-b041-40b0-86dc-4b98bdec57cb": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 14693c0b-d3ea-4417-acad-119b148acd3b": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 17730684-3592-44fb-a0d0-8cfde9ee2b73": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1fdce355-50c3-4bd6-b8bd-ca31313b92d3": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 262052ae-2a81-4c08-bcff-cdc512bbfd8e": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2a5e2601-14be-4542-8c01-6c9a1573efb3": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2ee1de62-e092-45fb-b5fe-99fa7aac4bc8": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3274bb88-427e-4228-9e5d-f34b43bd15a9": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 330833d1-6c80-49f0-9ca0-4253b9251c57": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 39929415-243a-4e9c-a86b-942031ccdd4c": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3befffc1-73e1-4bdc-b86e-9c684b38994d": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 449afbfc-1bc2-41f3-8440-ab75222bd77c": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4613867a-24be-456e-b146-cb449bc3c659": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 49f117ac-46b6-42ef-8d3f-fed961784a5d": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4b499131-70f8-41ea-9a33-77a5be038cc8": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4c816ce9-aded-4341-8179-83b629adcdcd": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 51c2e020-87be-402a-9d04-6342375c045e": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 55cf7290-ad12-4f90-bc50-1f1d02f75d79": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 5a5db5c6-4045-432b-bdee-301ce54aae69": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 625816be-f246-45e7-8833-739b80ec0471": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 62a0d97d-853f-4b3a-ac21-78c648ef1ea7": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 640acd3c-2ba4-4071-b9d6-8107f6810720": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 654ffd0d-670f-4169-89ba-357b61c32a9b": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 65c77fb8-8e16-4098-8fee-e53958e5844e": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 6a5cad4b-e090-40ee-a2a9-6a92d587a9ee": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 70e9a026-c627-46cc-9a07-e9bd6ef722d4": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 72990315-c377-47fc-b727-f2beff59db0b": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7f068b00-eedc-46ac-9bd2-3764526c6641": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 8e7405db-6137-4e52-af23-b54efe805b90": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 95ea2a12-01f7-4f8c-b134-24c018075aef": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9d3de1a5-d18a-4b5f-bf88-50b31b745e73": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= aab29618-392c-4144-9e34-b09b96064586": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ac57fe8e-b4b3-46db-9a87-eab2f0f23c67": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b178061d-19f4-41b5-ae69-f6dce8c6fcfe": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= bca86b17-be7f-457a-b765-971f671a22ce": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= be32e8ff-09a5-4e83-bff3-e89883c6421d": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c18bb089-138d-45f6-a5d3-d1eba9306852": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c217dd91-cdc8-4704-ad5b-4bcdf8b3355e": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c2ba8660-e422-43bf-aba2-705dfcb66143": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c4389e29-0724-416a-a736-095cabf22b21": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= df648e58-c9fe-42ee-a71f-9c67d2040277": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ee549859-b2fa-45fb-a97c-fcaa1d90d437": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f1a09b3c-61d4-416b-b089-145ba9aedf23": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f714d538-7c08-4494-8e42-8ba5c10f0fb5": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f9582f55-7275-49d0-9b65-8ec6a93c6f44": true
+      },
+      "complete": true,
+      "event_ids": [
+        "0de83bc9-f918-438b-8701-79328c7ee85e",
+        "1058de24-bb45-4a6b-8379-d3cc1b2cec55",
+        "140087b8-b041-40b0-86dc-4b98bdec57cb",
+        "14693c0b-d3ea-4417-acad-119b148acd3b",
+        "17730684-3592-44fb-a0d0-8cfde9ee2b73",
+        "1fdce355-50c3-4bd6-b8bd-ca31313b92d3",
+        "262052ae-2a81-4c08-bcff-cdc512bbfd8e",
+        "2a5e2601-14be-4542-8c01-6c9a1573efb3",
+        "2ee1de62-e092-45fb-b5fe-99fa7aac4bc8",
+        "2f2af8d5-993d-4a5b-8e47-33fc3437df52",
+        "3274bb88-427e-4228-9e5d-f34b43bd15a9",
+        "330833d1-6c80-49f0-9ca0-4253b9251c57",
+        "39929415-243a-4e9c-a86b-942031ccdd4c",
+        "3befffc1-73e1-4bdc-b86e-9c684b38994d",
+        "3f62e914-2293-4d7d-bd76-515f10d8b2dc",
+        "40237724-af19-42d9-afd4-cdac94b088ec",
+        "449afbfc-1bc2-41f3-8440-ab75222bd77c",
+        "4613867a-24be-456e-b146-cb449bc3c659",
+        "49f117ac-46b6-42ef-8d3f-fed961784a5d",
+        "4b499131-70f8-41ea-9a33-77a5be038cc8",
+        "4c816ce9-aded-4341-8179-83b629adcdcd",
+        "51c2e020-87be-402a-9d04-6342375c045e",
+        "55cf7290-ad12-4f90-bc50-1f1d02f75d79",
+        "5a5db5c6-4045-432b-bdee-301ce54aae69",
+        "5f835336-8de6-4b53-acdf-2b9398d6e127",
+        "625816be-f246-45e7-8833-739b80ec0471",
+        "62a0d97d-853f-4b3a-ac21-78c648ef1ea7",
+        "640acd3c-2ba4-4071-b9d6-8107f6810720",
+        "654ffd0d-670f-4169-89ba-357b61c32a9b",
+        "65c77fb8-8e16-4098-8fee-e53958e5844e",
+        "6a5cad4b-e090-40ee-a2a9-6a92d587a9ee",
+        "6eebdafb-9b8f-413f-8a6b-9bfd8d0dd47f",
+        "70e9a026-c627-46cc-9a07-e9bd6ef722d4",
+        "72990315-c377-47fc-b727-f2beff59db0b",
+        "7e88ae0a-f677-44a9-a588-bf8823de324d",
+        "7f068b00-eedc-46ac-9bd2-3764526c6641",
+        "8297902b-5a49-457c-927b-03c824f8cbcc",
+        "8341c12d-6657-44b8-b5fe-9d6093695344",
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7",
+        "873840fc-58c3-4ae4-b708-db7103b85afb",
+        "88c2e2cc-2a72-4a95-ab9a-bc8eb44a6275",
+        "8e7405db-6137-4e52-af23-b54efe805b90",
+        "95ea2a12-01f7-4f8c-b134-24c018075aef",
+        "9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07",
+        "9d3de1a5-d18a-4b5f-bf88-50b31b745e73",
+        "a52a8df9-192d-46d8-8061-82312b9f5075",
+        "aab29618-392c-4144-9e34-b09b96064586",
+        "ac57fe8e-b4b3-46db-9a87-eab2f0f23c67",
+        "b178061d-19f4-41b5-ae69-f6dce8c6fcfe",
+        "b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9",
+        "bca86b17-be7f-457a-b765-971f671a22ce",
+        "bd6db395-c87f-4506-aa0f-4f45f29e2f00",
+        "be32e8ff-09a5-4e83-bff3-e89883c6421d",
+        "c18bb089-138d-45f6-a5d3-d1eba9306852",
+        "c217dd91-cdc8-4704-ad5b-4bcdf8b3355e",
+        "c2ba8660-e422-43bf-aba2-705dfcb66143",
+        "c4389e29-0724-416a-a736-095cabf22b21",
+        "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c",
+        "caed0b8e-18d1-4ebd-9792-fc0e34166f28",
+        "ddc7648c-332e-4827-a862-edcea15b4d47",
+        "df648e58-c9fe-42ee-a71f-9c67d2040277",
+        "ee549859-b2fa-45fb-a97c-fcaa1d90d437",
+        "f1a09b3c-61d4-416b-b089-145ba9aedf23",
+        "f714d538-7c08-4494-8e42-8ba5c10f0fb5",
+        "f9582f55-7275-49d0-9b65-8ec6a93c6f44",
+        "fb8321e7-df05-4b15-99b7-639c28db3665"
+      ],
+      "connection_tuples": [
+        [
+          "OBTAINS",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "83bcb124-93d5-4caa-9846-b3a0a13a21c7"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-document/AWS-RunShellScript",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:cloudtrail:ap-northeast-2:123456789012:trail/stratus-red-team-ct-stop-trail-vecwevjkkr",
+          "7e88ae0a-f677-44a9-a588-bf8823de324d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "0de83bc9-f918-438b-8701-79328c7ee85e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "1058de24-bb45-4a6b-8379-d3cc1b2cec55"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "140087b8-b041-40b0-86dc-4b98bdec57cb"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "14693c0b-d3ea-4417-acad-119b148acd3b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "17730684-3592-44fb-a0d0-8cfde9ee2b73"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "1fdce355-50c3-4bd6-b8bd-ca31313b92d3"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "262052ae-2a81-4c08-bcff-cdc512bbfd8e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "2a5e2601-14be-4542-8c01-6c9a1573efb3"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "2ee1de62-e092-45fb-b5fe-99fa7aac4bc8"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "2f2af8d5-993d-4a5b-8e47-33fc3437df52"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "3274bb88-427e-4228-9e5d-f34b43bd15a9"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "330833d1-6c80-49f0-9ca0-4253b9251c57"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "39929415-243a-4e9c-a86b-942031ccdd4c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "3befffc1-73e1-4bdc-b86e-9c684b38994d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "3f62e914-2293-4d7d-bd76-515f10d8b2dc"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "449afbfc-1bc2-41f3-8440-ab75222bd77c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "4613867a-24be-456e-b146-cb449bc3c659"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "49f117ac-46b6-42ef-8d3f-fed961784a5d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "4b499131-70f8-41ea-9a33-77a5be038cc8"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "4c816ce9-aded-4341-8179-83b629adcdcd"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "51c2e020-87be-402a-9d04-6342375c045e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "55cf7290-ad12-4f90-bc50-1f1d02f75d79"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "5a5db5c6-4045-432b-bdee-301ce54aae69"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "625816be-f246-45e7-8833-739b80ec0471"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "62a0d97d-853f-4b3a-ac21-78c648ef1ea7"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "640acd3c-2ba4-4071-b9d6-8107f6810720"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "654ffd0d-670f-4169-89ba-357b61c32a9b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "65c77fb8-8e16-4098-8fee-e53958e5844e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "6a5cad4b-e090-40ee-a2a9-6a92d587a9ee"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "70e9a026-c627-46cc-9a07-e9bd6ef722d4"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "72990315-c377-47fc-b727-f2beff59db0b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "7f068b00-eedc-46ac-9bd2-3764526c6641"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "873840fc-58c3-4ae4-b708-db7103b85afb"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "8e7405db-6137-4e52-af23-b54efe805b90"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "95ea2a12-01f7-4f8c-b134-24c018075aef"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "9d3de1a5-d18a-4b5f-bf88-50b31b745e73"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "aab29618-392c-4144-9e34-b09b96064586"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "ac57fe8e-b4b3-46db-9a87-eab2f0f23c67"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "b178061d-19f4-41b5-ae69-f6dce8c6fcfe"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "bca86b17-be7f-457a-b765-971f671a22ce"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "bd6db395-c87f-4506-aa0f-4f45f29e2f00"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "be32e8ff-09a5-4e83-bff3-e89883c6421d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "c18bb089-138d-45f6-a5d3-d1eba9306852"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "c217dd91-cdc8-4704-ad5b-4bcdf8b3355e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "c2ba8660-e422-43bf-aba2-705dfcb66143"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "c4389e29-0724-416a-a736-095cabf22b21"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "df648e58-c9fe-42ee-a71f-9c67d2040277"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "ee549859-b2fa-45fb-a97c-fcaa1d90d437"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "f1a09b3c-61d4-416b-b089-145ba9aedf23"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "f714d538-7c08-4494-8e42-8ba5c10f0fb5"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "f9582f55-7275-49d0-9b65-8ec6a93c6f44"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/aerospace_busload.sql",
+          "2f2af8d5-993d-4a5b-8e47-33fc3437df52"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/among_truth.sql",
+          "3f62e914-2293-4d7d-bd76-515f10d8b2dc"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/balsamic voyage.docx",
+          "62a0d97d-853f-4b3a-ac21-78c648ef1ea7"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/bonelike curliness.tar.gz",
+          "df648e58-c9fe-42ee-a71f-9c67d2040277"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/bonelike freebee.txt",
+          "1058de24-bb45-4a6b-8379-d3cc1b2cec55"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/carton_ditto.tar.gz",
+          "654ffd0d-670f-4169-89ba-357b61c32a9b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/catapult-appease.pdf",
+          "3274bb88-427e-4228-9e5d-f34b43bd15a9"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/cesarean take.tar.gz",
+          "f1a09b3c-61d4-416b-b089-145ba9aedf23"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chair-freewill.png",
+          "9d3de1a5-d18a-4b5f-bf88-50b31b745e73"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chevy preset.sql",
+          "c217dd91-cdc8-4704-ad5b-4bcdf8b3355e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chevy-blunt.txt",
+          "be32e8ff-09a5-4e83-bff3-e89883c6421d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chewy uncross.sql",
+          "b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/connected_paging.tar.gz",
+          "7f068b00-eedc-46ac-9bd2-3764526c6641"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/crabbing-underage.png",
+          "4b499131-70f8-41ea-9a33-77a5be038cc8"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/curliness_unheard.sql",
+          "ee549859-b2fa-45fb-a97c-fcaa1d90d437"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/designer-pueblo.docx",
+          "c2ba8660-e422-43bf-aba2-705dfcb66143"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/dexterous_truth.txt",
+          "1fdce355-50c3-4bd6-b8bd-ca31313b92d3"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/distrust-gliding.docx",
+          "14693c0b-d3ea-4417-acad-119b148acd3b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/divisive-freebee.pdf",
+          "51c2e020-87be-402a-9d04-6342375c045e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/dullness-bondless.docx",
+          "449afbfc-1bc2-41f3-8440-ab75222bd77c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/egotistic yoga.tar.gz",
+          "55cf7290-ad12-4f90-bc50-1f1d02f75d79"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/flashy unfasten.pdf",
+          "bca86b17-be7f-457a-b765-971f671a22ce"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/glowing ignition.txt",
+          "330833d1-6c80-49f0-9ca0-4253b9251c57"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/happily-crablike.pdf",
+          "2a5e2601-14be-4542-8c01-6c9a1573efb3"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/hardhead_underage.png",
+          "39929415-243a-4e9c-a86b-942031ccdd4c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/mountable-net.pdf",
+          "0de83bc9-f918-438b-8701-79328c7ee85e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/niece-hulk.sql",
+          "640acd3c-2ba4-4071-b9d6-8107f6810720"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/outlet-sitcom.docx",
+          "4c816ce9-aded-4341-8179-83b629adcdcd"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/output tamper.txt",
+          "65c77fb8-8e16-4098-8fee-e53958e5844e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/overbid_repeal.docx",
+          "6a5cad4b-e090-40ee-a2a9-6a92d587a9ee"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/pouring dullness.txt",
+          "17730684-3592-44fb-a0d0-8cfde9ee2b73"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/prodigy dropbox.sql",
+          "140087b8-b041-40b0-86dc-4b98bdec57cb"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/prodigy_carton.txt",
+          "f714d538-7c08-4494-8e42-8ba5c10f0fb5"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/railcar wiring.pdf",
+          "c4389e29-0724-416a-a736-095cabf22b21"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/recount-chair.sql",
+          "4613867a-24be-456e-b146-cb449bc3c659"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/sandbag-margarine.sql",
+          "9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/secret_decade.tar.gz",
+          "262052ae-2a81-4c08-bcff-cdc512bbfd8e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/secret_survivor.png",
+          "625816be-f246-45e7-8833-739b80ec0471"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/silenced recount.pdf",
+          "c18bb089-138d-45f6-a5d3-d1eba9306852"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/treading waviness.txt",
+          "49f117ac-46b6-42ef-8d3f-fed961784a5d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/trickster connected.png",
+          "ac57fe8e-b4b3-46db-9a87-eab2f0f23c67"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/twisted-fantasy.sql",
+          "8e7405db-6137-4e52-af23-b54efe805b90"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unexpired_undiluted.tar.gz",
+          "95ea2a12-01f7-4f8c-b134-24c018075aef"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unvarying tweed.docx",
+          "2ee1de62-e092-45fb-b5fe-99fa7aac4bc8"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unvarying-camcorder.docx",
+          "3befffc1-73e1-4bdc-b86e-9c684b38994d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unwed-unlatch.sql",
+          "5a5db5c6-4045-432b-bdee-301ce54aae69"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/usher-dullness.txt",
+          "aab29618-392c-4144-9e34-b09b96064586"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/usher-licking.txt",
+          "f9582f55-7275-49d0-9b65-8ec6a93c6f44"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/vaguely-willing.sql",
+          "70e9a026-c627-46cc-9a07-e9bd6ef722d4"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/wife_brook.sql",
+          "72990315-c377-47fc-b727-f2beff59db0b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/yoga repeal.txt",
+          "873840fc-58c3-4ae4-b708-db7103b85afb"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "6eebdafb-9b8f-413f-8a6b-9bfd8d0dd47f"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "8297902b-5a49-457c-927b-03c824f8cbcc"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "8341c12d-6657-44b8-b5fe-9d6093695344"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "fb8321e7-df05-4b15-99b7-639c28db3665"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "40237724-af19-42d9-afd4-cdac94b088ec"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "83bcb124-93d5-4caa-9846-b3a0a13a21c7"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "ddc7648c-332e-4827-a862-edcea15b4d47"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::aws:policy/AdministratorAccess",
+          "40237724-af19-42d9-afd4-cdac94b088ec"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "88c2e2cc-2a72-4a95-ab9a-bc8eb44a6275"
+        ]
+      ],
+      "reduction_vs_window": 0.4883720930232558
+    },
+    "k1_inferred": {
+      "returned_events": 11,
+      "returned_connections": 16,
+      "events": {
+        "precision": 0.5,
+        "recall": 0.03636363636363636,
+        "f1": 0.06779661016949153,
+        "hits": 2,
+        "required": 55,
+        "false": 2,
+        "context": 7
+      },
+      "connections": {
+        "precision": 0.3333333333333333,
+        "recall": 0.01818181818181818,
+        "f1": 0.034482758620689655,
+        "hits": 1,
+        "required": 55,
+        "false": 2,
+        "context": 13
+      },
+      "context_events": 7,
+      "boundary_events": 0,
+      "checks": {
+        "5f835336-8de6-4b53-acdf-2b9398d6e127 <= 83bcb124-93d5-4caa-9846-b3a0a13a21c7": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7e88ae0a-f677-44a9-a588-bf8823de324d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2f2af8d5-993d-4a5b-8e47-33fc3437df52": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3f62e914-2293-4d7d-bd76-515f10d8b2dc": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 873840fc-58c3-4ae4-b708-db7103b85afb": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 0de83bc9-f918-438b-8701-79328c7ee85e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1058de24-bb45-4a6b-8379-d3cc1b2cec55": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 140087b8-b041-40b0-86dc-4b98bdec57cb": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 14693c0b-d3ea-4417-acad-119b148acd3b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 17730684-3592-44fb-a0d0-8cfde9ee2b73": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1fdce355-50c3-4bd6-b8bd-ca31313b92d3": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 262052ae-2a81-4c08-bcff-cdc512bbfd8e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2a5e2601-14be-4542-8c01-6c9a1573efb3": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2ee1de62-e092-45fb-b5fe-99fa7aac4bc8": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3274bb88-427e-4228-9e5d-f34b43bd15a9": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 330833d1-6c80-49f0-9ca0-4253b9251c57": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 39929415-243a-4e9c-a86b-942031ccdd4c": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3befffc1-73e1-4bdc-b86e-9c684b38994d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 449afbfc-1bc2-41f3-8440-ab75222bd77c": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4613867a-24be-456e-b146-cb449bc3c659": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 49f117ac-46b6-42ef-8d3f-fed961784a5d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4b499131-70f8-41ea-9a33-77a5be038cc8": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4c816ce9-aded-4341-8179-83b629adcdcd": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 51c2e020-87be-402a-9d04-6342375c045e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 55cf7290-ad12-4f90-bc50-1f1d02f75d79": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 5a5db5c6-4045-432b-bdee-301ce54aae69": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 625816be-f246-45e7-8833-739b80ec0471": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 62a0d97d-853f-4b3a-ac21-78c648ef1ea7": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 640acd3c-2ba4-4071-b9d6-8107f6810720": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 654ffd0d-670f-4169-89ba-357b61c32a9b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 65c77fb8-8e16-4098-8fee-e53958e5844e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 6a5cad4b-e090-40ee-a2a9-6a92d587a9ee": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 70e9a026-c627-46cc-9a07-e9bd6ef722d4": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 72990315-c377-47fc-b727-f2beff59db0b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7f068b00-eedc-46ac-9bd2-3764526c6641": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 8e7405db-6137-4e52-af23-b54efe805b90": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 95ea2a12-01f7-4f8c-b134-24c018075aef": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9d3de1a5-d18a-4b5f-bf88-50b31b745e73": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= aab29618-392c-4144-9e34-b09b96064586": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ac57fe8e-b4b3-46db-9a87-eab2f0f23c67": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b178061d-19f4-41b5-ae69-f6dce8c6fcfe": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= bca86b17-be7f-457a-b765-971f671a22ce": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= be32e8ff-09a5-4e83-bff3-e89883c6421d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c18bb089-138d-45f6-a5d3-d1eba9306852": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c217dd91-cdc8-4704-ad5b-4bcdf8b3355e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c2ba8660-e422-43bf-aba2-705dfcb66143": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c4389e29-0724-416a-a736-095cabf22b21": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= df648e58-c9fe-42ee-a71f-9c67d2040277": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ee549859-b2fa-45fb-a97c-fcaa1d90d437": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f1a09b3c-61d4-416b-b089-145ba9aedf23": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f714d538-7c08-4494-8e42-8ba5c10f0fb5": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f9582f55-7275-49d0-9b65-8ec6a93c6f44": false
+      },
+      "complete": false,
+      "event_ids": [
+        "08883ab5-b871-4e2d-baab-ac4df9664fbd",
+        "40237724-af19-42d9-afd4-cdac94b088ec",
+        "51d34c48-d4dc-4a6e-b5db-09aea44a550c",
+        "5f835336-8de6-4b53-acdf-2b9398d6e127",
+        "7c13b07a-c0ab-47a8-8b9e-68b8150c867e",
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7",
+        "88c2e2cc-2a72-4a95-ab9a-bc8eb44a6275",
+        "a52a8df9-192d-46d8-8061-82312b9f5075",
+        "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c",
+        "caed0b8e-18d1-4ebd-9792-fc0e34166f28",
+        "ddc7648c-332e-4827-a862-edcea15b4d47"
+      ],
+      "connection_tuples": [
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-document/AWS-RunShellScript",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "cloudtrail.amazonaws.com",
+          "7c13b07a-c0ab-47a8-8b9e-68b8150c867e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "ec2.amazonaws.com",
+          "51d34c48-d4dc-4a6e-b5db-09aea44a550c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "s3.amazonaws.com",
+          "08883ab5-b871-4e2d-baab-ac4df9664fbd"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "83bcb124-93d5-4caa-9846-b3a0a13a21c7"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "ddc7648c-332e-4827-a862-edcea15b4d47"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::aws:policy/AdministratorAccess",
+          "40237724-af19-42d9-afd4-cdac94b088ec"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "88c2e2cc-2a72-4a95-ab9a-bc8eb44a6275"
+        ]
+      ],
+      "reduction_vs_window": null
+    },
+    "k2_inferred": {
+      "returned_events": 22,
+      "returned_connections": 29,
+      "events": {
+        "precision": 0.18181818181818182,
+        "recall": 0.03636363636363636,
+        "f1": 0.0606060606060606,
+        "hits": 2,
+        "required": 55,
+        "false": 9,
+        "context": 11
+      },
+      "connections": {
+        "precision": 0.18181818181818182,
+        "recall": 0.03636363636363636,
+        "f1": 0.0606060606060606,
+        "hits": 2,
+        "required": 55,
+        "false": 9,
+        "context": 18
+      },
+      "context_events": 11,
+      "boundary_events": 0,
+      "checks": {
+        "5f835336-8de6-4b53-acdf-2b9398d6e127 <= 83bcb124-93d5-4caa-9846-b3a0a13a21c7": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7e88ae0a-f677-44a9-a588-bf8823de324d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2f2af8d5-993d-4a5b-8e47-33fc3437df52": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3f62e914-2293-4d7d-bd76-515f10d8b2dc": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 873840fc-58c3-4ae4-b708-db7103b85afb": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 0de83bc9-f918-438b-8701-79328c7ee85e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1058de24-bb45-4a6b-8379-d3cc1b2cec55": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 140087b8-b041-40b0-86dc-4b98bdec57cb": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 14693c0b-d3ea-4417-acad-119b148acd3b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 17730684-3592-44fb-a0d0-8cfde9ee2b73": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1fdce355-50c3-4bd6-b8bd-ca31313b92d3": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 262052ae-2a81-4c08-bcff-cdc512bbfd8e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2a5e2601-14be-4542-8c01-6c9a1573efb3": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2ee1de62-e092-45fb-b5fe-99fa7aac4bc8": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3274bb88-427e-4228-9e5d-f34b43bd15a9": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 330833d1-6c80-49f0-9ca0-4253b9251c57": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 39929415-243a-4e9c-a86b-942031ccdd4c": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3befffc1-73e1-4bdc-b86e-9c684b38994d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 449afbfc-1bc2-41f3-8440-ab75222bd77c": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4613867a-24be-456e-b146-cb449bc3c659": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 49f117ac-46b6-42ef-8d3f-fed961784a5d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4b499131-70f8-41ea-9a33-77a5be038cc8": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4c816ce9-aded-4341-8179-83b629adcdcd": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 51c2e020-87be-402a-9d04-6342375c045e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 55cf7290-ad12-4f90-bc50-1f1d02f75d79": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 5a5db5c6-4045-432b-bdee-301ce54aae69": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 625816be-f246-45e7-8833-739b80ec0471": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 62a0d97d-853f-4b3a-ac21-78c648ef1ea7": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 640acd3c-2ba4-4071-b9d6-8107f6810720": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 654ffd0d-670f-4169-89ba-357b61c32a9b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 65c77fb8-8e16-4098-8fee-e53958e5844e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 6a5cad4b-e090-40ee-a2a9-6a92d587a9ee": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 70e9a026-c627-46cc-9a07-e9bd6ef722d4": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 72990315-c377-47fc-b727-f2beff59db0b": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7f068b00-eedc-46ac-9bd2-3764526c6641": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 8e7405db-6137-4e52-af23-b54efe805b90": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 95ea2a12-01f7-4f8c-b134-24c018075aef": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9d3de1a5-d18a-4b5f-bf88-50b31b745e73": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= aab29618-392c-4144-9e34-b09b96064586": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ac57fe8e-b4b3-46db-9a87-eab2f0f23c67": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b178061d-19f4-41b5-ae69-f6dce8c6fcfe": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= bca86b17-be7f-457a-b765-971f671a22ce": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= be32e8ff-09a5-4e83-bff3-e89883c6421d": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c18bb089-138d-45f6-a5d3-d1eba9306852": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c217dd91-cdc8-4704-ad5b-4bcdf8b3355e": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c2ba8660-e422-43bf-aba2-705dfcb66143": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c4389e29-0724-416a-a736-095cabf22b21": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= df648e58-c9fe-42ee-a71f-9c67d2040277": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ee549859-b2fa-45fb-a97c-fcaa1d90d437": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f1a09b3c-61d4-416b-b089-145ba9aedf23": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f714d538-7c08-4494-8e42-8ba5c10f0fb5": false,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f9582f55-7275-49d0-9b65-8ec6a93c6f44": false
+      },
+      "complete": false,
+      "event_ids": [
+        "08883ab5-b871-4e2d-baab-ac4df9664fbd",
+        "15384c6b-b0c3-40e5-8007-6e54b6a1922e",
+        "17b46d7e-591c-44dc-ba42-a22b57e5dc3b",
+        "24b2e968-01ec-412f-bbb7-118493145dbd",
+        "40237724-af19-42d9-afd4-cdac94b088ec",
+        "51d34c48-d4dc-4a6e-b5db-09aea44a550c",
+        "5f835336-8de6-4b53-acdf-2b9398d6e127",
+        "6eebdafb-9b8f-413f-8a6b-9bfd8d0dd47f",
+        "70586366-4b0e-455a-8670-2ffb587ad06f",
+        "7c13b07a-c0ab-47a8-8b9e-68b8150c867e",
+        "8297902b-5a49-457c-927b-03c824f8cbcc",
+        "8341c12d-6657-44b8-b5fe-9d6093695344",
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7",
+        "88c2e2cc-2a72-4a95-ab9a-bc8eb44a6275",
+        "9901cfd3-6487-4c69-82ea-17bf7f3a882c",
+        "a52a8df9-192d-46d8-8061-82312b9f5075",
+        "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c",
+        "caed0b8e-18d1-4ebd-9792-fc0e34166f28",
+        "ddc7648c-332e-4827-a862-edcea15b4d47",
+        "f8fbcd10-96ec-4822-836c-3ef075ae6046",
+        "fb8321e7-df05-4b15-99b7-639c28db3665",
+        "fc8ab9e4-9712-484e-a9d6-2f0c90251bf9"
+      ],
+      "connection_tuples": [
+        [
+          "OBTAINS",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "83bcb124-93d5-4caa-9846-b3a0a13a21c7"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-document/AWS-RunShellScript",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "cloudtrail.amazonaws.com",
+          "7c13b07a-c0ab-47a8-8b9e-68b8150c867e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "ec2.amazonaws.com",
+          "51d34c48-d4dc-4a6e-b5db-09aea44a550c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "s3.amazonaws.com",
+          "08883ab5-b871-4e2d-baab-ac4df9664fbd"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0UGQ33UQ6",
+          "cloudtrail.amazonaws.com",
+          "f8fbcd10-96ec-4822-836c-3ef075ae6046"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0X5T4NSSE",
+          "cloudtrail.amazonaws.com",
+          "15384c6b-b0c3-40e5-8007-6e54b6a1922e"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "17b46d7e-591c-44dc-ba42-a22b57e5dc3b"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "6eebdafb-9b8f-413f-8a6b-9bfd8d0dd47f"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "8297902b-5a49-457c-927b-03c824f8cbcc"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "8341c12d-6657-44b8-b5fe-9d6093695344"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "fb8321e7-df05-4b15-99b7-639c28db3665"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "40237724-af19-42d9-afd4-cdac94b088ec"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "83bcb124-93d5-4caa-9846-b3a0a13a21c7"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "ddc7648c-332e-4827-a862-edcea15b4d47"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::aws:policy/AdministratorAccess",
+          "40237724-af19-42d9-afd4-cdac94b088ec"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "88c2e2cc-2a72-4a95-ab9a-bc8eb44a6275"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "iam.amazonaws.com",
+          "24b2e968-01ec-412f-bbb7-118493145dbd"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "iam.amazonaws.com",
+          "9901cfd3-6487-4c69-82ea-17bf7f3a882c"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "s3.amazonaws.com",
+          "fc8ab9e4-9712-484e-a9d6-2f0c90251bf9"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "sts.amazonaws.com",
+          "70586366-4b0e-455a-8670-2ffb587ad06f"
+        ]
+      ],
+      "reduction_vs_window": null
+    },
+    "k3_inferred": {
+      "returned_events": 78,
+      "returned_connections": 136,
+      "events": {
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1": 0.9090909090909091,
+        "hits": 55,
+        "required": 55,
+        "false": 11,
+        "context": 12
+      },
+      "connections": {
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1": 0.9090909090909091,
+        "hits": 55,
+        "required": 55,
+        "false": 11,
+        "context": 70
+      },
+      "context_events": 12,
+      "boundary_events": 0,
+      "checks": {
+        "5f835336-8de6-4b53-acdf-2b9398d6e127 <= 83bcb124-93d5-4caa-9846-b3a0a13a21c7": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7e88ae0a-f677-44a9-a588-bf8823de324d": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2f2af8d5-993d-4a5b-8e47-33fc3437df52": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3f62e914-2293-4d7d-bd76-515f10d8b2dc": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 873840fc-58c3-4ae4-b708-db7103b85afb": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 0de83bc9-f918-438b-8701-79328c7ee85e": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1058de24-bb45-4a6b-8379-d3cc1b2cec55": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 140087b8-b041-40b0-86dc-4b98bdec57cb": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 14693c0b-d3ea-4417-acad-119b148acd3b": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 17730684-3592-44fb-a0d0-8cfde9ee2b73": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 1fdce355-50c3-4bd6-b8bd-ca31313b92d3": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 262052ae-2a81-4c08-bcff-cdc512bbfd8e": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2a5e2601-14be-4542-8c01-6c9a1573efb3": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 2ee1de62-e092-45fb-b5fe-99fa7aac4bc8": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3274bb88-427e-4228-9e5d-f34b43bd15a9": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 330833d1-6c80-49f0-9ca0-4253b9251c57": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 39929415-243a-4e9c-a86b-942031ccdd4c": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 3befffc1-73e1-4bdc-b86e-9c684b38994d": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 449afbfc-1bc2-41f3-8440-ab75222bd77c": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4613867a-24be-456e-b146-cb449bc3c659": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 49f117ac-46b6-42ef-8d3f-fed961784a5d": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4b499131-70f8-41ea-9a33-77a5be038cc8": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 4c816ce9-aded-4341-8179-83b629adcdcd": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 51c2e020-87be-402a-9d04-6342375c045e": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 55cf7290-ad12-4f90-bc50-1f1d02f75d79": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 5a5db5c6-4045-432b-bdee-301ce54aae69": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 625816be-f246-45e7-8833-739b80ec0471": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 62a0d97d-853f-4b3a-ac21-78c648ef1ea7": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 640acd3c-2ba4-4071-b9d6-8107f6810720": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 654ffd0d-670f-4169-89ba-357b61c32a9b": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 65c77fb8-8e16-4098-8fee-e53958e5844e": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 6a5cad4b-e090-40ee-a2a9-6a92d587a9ee": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 70e9a026-c627-46cc-9a07-e9bd6ef722d4": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 72990315-c377-47fc-b727-f2beff59db0b": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 7f068b00-eedc-46ac-9bd2-3764526c6641": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 8e7405db-6137-4e52-af23-b54efe805b90": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 95ea2a12-01f7-4f8c-b134-24c018075aef": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= 9d3de1a5-d18a-4b5f-bf88-50b31b745e73": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= aab29618-392c-4144-9e34-b09b96064586": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ac57fe8e-b4b3-46db-9a87-eab2f0f23c67": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b178061d-19f4-41b5-ae69-f6dce8c6fcfe": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= bca86b17-be7f-457a-b765-971f671a22ce": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= be32e8ff-09a5-4e83-bff3-e89883c6421d": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c18bb089-138d-45f6-a5d3-d1eba9306852": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c217dd91-cdc8-4704-ad5b-4bcdf8b3355e": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c2ba8660-e422-43bf-aba2-705dfcb66143": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= c4389e29-0724-416a-a736-095cabf22b21": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= df648e58-c9fe-42ee-a71f-9c67d2040277": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= ee549859-b2fa-45fb-a97c-fcaa1d90d437": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f1a09b3c-61d4-416b-b089-145ba9aedf23": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f714d538-7c08-4494-8e42-8ba5c10f0fb5": true,
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7 <= f9582f55-7275-49d0-9b65-8ec6a93c6f44": true
+      },
+      "complete": true,
+      "event_ids": [
+        "08883ab5-b871-4e2d-baab-ac4df9664fbd",
+        "0de83bc9-f918-438b-8701-79328c7ee85e",
+        "1058de24-bb45-4a6b-8379-d3cc1b2cec55",
+        "140087b8-b041-40b0-86dc-4b98bdec57cb",
+        "14693c0b-d3ea-4417-acad-119b148acd3b",
+        "15384c6b-b0c3-40e5-8007-6e54b6a1922e",
+        "17730684-3592-44fb-a0d0-8cfde9ee2b73",
+        "17b46d7e-591c-44dc-ba42-a22b57e5dc3b",
+        "1fdce355-50c3-4bd6-b8bd-ca31313b92d3",
+        "24b2e968-01ec-412f-bbb7-118493145dbd",
+        "262052ae-2a81-4c08-bcff-cdc512bbfd8e",
+        "2a5e2601-14be-4542-8c01-6c9a1573efb3",
+        "2ee1de62-e092-45fb-b5fe-99fa7aac4bc8",
+        "2f2af8d5-993d-4a5b-8e47-33fc3437df52",
+        "3274bb88-427e-4228-9e5d-f34b43bd15a9",
+        "330833d1-6c80-49f0-9ca0-4253b9251c57",
+        "39929415-243a-4e9c-a86b-942031ccdd4c",
+        "3befffc1-73e1-4bdc-b86e-9c684b38994d",
+        "3f62e914-2293-4d7d-bd76-515f10d8b2dc",
+        "40237724-af19-42d9-afd4-cdac94b088ec",
+        "449afbfc-1bc2-41f3-8440-ab75222bd77c",
+        "4613867a-24be-456e-b146-cb449bc3c659",
+        "49f117ac-46b6-42ef-8d3f-fed961784a5d",
+        "4b499131-70f8-41ea-9a33-77a5be038cc8",
+        "4c816ce9-aded-4341-8179-83b629adcdcd",
+        "51c2e020-87be-402a-9d04-6342375c045e",
+        "51d34c48-d4dc-4a6e-b5db-09aea44a550c",
+        "55cf7290-ad12-4f90-bc50-1f1d02f75d79",
+        "5a5db5c6-4045-432b-bdee-301ce54aae69",
+        "5f835336-8de6-4b53-acdf-2b9398d6e127",
+        "625816be-f246-45e7-8833-739b80ec0471",
+        "62a0d97d-853f-4b3a-ac21-78c648ef1ea7",
+        "640acd3c-2ba4-4071-b9d6-8107f6810720",
+        "654ffd0d-670f-4169-89ba-357b61c32a9b",
+        "65c77fb8-8e16-4098-8fee-e53958e5844e",
+        "6a5cad4b-e090-40ee-a2a9-6a92d587a9ee",
+        "6eebdafb-9b8f-413f-8a6b-9bfd8d0dd47f",
+        "70586366-4b0e-455a-8670-2ffb587ad06f",
+        "70e9a026-c627-46cc-9a07-e9bd6ef722d4",
+        "72990315-c377-47fc-b727-f2beff59db0b",
+        "7c13b07a-c0ab-47a8-8b9e-68b8150c867e",
+        "7e88ae0a-f677-44a9-a588-bf8823de324d",
+        "7f068b00-eedc-46ac-9bd2-3764526c6641",
+        "8297902b-5a49-457c-927b-03c824f8cbcc",
+        "8341c12d-6657-44b8-b5fe-9d6093695344",
+        "83bcb124-93d5-4caa-9846-b3a0a13a21c7",
+        "873840fc-58c3-4ae4-b708-db7103b85afb",
+        "88c2e2cc-2a72-4a95-ab9a-bc8eb44a6275",
+        "8e7405db-6137-4e52-af23-b54efe805b90",
+        "95ea2a12-01f7-4f8c-b134-24c018075aef",
+        "9901cfd3-6487-4c69-82ea-17bf7f3a882c",
+        "9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07",
+        "9d3de1a5-d18a-4b5f-bf88-50b31b745e73",
+        "a52a8df9-192d-46d8-8061-82312b9f5075",
+        "aab29618-392c-4144-9e34-b09b96064586",
+        "ac57fe8e-b4b3-46db-9a87-eab2f0f23c67",
+        "b178061d-19f4-41b5-ae69-f6dce8c6fcfe",
+        "b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9",
+        "bca86b17-be7f-457a-b765-971f671a22ce",
+        "bd6db395-c87f-4506-aa0f-4f45f29e2f00",
+        "be32e8ff-09a5-4e83-bff3-e89883c6421d",
+        "c18bb089-138d-45f6-a5d3-d1eba9306852",
+        "c217dd91-cdc8-4704-ad5b-4bcdf8b3355e",
+        "c2ba8660-e422-43bf-aba2-705dfcb66143",
+        "c4389e29-0724-416a-a736-095cabf22b21",
+        "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c",
+        "caed0b8e-18d1-4ebd-9792-fc0e34166f28",
+        "d9550e0f-64ea-3f4a-966c-f2b439c24ed5",
+        "ddc7648c-332e-4827-a862-edcea15b4d47",
+        "df648e58-c9fe-42ee-a71f-9c67d2040277",
+        "e5806af2-15ed-375e-8d82-d2cacf4aa2c2",
+        "ee549859-b2fa-45fb-a97c-fcaa1d90d437",
+        "f1a09b3c-61d4-416b-b089-145ba9aedf23",
+        "f714d538-7c08-4494-8e42-8ba5c10f0fb5",
+        "f8fbcd10-96ec-4822-836c-3ef075ae6046",
+        "f9582f55-7275-49d0-9b65-8ec6a93c6f44",
+        "fb8321e7-df05-4b15-99b7-639c28db3665",
+        "fc8ab9e4-9712-484e-a9d6-2f0c90251bf9"
+      ],
+      "connection_tuples": [
+        [
+          "OBTAINS",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "83bcb124-93d5-4caa-9846-b3a0a13a21c7"
+        ],
+        [
+          "OBTAINS",
+          "svc:resource-explorer-2.amazonaws.com",
+          "ASIAEXAMPLE0UGQ33UQ6",
+          "d9550e0f-64ea-3f4a-966c-f2b439c24ed5"
+        ],
+        [
+          "OBTAINS",
+          "svc:resource-explorer-2.amazonaws.com",
+          "ASIAEXAMPLE0X5T4NSSE",
+          "e5806af2-15ed-375e-8d82-d2cacf4aa2c2"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "a52a8df9-192d-46d8-8061-82312b9f5075"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "c574c5f9-1d42-4feb-a5f8-88fc7da1a82c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-command/4b80a329-669c-467f-8de7-9a17c5cda933",
+          "caed0b8e-18d1-4ebd-9792-fc0e34166f28"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "arn:aws:ssm:ap-northeast-2:123456789012:ssm-document/AWS-RunShellScript",
+          "5f835336-8de6-4b53-acdf-2b9398d6e127"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "cloudtrail.amazonaws.com",
+          "7c13b07a-c0ab-47a8-8b9e-68b8150c867e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "ec2.amazonaws.com",
+          "51d34c48-d4dc-4a6e-b5db-09aea44a550c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0W5UHPSX2",
+          "s3.amazonaws.com",
+          "08883ab5-b871-4e2d-baab-ac4df9664fbd"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:cloudtrail:ap-northeast-2:123456789012:trail/stratus-red-team-ct-stop-trail-vecwevjkkr",
+          "7e88ae0a-f677-44a9-a588-bf8823de324d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "0de83bc9-f918-438b-8701-79328c7ee85e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "1058de24-bb45-4a6b-8379-d3cc1b2cec55"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "140087b8-b041-40b0-86dc-4b98bdec57cb"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "14693c0b-d3ea-4417-acad-119b148acd3b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "17730684-3592-44fb-a0d0-8cfde9ee2b73"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "1fdce355-50c3-4bd6-b8bd-ca31313b92d3"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "262052ae-2a81-4c08-bcff-cdc512bbfd8e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "2a5e2601-14be-4542-8c01-6c9a1573efb3"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "2ee1de62-e092-45fb-b5fe-99fa7aac4bc8"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "2f2af8d5-993d-4a5b-8e47-33fc3437df52"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "3274bb88-427e-4228-9e5d-f34b43bd15a9"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "330833d1-6c80-49f0-9ca0-4253b9251c57"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "39929415-243a-4e9c-a86b-942031ccdd4c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "3befffc1-73e1-4bdc-b86e-9c684b38994d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "3f62e914-2293-4d7d-bd76-515f10d8b2dc"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "449afbfc-1bc2-41f3-8440-ab75222bd77c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "4613867a-24be-456e-b146-cb449bc3c659"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "49f117ac-46b6-42ef-8d3f-fed961784a5d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "4b499131-70f8-41ea-9a33-77a5be038cc8"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "4c816ce9-aded-4341-8179-83b629adcdcd"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "51c2e020-87be-402a-9d04-6342375c045e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "55cf7290-ad12-4f90-bc50-1f1d02f75d79"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "5a5db5c6-4045-432b-bdee-301ce54aae69"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "625816be-f246-45e7-8833-739b80ec0471"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "62a0d97d-853f-4b3a-ac21-78c648ef1ea7"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "640acd3c-2ba4-4071-b9d6-8107f6810720"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "654ffd0d-670f-4169-89ba-357b61c32a9b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "65c77fb8-8e16-4098-8fee-e53958e5844e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "6a5cad4b-e090-40ee-a2a9-6a92d587a9ee"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "70e9a026-c627-46cc-9a07-e9bd6ef722d4"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "72990315-c377-47fc-b727-f2beff59db0b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "7f068b00-eedc-46ac-9bd2-3764526c6641"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "873840fc-58c3-4ae4-b708-db7103b85afb"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "8e7405db-6137-4e52-af23-b54efe805b90"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "95ea2a12-01f7-4f8c-b134-24c018075aef"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "9d3de1a5-d18a-4b5f-bf88-50b31b745e73"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "aab29618-392c-4144-9e34-b09b96064586"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "ac57fe8e-b4b3-46db-9a87-eab2f0f23c67"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "b178061d-19f4-41b5-ae69-f6dce8c6fcfe"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "bca86b17-be7f-457a-b765-971f671a22ce"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "bd6db395-c87f-4506-aa0f-4f45f29e2f00"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "be32e8ff-09a5-4e83-bff3-e89883c6421d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "c18bb089-138d-45f6-a5d3-d1eba9306852"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "c217dd91-cdc8-4704-ad5b-4bcdf8b3355e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "c2ba8660-e422-43bf-aba2-705dfcb66143"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "c4389e29-0724-416a-a736-095cabf22b21"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "df648e58-c9fe-42ee-a71f-9c67d2040277"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "ee549859-b2fa-45fb-a97c-fcaa1d90d437"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "f1a09b3c-61d4-416b-b089-145ba9aedf23"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "f714d538-7c08-4494-8e42-8ba5c10f0fb5"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "f9582f55-7275-49d0-9b65-8ec6a93c6f44"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/aerospace_busload.sql",
+          "2f2af8d5-993d-4a5b-8e47-33fc3437df52"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/among_truth.sql",
+          "3f62e914-2293-4d7d-bd76-515f10d8b2dc"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/balsamic voyage.docx",
+          "62a0d97d-853f-4b3a-ac21-78c648ef1ea7"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/bonelike curliness.tar.gz",
+          "df648e58-c9fe-42ee-a71f-9c67d2040277"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/bonelike freebee.txt",
+          "1058de24-bb45-4a6b-8379-d3cc1b2cec55"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/carton_ditto.tar.gz",
+          "654ffd0d-670f-4169-89ba-357b61c32a9b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/catapult-appease.pdf",
+          "3274bb88-427e-4228-9e5d-f34b43bd15a9"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/cesarean take.tar.gz",
+          "f1a09b3c-61d4-416b-b089-145ba9aedf23"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chair-freewill.png",
+          "9d3de1a5-d18a-4b5f-bf88-50b31b745e73"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chevy preset.sql",
+          "c217dd91-cdc8-4704-ad5b-4bcdf8b3355e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chevy-blunt.txt",
+          "be32e8ff-09a5-4e83-bff3-e89883c6421d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chewy uncross.sql",
+          "b61fd5ec-ca4e-4435-8e35-d3e2fa047cc9"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/connected_paging.tar.gz",
+          "7f068b00-eedc-46ac-9bd2-3764526c6641"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/crabbing-underage.png",
+          "4b499131-70f8-41ea-9a33-77a5be038cc8"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/curliness_unheard.sql",
+          "ee549859-b2fa-45fb-a97c-fcaa1d90d437"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/designer-pueblo.docx",
+          "c2ba8660-e422-43bf-aba2-705dfcb66143"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/dexterous_truth.txt",
+          "1fdce355-50c3-4bd6-b8bd-ca31313b92d3"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/distrust-gliding.docx",
+          "14693c0b-d3ea-4417-acad-119b148acd3b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/divisive-freebee.pdf",
+          "51c2e020-87be-402a-9d04-6342375c045e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/dullness-bondless.docx",
+          "449afbfc-1bc2-41f3-8440-ab75222bd77c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/egotistic yoga.tar.gz",
+          "55cf7290-ad12-4f90-bc50-1f1d02f75d79"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/flashy unfasten.pdf",
+          "bca86b17-be7f-457a-b765-971f671a22ce"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/glowing ignition.txt",
+          "330833d1-6c80-49f0-9ca0-4253b9251c57"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/happily-crablike.pdf",
+          "2a5e2601-14be-4542-8c01-6c9a1573efb3"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/hardhead_underage.png",
+          "39929415-243a-4e9c-a86b-942031ccdd4c"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/mountable-net.pdf",
+          "0de83bc9-f918-438b-8701-79328c7ee85e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/niece-hulk.sql",
+          "640acd3c-2ba4-4071-b9d6-8107f6810720"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/outlet-sitcom.docx",
+          "4c816ce9-aded-4341-8179-83b629adcdcd"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/output tamper.txt",
+          "65c77fb8-8e16-4098-8fee-e53958e5844e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/overbid_repeal.docx",
+          "6a5cad4b-e090-40ee-a2a9-6a92d587a9ee"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/pouring dullness.txt",
+          "17730684-3592-44fb-a0d0-8cfde9ee2b73"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/prodigy dropbox.sql",
+          "140087b8-b041-40b0-86dc-4b98bdec57cb"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/prodigy_carton.txt",
+          "f714d538-7c08-4494-8e42-8ba5c10f0fb5"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/railcar wiring.pdf",
+          "c4389e29-0724-416a-a736-095cabf22b21"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/recount-chair.sql",
+          "4613867a-24be-456e-b146-cb449bc3c659"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/sandbag-margarine.sql",
+          "9c2e2aaa-335d-4a4e-b5e2-e244b51bcc07"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/secret_decade.tar.gz",
+          "262052ae-2a81-4c08-bcff-cdc512bbfd8e"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/secret_survivor.png",
+          "625816be-f246-45e7-8833-739b80ec0471"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/silenced recount.pdf",
+          "c18bb089-138d-45f6-a5d3-d1eba9306852"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/treading waviness.txt",
+          "49f117ac-46b6-42ef-8d3f-fed961784a5d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/trickster connected.png",
+          "ac57fe8e-b4b3-46db-9a87-eab2f0f23c67"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/twisted-fantasy.sql",
+          "8e7405db-6137-4e52-af23-b54efe805b90"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unexpired_undiluted.tar.gz",
+          "95ea2a12-01f7-4f8c-b134-24c018075aef"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unvarying tweed.docx",
+          "2ee1de62-e092-45fb-b5fe-99fa7aac4bc8"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unvarying-camcorder.docx",
+          "3befffc1-73e1-4bdc-b86e-9c684b38994d"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unwed-unlatch.sql",
+          "5a5db5c6-4045-432b-bdee-301ce54aae69"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/usher-dullness.txt",
+          "aab29618-392c-4144-9e34-b09b96064586"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/usher-licking.txt",
+          "f9582f55-7275-49d0-9b65-8ec6a93c6f44"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/vaguely-willing.sql",
+          "70e9a026-c627-46cc-9a07-e9bd6ef722d4"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/wife_brook.sql",
+          "72990315-c377-47fc-b727-f2beff59db0b"
+        ],
+        [
+          "USE",
+          "AKIAEXAMPLE0XYTRAEEE",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/yoga repeal.txt",
+          "873840fc-58c3-4ae4-b708-db7103b85afb"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0UGQ33UQ6",
+          "cloudtrail.amazonaws.com",
+          "f8fbcd10-96ec-4822-836c-3ef075ae6046"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0X5T4NSSE",
+          "cloudtrail.amazonaws.com",
+          "15384c6b-b0c3-40e5-8007-6e54b6a1922e"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "17b46d7e-591c-44dc-ba42-a22b57e5dc3b"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "6eebdafb-9b8f-413f-8a6b-9bfd8d0dd47f"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "8297902b-5a49-457c-927b-03c824f8cbcc"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "8341c12d-6657-44b8-b5fe-9d6093695344"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+          "fb8321e7-df05-4b15-99b7-639c28db3665"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "40237724-af19-42d9-afd4-cdac94b088ec"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "83bcb124-93d5-4caa-9846-b3a0a13a21c7"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::123456789012:user/apt-backdoor-admin",
+          "ddc7648c-332e-4827-a862-edcea15b4d47"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:iam::aws:policy/AdministratorAccess",
+          "40237724-af19-42d9-afd4-cdac94b088ec"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss",
+          "88c2e2cc-2a72-4a95-ab9a-bc8eb44a6275"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "iam.amazonaws.com",
+          "24b2e968-01ec-412f-bbb7-118493145dbd"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "iam.amazonaws.com",
+          "9901cfd3-6487-4c69-82ea-17bf7f3a882c"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "s3.amazonaws.com",
+          "fc8ab9e4-9712-484e-a9d6-2f0c90251bf9"
+        ],
+        [
+          "USE",
+          "ASIAEXAMPLE0ZXTI44UW",
+          "sts.amazonaws.com",
+          "70586366-4b0e-455a-8670-2ffb587ad06f"
+        ]
+      ],
+      "reduction_vs_window": 0.39534883720930236
+    }
+  },
+  "scope": {
+    "account": "",
+    "target_resource": "",
+    "effect_apis": []
+  },
+  "mode": "both",
+  "inferred_handoffs": [
+    {
+      "src": "AKIAEXAMPLE0W5UHPSX2",
+      "dst": "ASIAEXAMPLE0ZXTI44UW",
+      "rel": "CAN_OBTAIN",
+      "eventID": "",
+      "eventTime": "2026-09-01T07:42:37Z",
+      "arrivalTime": "2026-09-01T07:42:51Z",
+      "workload": "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+      "controlEventID": "5f835336-8de6-4b53-acdf-2b9398d6e127",
+      "useEventID": "88c2e2cc-2a72-4a95-ab9a-bc8eb44a6275",
+      "sameSource": true,
+      "evidenceClass": "candidate-handoff"
+    },
+    {
+      "src": "AKIAEXAMPLE0W5UHPSX2",
+      "dst": "ASIAEXAMPLE0ZXTI44UW",
+      "rel": "CAN_OBTAIN",
+      "eventID": "",
+      "eventTime": "2026-09-01T07:42:37Z",
+      "arrivalTime": "2026-09-01T07:42:58Z",
+      "workload": "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+      "controlEventID": "5f835336-8de6-4b53-acdf-2b9398d6e127",
+      "useEventID": "ddc7648c-332e-4827-a862-edcea15b4d47",
+      "sameSource": true,
+      "evidenceClass": "candidate-handoff"
+    },
+    {
+      "src": "AKIAEXAMPLE0W5UHPSX2",
+      "dst": "ASIAEXAMPLE0ZXTI44UW",
+      "rel": "CAN_OBTAIN",
+      "eventID": "",
+      "eventTime": "2026-09-01T07:42:37Z",
+      "arrivalTime": "2026-09-01T07:43:00Z",
+      "workload": "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+      "controlEventID": "5f835336-8de6-4b53-acdf-2b9398d6e127",
+      "useEventID": "40237724-af19-42d9-afd4-cdac94b088ec",
+      "sameSource": true,
+      "evidenceClass": "candidate-handoff"
+    },
+    {
+      "src": "AKIAEXAMPLE0W5UHPSX2",
+      "dst": "ASIAEXAMPLE0ZXTI44UW",
+      "rel": "CAN_OBTAIN",
+      "eventID": "",
+      "eventTime": "2026-09-01T07:42:37Z",
+      "arrivalTime": "2026-09-01T07:43:05Z",
+      "workload": "arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212",
+      "controlEventID": "5f835336-8de6-4b53-acdf-2b9398d6e127",
+      "useEventID": "83bcb124-93d5-4caa-9846-b3a0a13a21c7",
+      "sameSource": true,
+      "evidenceClass": "candidate-handoff"
+    }
+  ],
+  "inferred_handoff_pairs": 1,
+  "require_same_source": true,
+  "proposed_reduction_vs_k3": null
+}

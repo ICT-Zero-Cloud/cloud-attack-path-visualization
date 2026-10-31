@@ -1,6 +1,18 @@
-# flaws.cloud 
-data/archives/flaws_cloudtrail_logs/flaws_cloudtrail*
-data/raw/flaws_cloudtrail_logs/flaws_cloudtrail*
+# 원본 CloudTrail 로그는 올리지 않는다
+data/raw/*
+!data/raw/README.md
 
-# infra
-infra/
+# Neo4j 런타임 데이터
+neo4j/
+import/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / 편집기
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
