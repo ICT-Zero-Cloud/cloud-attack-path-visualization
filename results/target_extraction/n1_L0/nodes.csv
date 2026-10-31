@@ -1,0 +1,93 @@
+id,labels,actorType,arn,accountId,kind,resourceType,service,name,region,synthetic
+svc:cloudtrail.amazonaws.com,Actor,AWSService,,,Service,,,,,
+arn:aws:s3:::stratus-red-team-ct-stop-bucket-vecwevjkkr,Resource,,,,,bucket,s3,stratus-red-team-ct-stop-bucket-vecwevjkkr,,false
+arn:aws:s3:::stratus-red-team-ct-stop-bucket-vecwevjkkr/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0740Z_UpbJ36Ih8zg6gTab.json.gz,Resource,,,,,object,s3,AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0740Z_UpbJ36Ih8zg6gTab.json.gz,,false
+ASIAEXAMPLE04NBROQB3,Actor,Root,arn:aws:iam::123456789012:root,123456789012,TempKey,,,,,
+arn:aws:iam::123456789012:root,Resource,,,123456789012,,unknown,iam,root,,false
+arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543,Resource,,,,,bucket,s3,aws-cloudtrail-logs-123456789012-f9ba1543,,false
+ASIAEXAMPLE0RM2DWWNR,Actor,AssumedRole,arn:aws:sts::123456789012:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2,123456789012,TempKey,,,,,
+arn:aws:iam::123456789012:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer,Actor;Resource,Role,arn:aws:iam::123456789012:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer,123456789012,Role,role,iam,aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer,,false
+svc:resource-explorer-2.amazonaws.com,Actor,AWSService,,,Service,,,,,
+ASIAEXAMPLE0UGQ33UQ6,Actor,AssumedRole,arn:aws:sts::123456789012:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2,123456789012,TempKey,,,,,
+cloudtrail.amazonaws.com,Service,,,,,,cloudtrail,cloudtrail.amazonaws.com,,
+ASIAEXAMPLE0T7CPURD6,Actor,Root,arn:aws:iam::123456789012:root,123456789012,TempKey,,,,,
+notifications.amazonaws.com,Service,,,,,,notifications,notifications.amazonaws.com,,
+arn:aws:s3:::stratus-red-team-ct-stop-bucket-vecwevjkkr/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0740Z_snlej5zflHsoMfyA.json.gz,Resource,,,,,object,s3,AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0740Z_snlej5zflHsoMfyA.json.gz,,false
+arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0740Z_Y02tZHP6E4V6jf54.json.gz,Resource,,,,,object,s3,AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0740Z_Y02tZHP6E4V6jf54.json.gz,,false
+arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0745Z_eM3IXD8ctDxb9UTd.json.gz,Resource,,,,,object,s3,AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0745Z_eM3IXD8ctDxb9UTd.json.gz,,false
+arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/us-east-1/2026/09/01/123456789012_CloudTrail_us-east-1_20260901T0745Z_NP9Ay987G9OtzmnP.json.gz,Resource,,,,,object,s3,AWSLogs/123456789012/CloudTrail/us-east-1/2026/09/01/123456789012_CloudTrail_us-east-1_20260901T0745Z_NP9Ay987G9OtzmnP.json.gz,,false
+ASIAEXAMPLE0ZXTI44UW,Actor,AssumedRole,arn:aws:sts::123456789012:assumed-role/stratus-red-team-ec2-steal-credentials-role/i-0e4edeef541a5f212,123456789012,TempKey,,,,,
+arn:aws:iam::123456789012:role/stratus-red-team-ec2-steal-credentials-role,Actor;Resource,Role,arn:aws:iam::123456789012:role/stratus-red-team-ec2-steal-credentials-role,123456789012,Role,role,iam,stratus-red-team-ec2-steal-credentials-role,,false
+arn:aws:ec2:ap-northeast-2:123456789012:instance/i-0e4edeef541a5f212,Resource,,,123456789012,,instance,ec2,i-0e4edeef541a5f212,ap-northeast-2,false
+ssm.amazonaws.com,Service,,,,,,ssm,ssm.amazonaws.com,,
+AKIAEXAMPLE0W5UHPSX2,Actor,IAMUser,arn:aws:iam::123456789012:user/Huge-log-attack-simulation,123456789012,LongTermKey,,,,,
+arn:aws:iam::123456789012:user/Huge-log-attack-simulation,Resource,,,123456789012,,iam-user,iam,Huge-log-attack-simulation,,false
+ec2.amazonaws.com,Service,,,,,,ec2,ec2.amazonaws.com,,
+s3.amazonaws.com,Service,,,,,,s3,s3.amazonaws.com,,
+sts.amazonaws.com,Service,,,,,,sts,sts.amazonaws.com,,
+ASIAEXAMPLE0VQ53M4DQ,Actor,Root,arn:aws:iam::123456789012:root,123456789012,TempKey,,,,,
+iam.amazonaws.com,Service,,,,,,iam,iam.amazonaws.com,,
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss,Resource,,,,,bucket,s3,stratus-red-team-ransomware-bucket-nvtqss,,false
+AKIAEXAMPLE0XYTRAEEE,Actor,IAMUser,arn:aws:iam::123456789012:user/apt-backdoor-admin,123456789012,LongTermKey,,,,,
+arn:aws:iam::123456789012:user/apt-backdoor-admin,Resource,,,123456789012,,iam-user,iam,apt-backdoor-admin,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/aerospace_busload.sql,Resource,,,,,object,s3,aerospace_busload.sql,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/among_truth.sql,Resource,,,,,object,s3,among_truth.sql,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/yoga repeal.txt,Resource,,,,,object,s3,yoga repeal.txt,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/mountable-net.pdf,Resource,,,,,object,s3,mountable-net.pdf,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/bonelike freebee.txt,Resource,,,,,object,s3,bonelike freebee.txt,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/prodigy dropbox.sql,Resource,,,,,object,s3,prodigy dropbox.sql,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/distrust-gliding.docx,Resource,,,,,object,s3,distrust-gliding.docx,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/pouring dullness.txt,Resource,,,,,object,s3,pouring dullness.txt,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/dexterous_truth.txt,Resource,,,,,object,s3,dexterous_truth.txt,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/secret_decade.tar.gz,Resource,,,,,object,s3,secret_decade.tar.gz,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/happily-crablike.pdf,Resource,,,,,object,s3,happily-crablike.pdf,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unvarying tweed.docx,Resource,,,,,object,s3,unvarying tweed.docx,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/catapult-appease.pdf,Resource,,,,,object,s3,catapult-appease.pdf,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/glowing ignition.txt,Resource,,,,,object,s3,glowing ignition.txt,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/hardhead_underage.png,Resource,,,,,object,s3,hardhead_underage.png,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unvarying-camcorder.docx,Resource,,,,,object,s3,unvarying-camcorder.docx,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/dullness-bondless.docx,Resource,,,,,object,s3,dullness-bondless.docx,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/recount-chair.sql,Resource,,,,,object,s3,recount-chair.sql,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/treading waviness.txt,Resource,,,,,object,s3,treading waviness.txt,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/crabbing-underage.png,Resource,,,,,object,s3,crabbing-underage.png,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/outlet-sitcom.docx,Resource,,,,,object,s3,outlet-sitcom.docx,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/divisive-freebee.pdf,Resource,,,,,object,s3,divisive-freebee.pdf,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/egotistic yoga.tar.gz,Resource,,,,,object,s3,egotistic yoga.tar.gz,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unwed-unlatch.sql,Resource,,,,,object,s3,unwed-unlatch.sql,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/secret_survivor.png,Resource,,,,,object,s3,secret_survivor.png,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/balsamic voyage.docx,Resource,,,,,object,s3,balsamic voyage.docx,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/niece-hulk.sql,Resource,,,,,object,s3,niece-hulk.sql,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/carton_ditto.tar.gz,Resource,,,,,object,s3,carton_ditto.tar.gz,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/output tamper.txt,Resource,,,,,object,s3,output tamper.txt,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/overbid_repeal.docx,Resource,,,,,object,s3,overbid_repeal.docx,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/vaguely-willing.sql,Resource,,,,,object,s3,vaguely-willing.sql,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/wife_brook.sql,Resource,,,,,object,s3,wife_brook.sql,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/connected_paging.tar.gz,Resource,,,,,object,s3,connected_paging.tar.gz,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/twisted-fantasy.sql,Resource,,,,,object,s3,twisted-fantasy.sql,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/unexpired_undiluted.tar.gz,Resource,,,,,object,s3,unexpired_undiluted.tar.gz,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/sandbag-margarine.sql,Resource,,,,,object,s3,sandbag-margarine.sql,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chair-freewill.png,Resource,,,,,object,s3,chair-freewill.png,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/usher-dullness.txt,Resource,,,,,object,s3,usher-dullness.txt,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/trickster connected.png,Resource,,,,,object,s3,trickster connected.png,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chewy uncross.sql,Resource,,,,,object,s3,chewy uncross.sql,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/flashy unfasten.pdf,Resource,,,,,object,s3,flashy unfasten.pdf,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chevy-blunt.txt,Resource,,,,,object,s3,chevy-blunt.txt,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/silenced recount.pdf,Resource,,,,,object,s3,silenced recount.pdf,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/chevy preset.sql,Resource,,,,,object,s3,chevy preset.sql,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/designer-pueblo.docx,Resource,,,,,object,s3,designer-pueblo.docx,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/railcar wiring.pdf,Resource,,,,,object,s3,railcar wiring.pdf,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/bonelike curliness.tar.gz,Resource,,,,,object,s3,bonelike curliness.tar.gz,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/curliness_unheard.sql,Resource,,,,,object,s3,curliness_unheard.sql,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/cesarean take.tar.gz,Resource,,,,,object,s3,cesarean take.tar.gz,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/prodigy_carton.txt,Resource,,,,,object,s3,prodigy_carton.txt,,false
+arn:aws:s3:::stratus-red-team-ransomware-bucket-nvtqss/usher-licking.txt,Resource,,,,,object,s3,usher-licking.txt,,false
+ASIAEXAMPLE0X5T4NSSE,Actor,AssumedRole,arn:aws:sts::123456789012:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2,123456789012,TempKey,,,,,
+arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0745Z_8Iw9nJuyPTIHAZUa.json.gz,Resource,,,,,object,s3,AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0745Z_8Iw9nJuyPTIHAZUa.json.gz,,false
+arn:aws:s3:::stratus-red-team-ct-stop-bucket-vecwevjkkr/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0745Z_R5tM7MRWmZJ0Kkqh.json.gz,Resource,,,,,object,s3,AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0745Z_R5tM7MRWmZJ0Kkqh.json.gz,,false
+arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0750Z_AqDlBtUsstw3ncbp.json.gz,Resource,,,,,object,s3,AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0750Z_AqDlBtUsstw3ncbp.json.gz,,false
+arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/us-east-1/2026/09/01/123456789012_CloudTrail_us-east-1_20260901T0750Z_6jxmEIOAGYdPQDF2.json.gz,Resource,,,,,object,s3,AWSLogs/123456789012/CloudTrail/us-east-1/2026/09/01/123456789012_CloudTrail_us-east-1_20260901T0750Z_6jxmEIOAGYdPQDF2.json.gz,,false
+ASIAEXAMPLE04NQLO4AA,Actor,Root,arn:aws:iam::123456789012:root,123456789012,TempKey,,,,,
+arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0755Z_nrOJ1R3kSUwsuo9Q.json.gz,Resource,,,,,object,s3,AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0755Z_nrOJ1R3kSUwsuo9Q.json.gz,,false
+arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0750Z_bSJIC1BE0bBatMPW.json.gz,Resource,,,,,object,s3,AWSLogs/123456789012/CloudTrail/ap-northeast-2/2026/09/01/123456789012_CloudTrail_ap-northeast-2_20260901T0750Z_bSJIC1BE0bBatMPW.json.gz,,false
+ASIAEXAMPLE0TNB4MGU5,Actor,Root,arn:aws:iam::123456789012:root,123456789012,TempKey,,,,,
+arn:aws:s3:::aws-cloudtrail-logs-123456789012-f9ba1543/AWSLogs/123456789012/CloudTrail/us-east-1/2026/09/01/123456789012_CloudTrail_us-east-1_20260901T0755Z_GeJHYBvLVKeZMYiz.json.gz,Resource,,,,,object,s3,AWSLogs/123456789012/CloudTrail/us-east-1/2026/09/01/123456789012_CloudTrail_us-east-1_20260901T0755Z_GeJHYBvLVKeZMYiz.json.gz,,false

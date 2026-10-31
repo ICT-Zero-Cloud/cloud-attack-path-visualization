@@ -1,57 +1,112 @@
-# cloud-attack-path-visualization
+# CloudTrail 자격증명 흐름 그래프
 
+CISC-W'26 논문 **「자격증명 흐름과 자원 접근을 연결하는 CloudTrail 침해 조사 그래프」**의 코드, 정답 집합, 실험 결과를 담은 저장소입니다.
 
-클라우드 감사 로그를 그래프로 구성하여 침해 이후의 공격 경로와 영향 범위를 분석하는 연구 프로젝트입니다.
+CloudTrail 로그를 그래프로 바꿔, 공격자가 자격증명을 바꿔 가며 이동한 경로와 그 경로가 닿은 자원을 끊기지 않고 따라갈 수 있게 합니다.
 
-현재는 AWS CloudTrail 로그를 대상으로 자격 증명, 세션, 리소스 간 관계를 정의하고, 실제 로그에 기록된 행위를 하나의 흐름으로 연결하는 방법을 연구하고 있습니다.
+```
+CloudTrail 로그 ──▶ Python 파서 ──▶ 후처리(뷰) ──▶ Neo4j + 쿼리
+ (JSON)            자격증명·자원 = 노드   이동 후보 추론     공통 조사 전략
+                   발급·접근 = 간선       조사용 속성
+```
 
-<br>
+## 핵심 아이디어
 
-## 연구 배경
+| 아이디어 | 내용 | 위치 |
+| --- | --- | --- |
+| ① 키 단위 통합 | 발급 응답의 `accessKeyId`와 후속 호출의 `accessKeyId`를 같은 노드로 통합해, 키가 바뀌어도 발급이 키→키 간선(`OBTAINS`)으로 이어지게 한다 | `parser_node3_v2.py` |
+| ② 다중 필드 대상 추출 | `resources[]`뿐 아니라 요청·응답 필드에서도 대상 식별자를 찾아 구체적 자원과 연결하고, 찾은 위치(`refPath`)를 함께 남긴다 | `parser_node3_v2.py` (`--extract-level`) |
+| ③ 워크로드 이동 후보 | 로그에 남지 않는 인스턴스 자격증명 획득을 "워크로드 제어 + 그 워크로드에 실린 키(`RUNS_ON`)"로 추론한 `CAN_OBTAIN` 후보로 표현한다. 관측된 발급과 구분하며, 확정이 아닌 조사 단서다 | `scripts/simulate_views.py`, `scripts/apply_view.py`, `enrich_views.cypher` |
+| 공통 조사 전략 | 시작 이벤트 하나에서 상류(발급 계보)와 하류(후속 키와 자원 접근)를 같은 규칙으로 조회한다 | `scripts/measure_investigation.py`, `queries/investigation/` |
 
-클라우드 환경에서는 공격을 탐지한 이후에도 공격자가 어떤 권한을 거쳐 어디까지 접근했는지 파악하는 데 많은 시간이 필요합니다.
+## 저장소 구조
 
-CloudTrail은 개별 API 호출을 기록하지만, 이벤트 사이의 인과관계나 자격 증명 전환 흐름을 직접 제공하지 않습니다. 따라서 사고 조사자는 여러 로그에 흩어진 세션과 권한 정보를 수작업으로 연결해야 합니다.
+| 경로 | 내용 |
+| --- | --- |
+| `parser_node3_v2.py` | CloudTrail JSON → `nodes.csv` / `edges.csv` / `context.csv` |
+| `scripts/simulate_views.py` | 뷰 규칙의 원본 (노드 분류, `advances`, `CAN_OBTAIN` 합성) |
+| `scripts/apply_view.py` | 뷰 규칙을 CSV로 물질화 → `csv/*_view/` |
+| `scripts/measure_target_extraction.py` | 표 2 실험 (L0 vs L3 대상 추출) — 원본 로그 필요 |
+| `scripts/measure_investigation.py` | 공통 조사 전략과 채점 |
+| `scripts/measure_investigation_batch.py` | 표 3 실험 (n1~n4 일괄 실행) |
+| `scripts/test_measure_investigation.py` | 조사 전략 구현 점검 (6개 테스트) |
+| `load_3node_v2.cypher`, `enrich_views.cypher` | Neo4j 적재와 같은 뷰 규칙의 Cypher 판 |
+| `queries/investigation/` | Neo4j 조사 쿼리 (시작 이벤트, 상류·하류, 후보 근거 점검 등) |
+| `docker-compose.yml`, `browser-style.grass` | 로컬 Neo4j 실행 설정과 Browser 스타일 |
+| `groundtruth_json/` | 시나리오별 정답 집합 (필수 근거, 문맥, 대조군) |
+| `csv/` | n1~n4 파싱 결과(기반 그래프)와 뷰 결과 |
+| `results/` | 논문 표 2·표 3의 원자료 |
+| `docs/` | 단계별 해설 문서와 설계 노트 |
+| `data/raw/` | 원본 CloudTrail 로그를 두는 자리 (저장소에는 포함하지 않음) |
 
-이 프로젝트는 이러한 로그를 그래프로 표현하여 공격 경로와 조사 범위를 보다 쉽게 확인하는 것을 목표로 합니다.
+## 실행
 
-<br>
+Python 3.10 이상, 표준 라이브러리만 사용합니다.
 
-## 연구 방향
+### 표 3 재현 — 원본 로그 없이 가능
 
-현재 다음 내용을 중심으로 연구를 진행하고 있습니다.
+`csv/`에 파싱·뷰 결과가 들어 있어 바로 실행할 수 있습니다.
 
-- CloudTrail 로그의 주체, 행위, 리소스에 대한 그래프 모델 정의
-- IAM User, Role, STS Session 등 자격 증명 전환 관계 연결
-- 실제 로그에서 관찰된 행위 경로 구성
-- 권한상 접근 가능한 범위와 실제 실행된 경로의 구분
-- 대규모 로그에서 조사에 필요한 경로를 선별하는 방법 검토
+```bash
+python scripts/measure_investigation_batch.py   # results/common_investigation_*.json 재생성
+cd scripts && python test_measure_investigation.py
+```
 
-세부 모델과 연결 규칙은 데이터셋 분석 및 실험 결과에 따라 변경될 수 있습니다.
+| 사례 | 수집 로그 | 반환 | 필수 연결 보존 | 관측 발급만 | 후보 쌍 |
+| --- | --- | --- | --- | --- | --- |
+| n1 | 129 | 66 | 55/55 | 1/55 | 1 |
+| n2 | 165 | 31 | 24/24 | 2/24 | 1 |
+| n3 | 138 | 5 | 5/9 | 5/9 | 0 |
+| n4 | 140 | 8 | 6/6 | 6/6 | 0 |
 
-<br>
+### 표 2 재현 — 원본 로그 필요
 
-## 현재 진행 내용
+원본 로그 `aws.5_chain_n1.json` ~ `aws.5_chain_n4.json`을 `data/raw/`에 두거나 `CT_RAW_DIR` 환경변수로 위치를 지정합니다.
 
-- flaws.cloud CloudTrail 데이터셋 구조 분석
-- 사용자, Role, Session 및 Access Key 정보 확인
-- 조건별 CloudTrail 이벤트 추출
-- 자격 증명 기반 그래프 모델 설계
-- Provenance Graph 및 공격 재구성 관련 선행 연구 조사
+```bash
+python scripts/measure_target_extraction.py     # results/target_extraction/ 재생성
+```
 
-<br>
+결과: 구체적 자원 접근 근거 L0 74/84 → L3 84/84, 정답 자원 식별 27/32 → 32/32.
 
-## 프로젝트 구조
+### 임의의 로그를 그래프로
 
-```text
-cloud-attack-path-visualization/
-├─ data/
-│  ├─ archives/
-│  └─ raw/
-├─ docs/
-│  ├─ datasets/
-│  └─ references/
-├─ scripts/
-│  ├─ analyze_flaws.py
-│  └─ extract_events.py
-└─ README.md
+```bash
+python parser_node3_v2.py <log.json> -o csv/<name>            # 기반 그래프 (기본 --extract-level 3)
+python scripts/apply_view.py csv/<name>                        # 뷰 → csv/<name>_view/
+python scripts/measure_investigation.py --gt <gt.json> --csv csv/<name>_view --mode both
+```
+
+Neo4j 적재와 시각화 절차는 `docs/design/RUN.md`를 참고하세요 (`docker compose up -d` → `load_3node_v2.cypher` → `enrich_views.cypher`).
+
+## 논문 표와 파일
+
+| 논문 | 파일 |
+| --- | --- |
+| 표 2 (4.3 대상 추출 범위) | `results/target_extraction/summary.json`, `fixed_groundtruth.json`, `raw_field_verification.json` |
+| 표 3 (4.4 근거 보존과 검토 대상) | `results/common_investigation_summary.json`, `results/common_investigation_n*.json` |
+| 4.4 관측 모드 / 후보 모드 | 위 파일의 `observed_*`, `candidate_pairs` 필드 |
+| 정답 근거 정의 (4.2) | `groundtruth_json/aws.5_chain_n*.common.json` |
+
+표 3의 수치는 `csv/` 위에서 Python으로 실행한 근거 선택 결과이며, Neo4j 처리 성능이 아닙니다.
+
+## 데이터와 익명화
+
+- 평가 로그는 저자가 AWS 환경에서 직접 구성·실행한 네 시나리오(n1~n4)에서 수집했습니다.
+- **원본 CloudTrail 로그는 포함하지 않습니다.**
+- 포함된 파생 파일(CSV, 정답 집합, 결과, 문서)은 같은 규칙으로 일관되게 바꿨습니다. 그래서 연결 관계와 표 3 수치는 바뀌지 않습니다 (익명화 후 재실행 결과가 동일함을 확인).
+  - AWS 계정 ID → `123456789012`
+  - 출처 IP → `203.0.113.10`, `203.0.113.20`, `203.0.113.30` (문서용 예약 대역)
+  - 액세스 키 ID의 계정 유래 구간 → `AKIAEXAMPLE0…`, `ASIAEXAMPLE0…` (끝 8자리는 유지)
+- `results/target_extraction/fixed_groundtruth.json`의 SHA-256 값은 익명화 이전 원본 기준입니다.
+- `docker-compose.yml`의 Neo4j 비밀번호는 로컬 실행용 기본값입니다.
+
+## 인용
+
+```
+(저자). 자격증명 흐름과 자원 접근을 연결하는 CloudTrail 침해 조사 그래프. CISC-W'26, 2026.
+```
+
+## 라이선스
+
+아직 정하지 않았습니다.

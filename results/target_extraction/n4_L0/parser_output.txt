@@ -1,0 +1,16 @@
+[3-NODE SEMANTIC GRAPH v2] -> '<repo>\results\target_extraction\n4_L0'
+  이벤트           : 140
+  노드             : 71
+      Actor                  35
+      Service                19
+      Resource               13
+      Actor;Resource         4
+    └ 멀티라벨(①로 합쳐진 것) : 4
+  BASE_EVENT 엣지  : 146
+      ACCESS                 135
+      OBTAINS                6
+      ASSUME_ROLE            5
+    └ Service 수렴 : 115 / 146 (78.8%)   ← ② 지표, 낮을수록 좋다
+    └ 실패 분류 : DENIED 4  FAULT 3
+  CONTEXT 엣지     : 33  (ISSUES/RUNS_ON, 집계됨)
+  ③ OBTAINS 6 / RUNS_ON 0 / ISSUES 근거 134건
