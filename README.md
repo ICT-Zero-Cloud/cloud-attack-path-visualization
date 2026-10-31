@@ -4,6 +4,19 @@ CISC-W'26 논문 **「자격증명 흐름과 자원 접근을 연결하는 Cloud
 
 CloudTrail 로그를 그래프로 바꿔, 공격자가 자격증명을 바꿔 가며 이동한 경로와 그 경로가 닿은 자원을 끊기지 않고 따라갈 수 있게 합니다.
 
+## 프로젝트의 두 연구
+
+이 프로젝트에서는 자격증명과 로그 삭제를 주제로 논문 두 편이 작성되었습니다. 현재 `main`은 자격증명 연구의 최종 코드와 재현 자료를 담고 있습니다. 아래 구분은 연구 주제이며, 논문 원문은 이 저장소에 등록되어 있지 않습니다.
+
+| 연구 주제 | 자료 위치 | 확인 상태 |
+| --- | --- | --- |
+| 자격증명 | 현재 브랜치의 코드·정답 집합·실험 결과 | 초기 모델과 연구 메모는 [`archive/credentials`](https://github.com/ICT-Zero-Cloud/cloud-attack-path-visualization/tree/archive/credentials)에 보관 |
+| 로그 삭제 | [`archive/log-deletion`](https://github.com/ICT-Zero-Cloud/cloud-attack-path-visualization/tree/archive/log-deletion) | 삭제·로깅 중지 관련 수집 로그와 분석 문서 존재; 해당 논문에 사용된 자료인지는 확인 필요 |
+
+이전 작업은 단일 [`archive` 브랜치](https://github.com/ICT-Zero-Cloud/cloud-attack-path-visualization/tree/archive)에 연구 주제별로 정리했습니다. 공통 데이터셋과 참고 문서, 원본 브랜치·커밋 기록도 함께 보관합니다.
+
+## 분석 흐름
+
 ```
 CloudTrail 로그 ──▶ Python 파서 ──▶ 후처리(뷰) ──▶ Neo4j + 쿼리
  (JSON)            자격증명·자원 = 노드   이동 후보 추론     공통 조사 전략
