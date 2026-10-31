@@ -6,17 +6,17 @@
 
 | 연구 | 논문 | 원문 | 코드·실험 결과 |
 | --- | --- | --- | --- |
-| 자격증명 연결 | [자격증명 흐름과 자원 접근을 연결하는 CloudTrail 침해 조사 그래프](papers/README.md) · CISC-W'26 | PDF·공개 링크 등록 예정 | [재현 코드와 결과](credential-linking/README.md) |
-| 로그 삭제 | 제목 등록 예정 | PDF·공개 링크 등록 예정 | 최종 자료 정리 예정 — [`log-deletion/`](log-deletion/) |
+| 자격증명 연결 | [자격증명 흐름과 자원 접근을 연결하는 CloudTrail 침해 조사 그래프](papers/credential-linking.pdf) | [PDF](papers/credential-linking.pdf) | [재현 코드와 결과](credential-linking/README.md) |
+| 로그 삭제·관측 공백 | [CloudTrail 관측 공백 환경에서 AWS 인프라 상태 변화 기반 그래프 추적 모델](papers/log-deletion.pdf) | [PDF](papers/log-deletion.pdf) | 최종 자료 정리 예정 — [`log-deletion/`](log-deletion/) |
 
-논문 원문은 [`papers/`](papers/README.md)에 모읍니다. 현재 두 논문의 PDF와 공개 링크는 등록되어 있지 않습니다. 자격증명 논문의 제목과 학회 정보는 기존 연구 README에 기재된 내용을 사용했습니다.
+두 논문의 저자는 강인석, 서장훈, 정준식, 박기웅입니다. 제공된 PDF 원문은 [`papers/`](papers/README.md)에 보관하며, 논문별 영문 제목과 코드 준비 상태도 함께 안내합니다.
 
 ## 저장소 구성
 
 ```text
 .
 ├─ README.md
-├─ papers/                    논문 목록과 원문
+├─ papers/                    두 논문의 PDF 원문과 목록
 ├─ credential-linking/        자격증명 연결 연구
 │  ├─ README.md               논문 설명과 재현 절차
 │  ├─ parser_node3_v2.py

@@ -4,7 +4,7 @@ CISC-W'26 논문 **「자격증명 흐름과 자원 접근을 연결하는 Cloud
 
 CloudTrail 로그를 그래프로 바꿔, 공격자가 자격증명을 바꿔 가며 이동한 경로와 그 경로가 닿은 자원을 끊기지 않고 따라갈 수 있게 합니다.
 
-두 연구의 전체 소개는 [프로젝트 README](../README.md), 논문 원문과 등록 상태는 [논문 목록](../papers/README.md)에서 확인할 수 있습니다. 이 연구의 초기 모델과 메모는 [`archive/credentials`](https://github.com/ICT-Zero-Cloud/cloud-attack-path-visualization/tree/archive/credentials)에 보관합니다.
+[논문 원문 PDF](../papers/credential-linking.pdf)와 [논문 목록](../papers/README.md)을 함께 확인할 수 있습니다. 두 연구의 전체 소개는 [프로젝트 README](../README.md)에 있으며, 이 연구의 초기 모델과 메모는 [`archive/credentials`](https://github.com/ICT-Zero-Cloud/cloud-attack-path-visualization/tree/archive/credentials)에 보관합니다.
 
 ## 분석 흐름
 
